@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 """
-단어 기반 자동 스크래핑 이미지 분류 모델 학습 파이프라인
+Word-based Automated Scraping Image Classification Model Training Pipeline
 
-이 스크립트는 사용자가 제공한 단어 리스트를 기반으로 
-해당 단어에 맞는 이미지를 자동으로 스크래핑하고
-이미지 분류 모델을 학습하는 완전 자동화된 파이프라인을 제공합니다.
+This script provides a fully automated pipeline that automatically scrapes images
+matching user-provided word lists and trains image classification models.
 
-주요 기능:
-- CSV 파일에서 단어 자동 로딩
-- 단어별 이미지 검색 및 스크래핑
-- 카테고리별 자동 분류
-- 이미지 다운로드 및 전처리
-- CNN 모델 학습 및 평가
-- 결과 시각화 및 모델 저장
+Key Features:
+- Automatic word loading from CSV files
+- Word-based image search and scraping
+- Automatic category classification
+- Image download and preprocessing
+- CNN model training and evaluation
+- Result visualization and model saving
 """
 
 import os

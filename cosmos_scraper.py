@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Cosmos.so 실제 이미지 스크래퍼
+Real Cosmos.so Image Scraper
 
-이 스크립트는 실제 cosmos.so 웹사이트에서 이미지를 스크래핑하고
-사용자가 제공한 단어 리스트를 기반으로 카테고리별로 분류하여
-x_train, y_train CSV 파일을 생성합니다.
+This script scrapes images from the actual cosmos.so website and
+categorizes them based on user-provided word lists to generate
+x_train, y_train CSV files.
 """
 
 import os
@@ -34,17 +34,17 @@ import io
 import random
 import base64
 
-# 로깅 설정
+# Logging configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 class CosmosRealScraper:
-    """실제 Cosmos.so 이미지 스크래퍼 클래스"""
+    """Real Cosmos.so image scraper class"""
     
     def __init__(self, timeout: int = 10):
         """
         Args:
-            timeout: 요청 타임아웃 (초)
+            timeout: request timeout (seconds)
         """
         self.timeout = timeout
         self.session = requests.Session()
@@ -57,10 +57,10 @@ class CosmosRealScraper:
             'Upgrade-Insecure-Requests': '1',
         })
         
-        # 지원하는 이미지 확장자
+        # Supported image extensions
         self.image_extensions = {'.webp', '.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff'}
         
-        # Cosmos.so 관련 URL 패턴
+        # Cosmos.so related URL patterns
         self.cosmos_patterns = [
             'cosmos.so',
             'www.cosmos.so',

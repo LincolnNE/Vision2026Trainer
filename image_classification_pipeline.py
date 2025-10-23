@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-Cosmos CDN 이미지 분류 모델 학습 파이프라인
+Cosmos CDN Image Classification Model Training Pipeline
 
-이 스크립트는 cosmos CDN의 이미지 데이터를 기반으로 
-이미지 분류 모델을 학습하는 완전한 파이프라인을 제공합니다.
+This script provides a complete pipeline for training image classification models
+based on cosmos CDN image data.
 
-주요 기능:
-- cosmos CDN 이미지 URL 데이터 로딩
-- 이미지 다운로드 및 전처리
-- CNN 모델 학습 및 평가
-- 결과 시각화 및 모델 저장
+Key Features:
+- cosmos CDN image URL data loading
+- Image download and preprocessing
+- CNN model training and evaluation
+- Result visualization and model saving
 """
 
 import os

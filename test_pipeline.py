@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-이미지 분류 파이프라인 테스트 스크립트
+Image Classification Pipeline Test Script
 
-이 스크립트는 파이프라인의 각 구성 요소를 개별적으로 테스트합니다.
+This script tests each component of the pipeline individually.
 """
 
 import sys
 import os
 from pathlib import Path
 
-# 프로젝트 루트 디렉토리를 Python 경로에 추가
+# Add project root directory to Python path
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root))
 

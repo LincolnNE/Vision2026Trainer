@@ -1,176 +1,176 @@
-# Cosmos CDN 자동 스크래핑 이미지 분류 모델 학습 파이프라인
+# Automated Cosmos CDN Image Classification Model Training Pipeline
 
-이 프로젝트는 cosmos.so CDN에서 이미지를 자동으로 스크래핑하고 이미지 분류 모델을 학습하는 완전 자동화된 파이프라인을 제공합니다.
+This project provides a fully automated pipeline that automatically scrapes images from the cosmos.so CDN and trains an image classification model.
 
-## 주요 기능
+## Key Features
 
-- **자동 웹 스크래핑**: cosmos.so CDN에서 이미지 URL 자동 수집
-- **지능형 카테고리 분류**: URL 경로 기반 자동 라벨링
-- **이미지 다운로드 및 전처리**: 224x224 리사이즈, RGB 정규화
-- **CNN 모델 학습**: PyTorch 기반 이미지 분류 모델
-- **완전 자동화**: 스크래핑부터 모델 학습까지 원클릭 실행
+- **Automated Web Scraping**: Automatic collection of image URLs from cosmos.so CDN
+- **Intelligent Category Classification**: Automatic labeling based on URL paths
+- **Image Download and Preprocessing**: 224x224 resize, RGB normalization
+- **CNN Model Training**: PyTorch-based image classification model
+- **Full Automation**: One-click execution from scraping to model training
 
-## 데이터 형식
+## Data Format
 
-### 자동 스크래핑 결과:
-- **x_train**: `https://cdn.cosmos.so/book/layout/book1.webp` (스크래핑된 이미지 URL)
-- **category**: `"book_layout"` (URL 경로에서 자동 추출된 카테고리)
-- **y_train**: `"book_layout"` (자동 생성된 라벨)
+### Automated Scraping Results:
+- **x_train**: `https://cdn.cosmos.so/book/layout/book1.webp` (scraped image URL)
+- **category**: `"book_layout"` (category automatically extracted from URL path)
+- **y_train**: `"book_layout"` (automatically generated label)
 
-### 지원하는 자동 카테고리:
-- `book_layout`: 책 레이아웃
-- `photography`: 사진
-- `design`: 디자인
-- `artwork`: 예술 작품
-- `minimal_design`: 미니멀 디자인
-- `abstract_art`: 추상 예술
-- `texture`: 텍스처
-- `pattern`: 패턴
-- `layout`: 레이아웃
-- `creative`: 크리에이티브
-- `black_white`: 흑백
-- `monochrome`: 모노크롬
-- `colorful`: 컬러풀
-- `vintage`: 빈티지
-- `modern`: 모던
-- `classic`: 클래식
+### Supported Automatic Categories:
+- `book_layout`: Book layout
+- `photography`: Photography
+- `design`: Design
+- `artwork`: Artwork
+- `minimal_design`: Minimal design
+- `abstract_art`: Abstract art
+- `texture`: Texture
+- `pattern`: Pattern
+- `layout`: Layout
+- `creative`: Creative
+- `black_white`: Black and white
+- `monochrome`: Monochrome
+- `colorful`: Colorful
+- `vintage`: Vintage
+- `modern`: Modern
+- `classic`: Classic
 
-## 프로젝트 구조
+## Project Structure
 
 ```
 Vision2025Trainer/
 ├── dataset/
-│   ├── x_train.csv      # 스크래핑된 이미지 URL과 카테고리
-│   └── y_train.csv      # 자동 생성된 라벨
+│   ├── x_train.csv      # Scraped image URLs and categories
+│   └── y_train.csv      # Automatically generated labels
 ├── models/
-│   └── model.pt         # 학습된 PyTorch 모델
+│   └── model.pt         # Trained PyTorch model
 ├── results/
-│   └── metrics.png      # 학습 결과 시각화 그래프
-├── auto_scraping_pipeline.py    # 자동 스크래핑 메인 파이프라인
-├── image_classification_pipeline.py  # 기존 수동 파이프라인
-├── test_auto_scraping.py        # 자동 스크래핑 테스트 스크립트
-├── test_pipeline.py             # 기존 파이프라인 테스트 스크립트
-├── requirements.txt              # 필요한 패키지 목록
-└── README.md                    # 이 파일
+│   └── metrics.png      # Training results visualization graph
+├── auto_scraping_pipeline.py    # Main automated scraping pipeline
+├── image_classification_pipeline.py  # Original manual pipeline
+├── test_auto_scraping.py        # Automated scraping test script
+├── test_pipeline.py             # Original pipeline test script
+├── requirements.txt              # Required packages list
+└── README.md                    # This file
 ```
 
-## 설치 및 실행
+## Installation and Execution
 
-### 1. 환경 설정
+### 1. Environment Setup
 
 ```bash
-# Python 3.10 이상 필요
+# Python 3.10 or higher required
 python3 --version
 
-# 가상환경 생성 (선택사항)
+# Create virtual environment (optional)
 python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
-# 또는
+# or
 venv\Scripts\activate     # Windows
 
-# 필요한 패키지 설치
+# Install required packages
 pip install -r requirements.txt
 ```
 
-### 2. 자동 스크래핑 파이프라인 실행
+### 2. Run Automated Scraping Pipeline
 
 ```bash
-# 완전 자동화된 파이프라인 실행
+# Run fully automated pipeline
 python3 auto_scraping_pipeline.py
 ```
 
-### 3. 테스트 실행
+### 3. Run Tests
 
 ```bash
-# 자동 스크래핑 파이프라인 테스트
+# Test automated scraping pipeline
 python3 test_auto_scraping.py
 
-# 기존 수동 파이프라인 테스트
+# Test original manual pipeline
 python3 test_pipeline.py
 ```
 
-## 사용법
+## Usage
 
-### 자동 스크래핑 파이프라인
+### Automated Scraping Pipeline
 
-파이프라인은 다음과 같은 단계로 자동 실행됩니다:
+The pipeline automatically executes in the following steps:
 
-1. **웹 스크래핑**: cosmos.so CDN에서 이미지 URL 자동 수집
-2. **카테고리 분류**: URL 경로 기반 자동 라벨링
-3. **CSV 생성**: x_train.csv, y_train.csv 파일 생성
-4. **데이터 전처리**: 이미지 다운로드, 리사이즈, 정규화
-5. **모델 학습**: CNN 모델 학습 (10 에포크)
-6. **결과 저장**: 모델 파일 및 시각화 그래프 저장
+1. **Web Scraping**: Automatic collection of image URLs from cosmos.so CDN
+2. **Category Classification**: Automatic labeling based on URL paths
+3. **CSV Generation**: Generate x_train.csv, y_train.csv files
+4. **Data Preprocessing**: Image download, resize, normalization
+5. **Model Training**: CNN model training (10 epochs)
+6. **Result Saving**: Save model file and visualization graph
 
-### 커스터마이징
+### Customization
 
-#### 스크래핑 설정 변경
+#### Change Scraping Settings
 
 ```python
-# auto_scraping_pipeline.py의 main() 함수에서
+# In the main() function of auto_scraping_pipeline.py
 pipeline = AutoScrapingPipeline()
 
-# 스크래핑 페이지 수 조정
-image_urls, labels = pipeline.scrape_and_categorize(max_pages=10)  # 기본값: 5
+# Adjust number of pages to scrape
+image_urls, labels = pipeline.scrape_and_categorize(max_pages=10)  # Default: 5
 ```
 
-#### 카테고리 키워드 추가
+#### Add Category Keywords
 
 ```python
-# auto_scraping_pipeline.py의 CosmosScraper 클래스에서
+# In the CosmosScraper class of auto_scraping_pipeline.py
 category_keywords = {
     'book': 'book_layout',
     'art': 'artwork',
     'photo': 'photography',
-    # 새로운 키워드 추가
+    # Add new keywords
     'nature': 'nature_photography',
     'urban': 'urban_design',
     # ...
 }
 ```
 
-#### 스크래핑 대상 URL 변경
+#### Change Scraping Target URL
 
 ```python
-# auto_scraping_pipeline.py의 CosmosScraper 클래스에서
+# In the CosmosScraper class of auto_scraping_pipeline.py
 def __init__(self, base_url: str = "https://your-custom-cdn.com", timeout: int = 10):
     self.base_url = base_url
     # ...
 ```
 
-### 로컬 파일 사용
+### Using Local Files
 
-실제 이미지 파일이 로컬에 있는 경우, `CosmosImageDataset`의 `base_url` 매개변수를 사용할 수 있습니다:
+If you have actual image files locally, you can use the `base_url` parameter of `CosmosImageDataset`:
 
 ```python
 dataset = CosmosImageDataset(
     image_urls, 
     labels, 
     transform=transform,
-    base_url="/path/to/your/images"  # 로컬 이미지 디렉토리
+    base_url="/path/to/your/images"  # Local image directory
 )
 ```
 
-## 스크래핑 기능 상세
+## Detailed Scraping Features
 
-### 지원하는 이미지 형식
+### Supported Image Formats
 - `.webp`, `.png`, `.jpg`, `.jpeg`, `.gif`, `.bmp`, `.tiff`
 
-### 스크래핑 전략
-1. **HTML 파싱**: BeautifulSoup을 사용한 구조화된 데이터 추출
-2. **링크 추적**: 페이지 간 링크를 따라가며 이미지 탐색
-3. **중복 제거**: 동일한 이미지 URL 자동 제거
-4. **오류 처리**: 네트워크 오류 및 파싱 오류에 대한 견고한 처리
+### Scraping Strategy
+1. **HTML Parsing**: Structured data extraction using BeautifulSoup
+2. **Link Following**: Navigate through page links to find images
+3. **Duplicate Removal**: Automatic removal of identical image URLs
+4. **Error Handling**: Robust handling of network errors and parsing errors
 
-### 카테고리 추출 알고리즘
-1. **URL 경로 분석**: `/book/layout/`, `/photo/minimal/` 등에서 키워드 추출
-2. **파일명 분석**: `book_spread_001.webp` 등에서 카테고리 추출
-3. **키워드 매칭**: 미리 정의된 키워드 사전과 매칭
-4. **기본 카테고리**: 매칭되지 않는 경우 'general' 카테고리 할당
+### Category Extraction Algorithm
+1. **URL Path Analysis**: Extract keywords from `/book/layout/`, `/photo/minimal/` etc.
+2. **Filename Analysis**: Extract categories from `book_spread_001.webp` etc.
+3. **Keyword Matching**: Match with predefined keyword dictionary
+4. **Default Category**: Assign 'general' category if no match is found
 
-## 모델 구조
+## Model Architecture
 
-사용되는 CNN 모델 구조:
+CNN model structure used:
 
 ```
 Conv2D(3→32) → ReLU → MaxPool2D
@@ -180,57 +180,57 @@ Flatten → Dense(128×28×28→512) → ReLU → Dropout(0.5)
 Dense(512→num_classes) → Softmax
 ```
 
-## 출력 파일
+## Output Files
 
-실행 완료 후 다음 파일들이 생성됩니다:
+After execution completion, the following files are generated:
 
-- `./dataset/x_train.csv`: 스크래핑된 이미지 URL과 자동 생성된 카테고리
-- `./dataset/y_train.csv`: 자동 생성된 라벨 정보  
-- `./models/model.pt`: 학습된 PyTorch 모델
-- `./results/metrics.png`: 학습 손실 및 정확도 그래프
+- `./dataset/x_train.csv`: Scraped image URLs and automatically generated categories
+- `./dataset/y_train.csv`: Automatically generated label information  
+- `./models/model.pt`: Trained PyTorch model
+- `./results/metrics.png`: Training loss and accuracy graph
 
-## 요구사항
+## Requirements
 
-- Python 3.10 이상
-- PyTorch 2.0.0 이상
-- BeautifulSoup4 4.11.0 이상
-- 인터넷 연결 (스크래핑 및 이미지 다운로드용)
-- 충분한 디스크 공간 (이미지 캐싱용)
+- Python 3.10 or higher
+- PyTorch 2.0.0 or higher
+- BeautifulSoup4 4.11.0 or higher
+- Internet connection (for scraping and image download)
+- Sufficient disk space (for image caching)
 
-## 문제 해결
+## Troubleshooting
 
-### 일반적인 오류
+### Common Errors
 
-1. **스크래핑 실패**: 
-   - 네트워크 연결 확인
-   - 대상 사이트의 robots.txt 확인
-   - User-Agent 헤더 업데이트
+1. **Scraping Failure**: 
+   - Check network connection
+   - Check target site's robots.txt
+   - Update User-Agent header
 
-2. **이미지 다운로드 실패**: 
-   - URL 유효성 검사
-   - 타임아웃 설정 조정
+2. **Image Download Failure**: 
+   - Validate URL
+   - Adjust timeout settings
 
-3. **메모리 부족**: 
-   - 배치 크기 줄이기
-   - 이미지 해상도 조정
+3. **Memory Insufficient**: 
+   - Reduce batch size
+   - Adjust image resolution
 
-4. **카테고리 분류 부정확**: 
-   - 키워드 사전 업데이트
-   - URL 패턴 분석
+4. **Inaccurate Category Classification**: 
+   - Update keyword dictionary
+   - Analyze URL patterns
 
-### 로그 확인
+### Log Checking
 
-프로그램 실행 시 상세한 로그가 출력되므로, 문제 발생 시 로그를 확인하세요.
+Detailed logs are output during program execution, so check logs when problems occur.
 
-### 성능 최적화
+### Performance Optimization
 
-- `max_pages` 파라미터로 스크래핑 범위 조정
-- `timeout` 파라미터로 네트워크 타임아웃 조정
-- `batch_size` 파라미터로 메모리 사용량 조정
+- Adjust scraping scope with `max_pages` parameter
+- Adjust network timeout with `timeout` parameter
+- Adjust memory usage with `batch_size` parameter
 
-## 라이선스
+## License
 
-이 프로젝트는 Apache License 2.0 하에 라이선스가 부여됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -244,8 +244,8 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-## 주의사항
+## Important Notes
 
-- 웹 스크래핑 시 대상 사이트의 이용약관을 준수하세요
-- 과도한 요청으로 서버에 부하를 주지 않도록 주의하세요
-- 저작권이 있는 이미지의 사용에 주의하세요
+- Comply with the terms of service of target sites when web scraping
+- Be careful not to overload servers with excessive requests
+- Be cautious when using copyrighted images
