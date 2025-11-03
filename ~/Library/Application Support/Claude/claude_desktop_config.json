@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cosmos-image-classifier": {
+      "command": "python3",
+      "args": ["simple_mcp_server.py"],
+      "cwd": "/Users/robinhood/Vision2025Trainer",
+      "env": {
+        "PYTHONPATH": "/Users/robinhood/Vision2025Trainer"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "cosmos-image-classifier": {
+      "command": "python3",
+      "args": ["cosmos_mcp_server.py"],
+      "cwd": "/Users/robinhood/Vision2025Trainer",
+      "env": {
+        "PYTHONPATH": "/Users/robinhood/Vision2025Trainer"
+      }
+    },
+    "cosmos-image-classifier-real": {
+      "command": "python3",
+      "args": ["cosmos_mcp_real_server.py"],
+      "cwd": "/Users/robinhood/Vision2025Trainer",
+      "env": {
+        "PYTHONPATH": "/Users/robinhood/Vision2025Trainer",
+        "CLAUDE_API_KEY": ""
+      }
+    },
+    "cosmos-image-classifier-https": {
+      "command": "python3",
+      "args": ["https_mcp_server.py"],
+      "cwd": "/Users/robinhood/Vision2025Trainer",
+      "env": {
+        "PYTHONPATH": "/Users/robinhood/Vision2025Trainer",
+        "MCP_SERVER_URL": "https://mcp.cdnscraper.dev"
+      }
+    },
+    "cosmos-cdn-scraper": {
+      "command": "python3",
+      "args": ["cosmos_cdn_scraper_server.py"],
+      "cwd": "/Users/robinhood/Vision2025Trainer",
+      "env": {
+        "PYTHONPATH": "/Users/robinhood/Vision2025Trainer",
+        "MCP_SERVER_URL": "https://scraper.cdnscraper.dev"
+      }
+    }
+  }
+}
