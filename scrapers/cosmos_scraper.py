@@ -128,18 +128,276 @@ class CosmosRealScraper:
             'general': []
         }
         
-        # 카테고리 키워드 매핑
+        # 개선된 카테고리 키워드 매핑 (더 정확하고 구체적)
         category_keywords = {
-            'nature': ['tree', 'forest', 'mountain', 'ocean', 'sky', 'flower', 'leaf', 'grass', 'water', 'sun', 'moon', 'star', 'cloud', 'rain', 'snow', 'wind', 'earth', 'nature', 'landscape', 'park', 'garden', 'beach', 'river', 'lake', 'sea', 'mountain', 'hill', 'valley', 'desert', 'jungle', 'wood', 'rock', 'stone', 'sand', 'ice', 'fire', 'lightning', 'storm', 'sunset', 'sunrise', 'dawn', 'dusk', 'season', 'spring', 'summer', 'autumn', 'winter'],
-            'animals': ['cat', 'dog', 'bird', 'fish', 'horse', 'cow', 'pig', 'sheep', 'chicken', 'duck', 'rabbit', 'mouse', 'lion', 'tiger', 'elephant', 'bear', 'wolf', 'fox', 'deer', 'monkey', 'snake', 'frog', 'butterfly', 'bee', 'spider', 'ant', 'animal', 'pet', 'wild', 'zoo', 'farm', 'creature', 'mammal', 'reptile', 'amphibian', 'insect', 'marine', 'aquatic', 'flying', 'crawling', 'running', 'swimming'],
-            'food': ['food', 'meal', 'dish', 'recipe', 'cooking', 'kitchen', 'restaurant', 'cafe', 'bakery', 'pizza', 'burger', 'sandwich', 'salad', 'soup', 'pasta', 'rice', 'bread', 'cake', 'cookie', 'chocolate', 'fruit', 'vegetable', 'meat', 'fish', 'chicken', 'beef', 'pork', 'lamb', 'seafood', 'dairy', 'milk', 'cheese', 'yogurt', 'egg', 'spice', 'herb', 'sauce', 'drink', 'coffee', 'tea', 'juice', 'wine', 'beer', 'water', 'soda', 'dessert', 'sweet', 'sour', 'bitter', 'salty', 'spicy'],
-            'architecture': ['building', 'house', 'home', 'apartment', 'office', 'school', 'hospital', 'church', 'temple', 'museum', 'library', 'theater', 'stadium', 'bridge', 'tower', 'castle', 'palace', 'monument', 'statue', 'sculpture', 'architecture', 'design', 'construction', 'structure', 'facade', 'roof', 'wall', 'door', 'window', 'floor', 'ceiling', 'stair', 'elevator', 'room', 'hall', 'corridor', 'garden', 'yard', 'balcony', 'terrace', 'modern', 'classic', 'traditional', 'contemporary', 'historic', 'ancient', 'medieval', 'gothic', 'baroque', 'renaissance', 'victorian', 'art', 'deco', 'minimalist'],
-            'technology': ['computer', 'laptop', 'phone', 'mobile', 'tablet', 'camera', 'television', 'radio', 'speaker', 'headphone', 'microphone', 'keyboard', 'mouse', 'monitor', 'screen', 'display', 'processor', 'memory', 'storage', 'hardware', 'software', 'application', 'program', 'code', 'data', 'network', 'internet', 'website', 'email', 'social', 'media', 'digital', 'electronic', 'device', 'gadget', 'tool', 'machine', 'robot', 'automation', 'artificial', 'intelligence', 'virtual', 'reality', 'augmented', 'reality', 'blockchain', 'cryptocurrency', 'bitcoin', 'ethereum', 'smart', 'home', 'iot', 'cloud', 'computing', 'cybersecurity', 'privacy', 'security'],
-            'art': ['art', 'painting', 'drawing', 'sketch', 'illustration', 'design', 'graphic', 'logo', 'poster', 'banner', 'advertisement', 'marketing', 'brand', 'creative', 'artist', 'painter', 'designer', 'illustrator', 'photographer', 'sculptor', 'musician', 'composer', 'writer', 'poet', 'novelist', 'journalist', 'editor', 'publisher', 'book', 'magazine', 'newspaper', 'article', 'story', 'poem', 'song', 'music', 'instrument', 'piano', 'guitar', 'violin', 'drum', 'flute', 'trumpet', 'saxophone', 'orchestra', 'band', 'concert', 'performance', 'show', 'exhibition', 'gallery', 'museum', 'theater', 'cinema', 'movie', 'film', 'video', 'animation', 'cartoon', 'comic', 'manga', 'anime', 'game', 'play', 'dance', 'ballet', 'opera', 'drama', 'comedy', 'tragedy', 'romance', 'action', 'thriller', 'horror', 'fantasy', 'science', 'fiction', 'mystery', 'detective', 'adventure', 'western', 'documentary', 'biography', 'history', 'culture', 'tradition', 'custom', 'festival', 'celebration', 'ceremony', 'ritual', 'religion', 'spiritual', 'philosophy', 'psychology', 'sociology', 'anthropology', 'archaeology', 'geography', 'politics', 'economics', 'business', 'finance', 'investment', 'stock', 'market', 'trade', 'commerce', 'industry', 'manufacturing', 'production', 'service', 'retail', 'wholesale', 'distribution', 'logistics', 'supply', 'chain', 'management', 'leadership', 'teamwork', 'collaboration', 'communication', 'presentation', 'meeting', 'conference', 'seminar', 'workshop', 'training', 'education', 'learning', 'teaching', 'school', 'university', 'college', 'academy', 'institute', 'research', 'development', 'innovation', 'invention', 'discovery', 'experiment', 'laboratory', 'science', 'technology', 'engineering', 'medicine', 'health', 'fitness', 'sports', 'exercise', 'training', 'coaching', 'competition', 'tournament', 'championship', 'victory', 'defeat', 'success', 'failure', 'achievement', 'goal', 'target', 'objective', 'mission', 'vision', 'strategy', 'plan', 'project', 'task', 'assignment', 'responsibility', 'duty', 'obligation', 'commitment', 'promise', 'agreement', 'contract', 'deal', 'negotiation', 'discussion', 'debate', 'argument', 'conflict', 'dispute', 'resolution', 'solution', 'problem', 'challenge', 'difficulty', 'obstacle', 'barrier', 'limitation', 'restriction', 'constraint', 'rule', 'regulation', 'law', 'policy', 'procedure', 'process', 'method', 'technique', 'approach', 'strategy', 'tactic', 'skill', 'ability', 'talent', 'gift', 'strength', 'weakness', 'advantage', 'disadvantage', 'benefit', 'cost', 'price', 'value', 'worth', 'quality', 'quantity', 'amount', 'number', 'count', 'measure', 'size', 'weight', 'height', 'length', 'width', 'depth', 'volume', 'area', 'space', 'distance', 'time', 'speed', 'velocity', 'acceleration', 'force', 'energy', 'power', 'strength', 'weakness', 'hard', 'soft', 'strong', 'weak', 'heavy', 'light', 'big', 'small', 'large', 'tiny', 'huge', 'enormous', 'giant', 'miniature', 'micro', 'macro', 'wide', 'narrow', 'broad', 'thin', 'thick', 'fat', 'slim', 'tall', 'short', 'high', 'low', 'deep', 'shallow', 'long', 'brief', 'quick', 'slow', 'fast', 'rapid', 'sudden', 'gradual', 'immediate', 'delayed', 'early', 'late', 'new', 'old', 'young', 'ancient', 'modern', 'contemporary', 'current', 'recent', 'past', 'future', 'present', 'now', 'then', 'before', 'after', 'during', 'while', 'since', 'until', 'from', 'to', 'at', 'in', 'on', 'by', 'with', 'without', 'for', 'against', 'toward', 'away', 'near', 'far', 'close', 'distant', 'inside', 'outside', 'above', 'below', 'over', 'under', 'up', 'down', 'left', 'right', 'front', 'back', 'side', 'center', 'middle', 'edge', 'corner', 'top', 'bottom', 'beginning', 'end', 'start', 'finish', 'complete', 'incomplete', 'finished', 'unfinished', 'done', 'undone', 'ready', 'not', 'ready', 'prepared', 'unprepared', 'organized', 'disorganized', 'clean', 'dirty', 'neat', 'messy', 'tidy', 'untidy', 'orderly', 'disorderly', 'systematic', 'random', 'regular', 'irregular', 'normal', 'abnormal', 'typical', 'atypical', 'standard', 'non', 'standard', 'common', 'uncommon', 'usual', 'unusual', 'ordinary', 'extraordinary', 'regular', 'special', 'unique', 'rare', 'frequent', 'infrequent', 'often', 'seldom', 'always', 'never', 'sometimes', 'usually', 'rarely', 'occasionally', 'constantly', 'continuously', 'permanently', 'temporarily', 'forever', 'never', 'ever', 'once', 'twice', 'thrice', 'multiple', 'single', 'double', 'triple', 'quadruple', 'many', 'few', 'several', 'some', 'all', 'none', 'most', 'least', 'more', 'less', 'most', 'least', 'maximum', 'minimum', 'maximum', 'minimum', 'best', 'worst', 'better', 'worse', 'good', 'bad', 'excellent', 'terrible', 'great', 'awful', 'wonderful', 'horrible', 'amazing', 'disgusting', 'beautiful', 'ugly', 'pretty', 'handsome', 'attractive', 'repulsive', 'charming', 'offensive', 'lovely', 'hideous', 'cute', 'gross', 'sweet', 'bitter', 'nice', 'nasty', 'kind', 'mean', 'friendly', 'hostile', 'warm', 'cold', 'hot', 'cool', 'calm', 'angry', 'peaceful', 'violent', 'quiet', 'loud', 'silent', 'noisy', 'still', 'moving', 'stable', 'unstable', 'steady', 'unsteady', 'firm', 'loose', 'tight', 'relaxed', 'tense', 'stressed', 'worried', 'anxious', 'nervous', 'confident', 'shy', 'bold', 'timid', 'brave', 'cowardly', 'courageous', 'fearful', 'strong', 'weak', 'powerful', 'powerless', 'mighty', 'feeble', 'robust', 'fragile', 'healthy', 'sick', 'well', 'ill', 'fit', 'unfit', 'active', 'inactive', 'energetic', 'tired', 'fresh', 'exhausted', 'awake', 'sleepy', 'alert', 'drowsy', 'conscious', 'unconscious', 'aware', 'unaware', 'mindful', 'mindless', 'careful', 'careless', 'cautious', 'reckless', 'safe', 'dangerous', 'secure', 'insecure', 'protected', 'unprotected', 'defended', 'undefended', 'guarded', 'unguarded', 'watched', 'unwatched', 'monitored', 'unmonitored', 'supervised', 'unsupervised', 'controlled', 'uncontrolled', 'managed', 'unmanaged', 'organized', 'disorganized', 'planned', 'unplanned', 'prepared', 'unprepared', 'ready', 'not', 'ready', 'set', 'unset', 'fixed', 'broken', 'working', 'not', 'working', 'functioning', 'malfunctioning', 'operating', 'not', 'operating', 'running', 'not', 'running', 'moving', 'not', 'moving', 'active', 'inactive', 'on', 'off', 'open', 'closed', 'locked', 'unlocked', 'free', 'trapped', 'released', 'captured', 'escaped', 'caught', 'found', 'lost', 'discovered', 'hidden', 'visible', 'invisible', 'seen', 'unseen', 'noticed', 'unnoticed', 'observed', 'unobserved', 'watched', 'unwatched', 'looked', 'unlooked', 'viewed', 'unviewed', 'examined', 'unexamined', 'inspected', 'uninspected', 'checked', 'unchecked', 'tested', 'untested', 'tried', 'untried', 'attempted', 'unattempted', 'experimented', 'unexperimented', 'practiced', 'unpracticed', 'studied', 'unstudied', 'learned', 'unlearned', 'taught', 'untaught', 'educated', 'uneducated', 'informed', 'uninformed', 'told', 'untold', 'said', 'unsaid', 'spoken', 'unspoken', 'heard', 'unheard', 'listened', 'unlistened', 'understood', 'misunderstood', 'comprehended', 'incomprehended', 'grasped', 'ungrasped', 'caught', 'uncatched', 'got', 'ungot', 'received', 'unreceived', 'accepted', 'unaccepted', 'rejected', 'unrejected', 'approved', 'unapproved', 'disapproved', 'undisapproved', 'agreed', 'disagreed', 'consented', 'dissent', 'permitted', 'unpermitted', 'allowed', 'disallowed', 'forbidden', 'unforbidden', 'prohibited', 'unprohibited', 'banned', 'unbanned', 'restricted', 'unrestricted', 'limited', 'unlimited', 'bounded', 'unbounded', 'confined', 'unconfined', 'trapped', 'untrapped', 'caught', 'uncatched', 'held', 'unheld', 'kept', 'unkept', 'stored', 'unstored', 'saved', 'unsaved', 'preserved', 'unpreserved', 'maintained', 'unmaintained', 'sustained', 'unsustained', 'supported', 'unsupported', 'backed', 'unbacked', 'helped', 'unhelped', 'assisted', 'unassisted', 'aided', 'unaided', 'served', 'unserved', 'provided', 'unprovided', 'supplied', 'unsupplied', 'given', 'ungiven', 'offered', 'unoffered', 'presented', 'unpresented', 'shown', 'unshown', 'displayed', 'undisplayed', 'exhibited', 'unexhibited', 'demonstrated', 'undemonstrated', 'proved', 'unproved', 'confirmed', 'unconfirmed', 'verified', 'unverified', 'validated', 'unvalidated', 'authenticated', 'unauthenticated', 'certified', 'uncertified', 'licensed', 'unlicensed', 'authorized', 'unauthorized', 'permitted', 'unpermitted', 'allowed', 'disallowed', 'forbidden', 'unforbidden', 'prohibited', 'unprohibited', 'banned', 'unbanned', 'restricted', 'unrestricted', 'limited', 'unlimited', 'bounded', 'unbounded', 'confined', 'unconfined', 'trapped', 'untrapped', 'caught', 'uncatched', 'held', 'unheld', 'kept', 'unkept', 'stored', 'unstored', 'saved', 'unsaved', 'preserved', 'unpreserved', 'maintained', 'unmaintained', 'sustained', 'unsustained', 'supported', 'unsupported', 'backed', 'unbacked', 'helped', 'unhelped', 'assisted', 'unassisted', 'aided', 'unaided', 'served', 'unserved', 'provided', 'unprovided', 'supplied', 'unsupplied', 'given', 'ungiven', 'offered', 'unoffered', 'presented', 'unpresented', 'shown', 'unshown', 'displayed', 'undisplayed', 'exhibited', 'unexhibited', 'demonstrated', 'undemonstrated', 'proved', 'unproved', 'confirmed', 'unconfirmed', 'verified', 'unverified', 'validated', 'unvalidated', 'authenticated', 'unauthenticated', 'certified', 'uncertified', 'licensed', 'unlicensed', 'authorized', 'unauthorized']
+            'nature': [
+                # 자연 요소
+                'tree', 'forest', 'mountain', 'ocean', 'sky', 'flower', 'leaf', 'grass', 'water', 
+                'sun', 'moon', 'star', 'cloud', 'rain', 'snow', 'wind', 'earth', 'nature', 
+                'landscape', 'park', 'garden', 'beach', 'river', 'lake', 'sea', 'hill', 'valley', 
+                'desert', 'jungle', 'wood', 'rock', 'stone', 'sand', 'ice', 'fire', 'lightning', 
+                'storm', 'sunset', 'sunrise', 'dawn', 'dusk', 'season', 'spring', 'summer', 
+                'autumn', 'winter', 'weather', 'climate', 'environment', 'ecosystem', 'wildlife',
+                # 식물 관련
+                'plant', 'vegetation', 'flora', 'fauna', 'bloom', 'petal', 'stem', 'root', 'branch',
+                'bark', 'seed', 'fruit', 'berry', 'nut', 'pine', 'oak', 'maple', 'cedar', 'birch',
+                'rose', 'tulip', 'daisy', 'lily', 'orchid', 'cactus', 'fern', 'moss', 'algae',
+                # 지리적 요소
+                'volcano', 'canyon', 'cliff', 'cave', 'waterfall', 'stream', 'pond', 'marsh',
+                'swamp', 'prairie', 'meadow', 'field', 'farmland', 'vineyard', 'orchard'
+            ],
+            'animals': [
+                # 포유동물
+                'cat', 'dog', 'horse', 'cow', 'pig', 'sheep', 'goat', 'deer', 'bear', 'lion', 
+                'tiger', 'elephant', 'wolf', 'fox', 'rabbit', 'mouse', 'rat', 'squirrel', 'bat',
+                'whale', 'dolphin', 'seal', 'walrus', 'penguin', 'kangaroo', 'koala', 'panda',
+                'monkey', 'ape', 'gorilla', 'chimpanzee', 'zebra', 'giraffe', 'hippo', 'rhino',
+                # 조류
+                'bird', 'eagle', 'hawk', 'owl', 'parrot', 'canary', 'robin', 'sparrow', 'crow',
+                'raven', 'swan', 'duck', 'goose', 'chicken', 'rooster', 'turkey', 'peacock',
+                # 어류 및 해양생물
+                'fish', 'shark', 'salmon', 'tuna', 'cod', 'trout', 'bass', 'carp', 'goldfish',
+                'octopus', 'squid', 'jellyfish', 'crab', 'lobster', 'shrimp', 'starfish',
+                # 파충류 및 양서류
+                'snake', 'lizard', 'gecko', 'iguana', 'turtle', 'tortoise', 'crocodile', 'alligator',
+                'frog', 'toad', 'salamander', 'newt',
+                # 곤충
+                'butterfly', 'bee', 'wasp', 'ant', 'spider', 'beetle', 'dragonfly', 'mosquito',
+                'fly', 'moth', 'cricket', 'grasshopper', 'ladybug', 'firefly',
+                # 일반 동물 관련
+                'animal', 'pet', 'wild', 'domestic', 'mammal', 'reptile', 'amphibian', 'insect',
+                'marine', 'aquatic', 'terrestrial', 'flying', 'crawling', 'swimming', 'running'
+            ],
+            'food': [
+                # 기본 음식
+                'food', 'meal', 'dish', 'cuisine', 'recipe', 'cooking', 'kitchen', 'restaurant', 
+                'cafe', 'bakery', 'diner', 'buffet', 'catering', 'delivery', 'takeout',
+                # 메인 요리
+                'pizza', 'burger', 'sandwich', 'salad', 'soup', 'pasta', 'spaghetti', 'lasagna',
+                'rice', 'noodle', 'ramen', 'sushi', 'curry', 'stew', 'roast', 'grill', 'barbecue',
+                # 빵 및 베이커리
+                'bread', 'cake', 'cookie', 'pie', 'tart', 'muffin', 'croissant', 'bagel', 'donut',
+                'pancake', 'waffle', 'toast', 'roll', 'bun', 'loaf',
+                # 과일
+                'fruit', 'apple', 'banana', 'orange', 'grape', 'strawberry', 'blueberry', 'cherry',
+                'peach', 'pear', 'plum', 'kiwi', 'pineapple', 'watermelon', 'melon', 'lemon',
+                'lime', 'coconut', 'avocado', 'tomato',
+                # 채소
+                'vegetable', 'carrot', 'potato', 'onion', 'garlic', 'pepper', 'cucumber', 'lettuce',
+                'cabbage', 'broccoli', 'cauliflower', 'spinach', 'kale', 'celery', 'radish',
+                'eggplant', 'zucchini', 'squash', 'pumpkin', 'corn', 'bean', 'pea', 'mushroom',
+                # 고기 및 단백질
+                'meat', 'beef', 'pork', 'chicken', 'turkey', 'lamb', 'duck', 'fish', 'seafood',
+                'ham', 'bacon', 'sausage', 'hotdog', 'egg', 'cheese', 'milk', 'yogurt', 'butter',
+                # 음료
+                'drink', 'beverage', 'water', 'juice', 'soda', 'coffee', 'tea', 'wine', 'beer',
+                'cocktail', 'smoothie', 'milkshake', 'lemonade', 'iced', 'hot', 'cold',
+                # 디저트 및 간식
+                'dessert', 'sweet', 'candy', 'chocolate', 'ice', 'cream', 'pudding', 'jelly',
+                'gum', 'lollipop', 'caramel', 'fudge', 'brownie', 'cheesecake',
+                # 조미료 및 양념
+                'spice', 'herb', 'salt', 'pepper', 'sugar', 'honey', 'syrup', 'sauce', 'ketchup',
+                'mustard', 'mayo', 'vinegar', 'oil', 'butter', 'cream', 'cheese'
+            ],
+            'architecture': [
+                # 건물 유형
+                'building', 'house', 'home', 'apartment', 'condo', 'mansion', 'villa', 'cottage',
+                'office', 'tower', 'skyscraper', 'mall', 'shopping', 'center', 'market', 'store',
+                'school', 'university', 'college', 'hospital', 'clinic', 'library', 'museum',
+                'theater', 'cinema', 'stadium', 'arena', 'gym', 'hotel', 'restaurant', 'cafe',
+                # 종교 건물
+                'church', 'cathedral', 'chapel', 'temple', 'mosque', 'synagogue', 'shrine',
+                'monastery', 'abbey', 'cathedral',
+                # 역사적 건물
+                'castle', 'palace', 'fortress', 'citadel', 'monument', 'memorial', 'statue',
+                'sculpture', 'ruins', 'ancient', 'historic', 'heritage', 'landmark',
+                # 건축 요소
+                'roof', 'wall', 'door', 'window', 'floor', 'ceiling', 'stair', 'staircase',
+                'elevator', 'escalator', 'balcony', 'terrace', 'porch', 'patio', 'deck',
+                'facade', 'entrance', 'exit', 'corridor', 'hall', 'room', 'chamber',
+                # 건축 스타일
+                'modern', 'contemporary', 'classical', 'traditional', 'gothic', 'baroque',
+                'renaissance', 'victorian', 'colonial', 'art', 'deco', 'minimalist', 'brutalist',
+                'postmodern', 'neoclassical', 'romanesque', 'byzantine',
+                # 건축 관련
+                'architecture', 'design', 'construction', 'structure', 'foundation', 'framework',
+                'beam', 'column', 'pillar', 'arch', 'dome', 'vault', 'bridge', 'tunnel'
+            ],
+            'technology': [
+                # 컴퓨터 및 하드웨어
+                'computer', 'laptop', 'desktop', 'pc', 'mac', 'server', 'workstation', 'tablet',
+                'phone', 'mobile', 'smartphone', 'iphone', 'android', 'device', 'gadget',
+                # 주변기기
+                'keyboard', 'mouse', 'monitor', 'screen', 'display', 'printer', 'scanner',
+                'speaker', 'headphone', 'microphone', 'camera', 'webcam', 'usb', 'cable',
+                # 소프트웨어 및 앱
+                'software', 'app', 'application', 'program', 'code', 'programming', 'coding',
+                'website', 'web', 'internet', 'browser', 'search', 'engine', 'email', 'social',
+                'media', 'platform', 'network', 'database', 'server', 'cloud', 'storage',
+                # 기술 분야
+                'ai', 'artificial', 'intelligence', 'machine', 'learning', 'deep', 'neural',
+                'network', 'algorithm', 'data', 'science', 'analytics', 'blockchain',
+                'cryptocurrency', 'bitcoin', 'ethereum', 'vr', 'virtual', 'reality', 'ar',
+                'augmented', 'reality', 'iot', 'internet', 'things', 'automation', 'robot',
+                'robotics', 'cybersecurity', 'privacy', 'security', 'encryption', 'hacking',
+                # 통신 및 네트워킹
+                'wifi', 'bluetooth', 'ethernet', 'router', 'modem', 'signal', 'connection',
+                'bandwidth', 'speed', 'download', 'upload', 'streaming', 'broadcast'
+            ],
+            'art': [
+                # 미술
+                'art', 'painting', 'drawing', 'sketch', 'illustration', 'portrait', 'landscape',
+                'still', 'life', 'abstract', 'realistic', 'impressionist', 'expressionist',
+                'surreal', 'pop', 'art', 'contemporary', 'modern', 'classical', 'renaissance',
+                # 디자인
+                'design', 'graphic', 'logo', 'poster', 'banner', 'advertisement', 'marketing',
+                'brand', 'identity', 'typography', 'layout', 'composition', 'color', 'palette',
+                # 조각 및 설치
+                'sculpture', 'statue', 'monument', 'installation', 'ceramic', 'bronze',
+                'marble', 'wood', 'metal', 'glass', 'fiber', 'art',
+                # 사진
+                'photography', 'photo', 'picture', 'image', 'camera', 'lens', 'exposure',
+                'aperture', 'shutter', 'iso', 'digital', 'film', 'portrait', 'landscape',
+                'macro', 'street', 'documentary', 'fashion', 'wedding', 'event',
+                # 음악
+                'music', 'song', 'melody', 'rhythm', 'beat', 'harmony', 'instrument', 'piano',
+                'guitar', 'violin', 'drum', 'flute', 'trumpet', 'saxophone', 'cello', 'bass',
+                'orchestra', 'band', 'singer', 'vocal', 'lyrics', 'composer', 'musician',
+                # 공연 예술
+                'theater', 'drama', 'play', 'musical', 'opera', 'ballet', 'dance', 'performance',
+                'show', 'concert', 'festival', 'exhibition', 'gallery', 'museum', 'cinema',
+                'movie', 'film', 'video', 'animation', 'cartoon', 'comic', 'manga', 'anime',
+                # 문학
+                'literature', 'book', 'novel', 'story', 'poem', 'poetry', 'writing', 'author',
+                'writer', 'poet', 'novelist', 'journalist', 'editor', 'publisher', 'magazine',
+                'newspaper', 'article', 'essay', 'biography', 'autobiography', 'memoir'
+            ],
+            'people': [
+                # 직업
+                'doctor', 'nurse', 'teacher', 'professor', 'student', 'lawyer', 'judge',
+                'police', 'officer', 'firefighter', 'soldier', 'pilot', 'captain', 'chef',
+                'cook', 'waiter', 'waitress', 'cashier', 'clerk', 'manager', 'director',
+                'president', 'mayor', 'governor', 'senator', 'representative', 'minister',
+                # 예술가
+                'artist', 'painter', 'sculptor', 'photographer', 'musician', 'singer', 'actor',
+                'actress', 'dancer', 'writer', 'author', 'poet', 'designer', 'architect',
+                # 스포츠
+                'athlete', 'player', 'coach', 'referee', 'fan', 'spectator', 'team', 'sport',
+                'football', 'soccer', 'basketball', 'baseball', 'tennis', 'golf', 'swimming',
+                'running', 'cycling', 'boxing', 'martial', 'arts', 'gymnastics', 'diving',
+                # 가족 관계
+                'family', 'parent', 'father', 'mother', 'dad', 'mom', 'child', 'baby', 'kid',
+                'son', 'daughter', 'brother', 'sister', 'grandfather', 'grandmother', 'uncle',
+                'aunt', 'cousin', 'nephew', 'niece', 'husband', 'wife', 'spouse', 'partner',
+                # 일반적인 사람
+                'person', 'people', 'human', 'man', 'woman', 'boy', 'girl', 'adult', 'teenager',
+                'elderly', 'senior', 'citizen', 'friend', 'neighbor', 'stranger', 'visitor',
+                'guest', 'customer', 'client', 'patient', 'passenger', 'commuter', 'pedestrian'
+            ],
+            'objects': [
+                # 가구
+                'furniture', 'chair', 'table', 'desk', 'sofa', 'couch', 'bed', 'mattress',
+                'dresser', 'wardrobe', 'cabinet', 'shelf', 'bookcase', 'nightstand', 'lamp',
+                'light', 'mirror', 'clock', 'calendar',
+                # 전자제품
+                'television', 'tv', 'radio', 'stereo', 'cd', 'dvd', 'bluray', 'remote',
+                'control', 'battery', 'charger', 'adapter', 'cable', 'wire', 'plug',
+                # 도구
+                'tool', 'hammer', 'screwdriver', 'wrench', 'pliers', 'saw', 'drill', 'knife',
+                'scissors', 'tape', 'glue', 'rope', 'chain', 'lock', 'key', 'screw', 'nail',
+                # 의류
+                'clothing', 'clothes', 'shirt', 'pants', 'jeans', 'dress', 'skirt', 'jacket',
+                'coat', 'sweater', 'hoodie', 't-shirt', 'shorts', 'underwear', 'socks',
+                'shoes', 'boots', 'sneakers', 'sandals', 'hat', 'cap', 'gloves', 'scarf',
+                # 액세서리
+                'jewelry', 'ring', 'necklace', 'bracelet', 'earrings', 'watch', 'sunglasses',
+                'glasses', 'bag', 'purse', 'backpack', 'wallet', 'belt', 'tie', 'bow',
+                # 생활용품
+                'utensil', 'fork', 'knife', 'spoon', 'plate', 'bowl', 'cup', 'glass', 'mug',
+                'bottle', 'can', 'jar', 'container', 'box', 'bag', 'basket', 'tray',
+                # 장난감
+                'toy', 'doll', 'teddy', 'bear', 'ball', 'game', 'puzzle', 'block', 'lego',
+                'robot', 'car', 'truck', 'plane', 'train', 'bike', 'bicycle', 'skateboard'
+            ],
+            'abstract': [
+                # 개념
+                'concept', 'idea', 'thought', 'theory', 'principle', 'philosophy', 'logic',
+                'reason', 'wisdom', 'knowledge', 'understanding', 'awareness', 'consciousness',
+                'mind', 'soul', 'spirit', 'heart', 'emotion', 'feeling', 'mood', 'attitude',
+                # 추상적 속성
+                'beauty', 'truth', 'justice', 'freedom', 'liberty', 'equality', 'democracy',
+                'peace', 'harmony', 'balance', 'order', 'chaos', 'random', 'pattern',
+                'structure', 'system', 'organization', 'method', 'technique', 'approach',
+                # 시간과 공간
+                'time', 'space', 'dimension', 'universe', 'world', 'reality', 'existence',
+                'being', 'life', 'death', 'birth', 'creation', 'destruction', 'change',
+                'evolution', 'progress', 'development', 'growth', 'decay', 'transformation',
+                # 수학적 개념
+                'number', 'mathematics', 'geometry', 'algebra', 'calculus', 'statistics',
+                'probability', 'equation', 'formula', 'function', 'variable', 'constant',
+                'infinity', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven',
+                'eight', 'nine', 'ten', 'hundred', 'thousand', 'million', 'billion'
+            ]
         }
         
-        # 한국어 문화 관련 키워드
-        korean_keywords = ['한국', 'korea', 'seoul', '서울', '부산', 'busan', '대구', 'daegu', '인천', 'incheon', '광주', 'gwangju', '대전', 'daejeon', '울산', 'ulsan', '경기', 'gyeonggi', '강원', 'gangwon', '충북', 'chungbuk', '충남', 'chungnam', '전북', 'jeonbuk', '전남', 'jeonnam', '경북', 'gyeongbuk', '경남', 'gyeongnam', '제주', 'jeju', '한글', 'hangul', '김치', 'kimchi', '불고기', 'bulgogi', '비빔밥', 'bibimbap', '떡볶이', 'tteokbokki', '라면', 'ramen', '삼겹살', 'samgyeopsal', '치킨', 'chicken', '맥주', 'beer', '소주', 'soju', '전통', 'traditional', '문화', 'culture', '예술', 'art', '음악', 'music', '춤', 'dance', '노래', 'song', '영화', 'movie', '드라마', 'drama', 'k-pop', '케이팝', '아이돌', 'idol', '가수', 'singer', '배우', 'actor', '연예인', 'celebrity', '스타', 'star', '팬', 'fan', '콘서트', 'concert', '공연', 'performance', '쇼', 'show', '프로그램', 'program', '방송', 'broadcast', '텔레비전', 'television', '라디오', 'radio', '인터넷', 'internet', '웹사이트', 'website', '블로그', 'blog', '소셜', 'social', '미디어', 'media', '페이스북', 'facebook', '인스타그램', 'instagram', '트위터', 'twitter', '유튜브', 'youtube', '틱톡', 'tiktok', '네이버', 'naver', '카카오', 'kakao', '라인', 'line', '왓츠앱', 'whatsapp', '텔레그램', 'telegram', '스카이프', 'skype', '줌', 'zoom', '구글', 'google', '애플', 'apple', '삼성', 'samsung', 'lg', '엘지', '현대', 'hyundai', '기아', 'kia', '포스코', 'posco', 'sk', '에스케이', 'kt', '케이티', 'skt', '에스케이티', 'lg', '엘지', 'cj', '씨제이', '롯데', 'lotte', '신세계', 'shinsegae', '현대백화점', 'hyundai', 'department', 'store', '이마트', 'emart', '홈플러스', 'homeplus', '코스트코', 'costco', '마트', 'mart', '편의점', 'convenience', 'store', 'cu', '씨유', 'gs25', '지에스', '세븐일레븐', 'seven', 'eleven', '미니스톱', 'ministop', '이디야', 'ediya', '스타벅스', 'starbucks', '투썸플레이스', 'twosome', 'place', '카페베네', 'caffe', 'bene', '탐앤탐스', 'tom', 'n', 'toms', '커피빈', 'coffee', 'bean', '엔젤리너스', 'angelinus', '커피', 'coffee', '차', 'tea', '녹차', 'green', 'tea', '홍차', 'black', 'tea', '우유', 'milk', '주스', 'juice', '물', 'water', '음료', 'drink', '과자', 'snack', '사탕', 'candy', '초콜릿', 'chocolate', '아이스크림', 'ice', 'cream', '케이크', 'cake', '빵', 'bread', '도넛', 'donut', '쿠키', 'cookie', '과일', 'fruit', '사과', 'apple', '바나나', 'banana', '오렌지', 'orange', '포도', 'grape', '딸기', 'strawberry', '복숭아', 'peach', '배', 'pear', '수박', 'watermelon', '참외', 'melon', '토마토', 'tomato', '당근', 'carrot', '양파', 'onion', '감자', 'potato', '고구마', 'sweet', 'potato', '옥수수', 'corn', '콩', 'bean', '팥', 'red', 'bean', '쌀', 'rice', '밀', 'wheat', '보리', 'barley', '옥수수', 'corn', '감자', 'potato', '고구마', 'sweet', 'potato', '야채', 'vegetable', '채소', 'vegetable', '나물', 'namul', '김치', 'kimchi', '된장', 'doenjang', '고추장', 'gochujang', '간장', 'soy', 'sauce', '식초', 'vinegar', '소금', 'salt', '설탕', 'sugar', '후추', 'pepper', '마늘', 'garlic', '생강', 'ginger', '파', 'scallion', '부추', 'chive', '시금치', 'spinach', '상추', 'lettuce', '배추', 'cabbage', '무', 'radish', '오이', 'cucumber', '가지', 'eggplant', '호박', 'pumpkin', '고추', 'pepper', '피망', 'bell', 'pepper', '버섯', 'mushroom', '해물', 'seafood', '생선', 'fish', '고등어', 'mackerel', '연어', 'salmon', '참치', 'tuna', '새우', 'shrimp', '게', 'crab', '문어', 'octopus', '오징어', 'squid', '전복', 'abalone', '굴', 'oyster', '홍합', 'mussel', '조개', 'clam', '소라', 'whelk', '해삼', 'sea', 'cucumber', '미역', 'seaweed', '김', 'laver', '다시마', 'kelp', '고기', 'meat', '소고기', 'beef', '돼지고기', 'pork', '닭고기', 'chicken', '양고기', 'lamb', '오리고기', 'duck', '햄', 'ham', '소시지', 'sausage', '베이컨', 'bacon', '계란', 'egg', '우유', 'milk', '치즈', 'cheese', '요거트', 'yogurt', '버터', 'butter', '크림', 'cream', '아이스크림', 'ice', 'cream', '과자', 'snack', '사탕', 'candy', '초콜릿', 'chocolate', '껌', 'gum', '젤리', 'jelly', '푸딩', 'pudding', '요거트', 'yogurt', '빵', 'bread', '케이크', 'cake', '도넛', 'donut', '쿠키', 'cookie', '파이', 'pie', '타르트', 'tart', '머핀', 'muffin', '크로와상', 'croissant', '베이글', 'bagel', '토스트', 'toast', '샌드위치', 'sandwich', '햄버거', 'hamburger', '핫도그', 'hot', 'dog', '피자', 'pizza', '파스타', 'pasta', '스파게티', 'spaghetti', '라면', 'ramen', '국수', 'noodle', '냉면', 'naengmyeon', '칼국수', 'kalguksu', '우동', 'udon', '소바', 'soba', '짜장면', 'jajangmyeon', '짬뽕', 'jjamppong', '탕수육', 'tangsuyuk', '깐풍기', 'ganpunggi', '라조기', 'lajogi', '마파두부', 'mapadubu', '꿔바로우', 'gwarabau', '양장피', 'yangjangpi', '팔보채', 'palbochae', '춘권', 'chungwon', '만두', 'mandu', '교자', 'gyoja', '샤오롱바오', 'xiaolongbao', '딤섬', 'dimsum', '찐빵', 'jinppang', '호떡', 'hotteok', '붕어빵', 'bungeoppang', '타코야키', 'takoyaki', '오코노미야키', 'okonomiyaki', '타이야키', 'taiyaki', '와플', 'waffle', '팬케이크', 'pancake', '프렌치토스트', 'french', 'toast', '오믈렛', 'omelet', '스크램블', 'scrambled', 'eggs', '계란말이', 'gyeranmari', '계란찜', 'gyeranjjim', '계란국', 'gyeranguk', '계란탕', 'gyerantang', '계란볶음밥', 'gyeranbokkeumbap', '김치볶음밥', 'kimchibokkeumbap', '비빔밥', 'bibimbap', '김밥', 'gimbap', '주먹밥', 'jumeokbap', '볶음밥', 'bokkeumbap', '덮밥', 'deopbap', '카레', 'curry', '라이스', 'rice', '스테이크', 'steak', '구이', 'gui', '불고기', 'bulgogi', '갈비', 'galbi', '삼겹살', 'samgyeopsal', '목살', 'moksal', '항정살', 'hangjeongsal', '등심', 'deungsim', '안심', 'ansim', '채끝살', 'chaekkeutsal', '우둔살', 'udunsal', '설렁탕', 'seolleongtang', '곰탕', 'gomtang', '육개장', 'yukgaejang', '추어탕', 'chueotang', '매운탕', 'maeuntang', '해물탕', 'haemultang', '삼계탕', 'samgyetang', '닭볶음탕', 'dakbokkeumtang', '닭갈비', 'dakgalbi', '닭도리탕', 'dakdoritang', '닭강정', 'dakgangjeong', '치킨', 'chicken', '후라이드', 'fried', '양념', 'seasoned', '간장', 'soy', 'sauce', '마늘', 'garlic', '파닭', 'padak', '닭꼬치', 'dakkochi', '닭발', 'dakbal', '닭똥집', 'dakttongjip', '닭가슴살', 'dakgaseumsal', '닭다리', 'dakdari', '닭날개', 'daknalgae', '닭목', 'dakmok', '닭허벅지', 'dakheobeokji', '닭가슴살', 'dakgaseumsal', '닭다리살', 'dakdarisal', '닭날개살', 'daknalgaesal', '닭목살', 'dakmoksal', '닭허벅지살', 'dakheobeokjisal', '닭가슴살', 'dakgaseumsal', '닭다리살', 'dakdarisal', '닭날개살', 'daknalgaesal', '닭목살', 'dakmoksal', '닭허벅지살', 'dakheobeokjisal']
+        # 한국어 문화 관련 키워드 (더 포괄적)
+        korean_keywords = [
+            # 한국 지명
+            'korea', 'korean', 'seoul', '서울', 'busan', '부산', 'daegu', '대구', 'incheon', '인천',
+            'gwangju', '광주', 'daejeon', '대전', 'ulsan', '울산', 'gyeonggi', '경기', 'gangwon', '강원',
+            'chungbuk', '충북', 'chungnam', '충남', 'jeonbuk', '전북', 'jeonnam', '전남',
+            'gyeongbuk', '경북', 'gyeongnam', '경남', 'jeju', '제주',
+            # 한국 문화
+            'hangul', '한글', 'kimchi', '김치', 'bulgogi', '불고기', 'bibimbap', '비빔밥',
+            'tteokbokki', '떡볶이', 'ramen', '라면', 'samgyeopsal', '삼겹살', 'chicken', '치킨',
+            'beer', '맥주', 'soju', '소주', 'traditional', '전통', 'culture', '문화',
+            # 한국 예술
+            'k-pop', '케이팝', 'idol', '아이돌', 'singer', '가수', 'actor', '배우', 'celebrity', '연예인',
+            'star', '스타', 'fan', '팬', 'concert', '콘서트', 'performance', '공연', 'show', '쇼',
+            'program', '프로그램', 'broadcast', '방송', 'television', '텔레비전', 'radio', '라디오',
+            # 한국 기술
+            'samsung', '삼성', 'lg', '엘지', 'hyundai', '현대', 'kia', '기아', 'posco', '포스코',
+            'sk', '에스케이', 'kt', '케이티', 'naver', '네이버', 'kakao', '카카오', 'line', '라인',
+            # 한국 음식
+            'korean', 'food', '한국', '음식', 'restaurant', '식당', 'cafe', '카페', 'bakery', '베이커리',
+            'market', '시장', 'store', '가게', 'shop', '쇼핑', 'mall', '몰', 'department', '백화점',
+            # 한국 건물
+            'palace', '궁궐', 'temple', '절', 'church', '교회', 'museum', '박물관', 'library', '도서관',
+            'university', '대학교', 'school', '학교', 'hospital', '병원', 'station', '역', 'airport', '공항',
+            # 한국어 단어들
+            '한국', '서울', '부산', '대구', '인천', '광주', '대전', '울산', '경기', '강원', '충북', '충남',
+            '전북', '전남', '경북', '경남', '제주', '한글', '김치', '불고기', '비빔밥', '떡볶이', '라면',
+            '삼겹살', '치킨', '맥주', '소주', '전통', '문화', '예술', '음악', '춤', '노래', '영화', '드라마',
+            '케이팝', '아이돌', '가수', '배우', '연예인', '스타', '팬', '콘서트', '공연', '쇼', '프로그램',
+            '방송', '텔레비전', '라디오', '인터넷', '웹사이트', '블로그', '소셜', '미디어', '페이스북',
+            '인스타그램', '트위터', '유튜브', '틱톡', '네이버', '카카오', '라인', '왓츠앱', '텔레그램',
+            '스카이프', '줌', '구글', '애플', '삼성', '엘지', '현대', '기아', '포스코', '에스케이', '케이티',
+            '에스케이티', '씨제이', '롯데', '신세계', '현대백화점', '이마트', '홈플러스', '코스트코', '마트',
+            '편의점', '씨유', '지에스', '세븐일레븐', '미니스톱', '이디야', '스타벅스', '투썸플레이스',
+            '카페베네', '탐앤탐스', '커피빈', '엔젤리너스', '커피', '차', '녹차', '홍차', '우유', '주스',
+            '물', '음료', '과자', '사탕', '초콜릿', '아이스크림', '케이크', '빵', '도넛', '쿠키', '과일',
+            '사과', '바나나', '오렌지', '포도', '딸기', '복숭아', '배', '수박', '참외', '토마토', '당근',
+            '양파', '감자', '고구마', '옥수수', '콩', '팥', '쌀', '밀', '보리', '야채', '채소', '나물',
+            '된장', '고추장', '간장', '식초', '소금', '설탕', '후추', '마늘', '생강', '파', '부추', '시금치',
+            '상추', '배추', '무', '오이', '가지', '호박', '고추', '피망', '버섯', '해물', '생선', '고등어',
+            '연어', '참치', '새우', '게', '문어', '오징어', '전복', '굴', '홍합', '조개', '소라', '해삼',
+            '미역', '김', '다시마', '고기', '소고기', '돼지고기', '닭고기', '양고기', '오리고기', '햄',
+            '소시지', '베이컨', '계란', '치즈', '요거트', '버터', '크림', '껌', '젤리', '푸딩', '파이',
+            '타르트', '머핀', '크로와상', '베이글', '토스트', '샌드위치', '햄버거', '핫도그', '피자',
+            '파스타', '스파게티', '라면', '국수', '냉면', '칼국수', '우동', '소바', '짜장면', '짬뽕',
+            '탕수육', '깐풍기', '라조기', '마파두부', '꿔바로우', '양장피', '팔보채', '춘권', '만두',
+            '교자', '샤오롱바오', '딤섬', '찐빵', '호떡', '붕어빵', '타코야키', '오코노미야키', '타이야키',
+            '와플', '팬케이크', '프렌치토스트', '오믈렛', '스크램블', '계란말이', '계란찜', '계란국',
+            '계란탕', '계란볶음밥', '김치볶음밥', '비빔밥', '김밥', '주먹밥', '볶음밥', '덮밥', '카레',
+            '라이스', '스테이크', '구이', '갈비', '목살', '항정살', '등심', '안심', '채끝살', '우둔살',
+            '설렁탕', '곰탕', '육개장', '추어탕', '매운탕', '해물탕', '삼계탕', '닭볶음탕', '닭갈비',
+            '닭도리탕', '닭강정', '후라이드', '양념', '파닭', '닭꼬치', '닭발', '닭똥집', '닭가슴살',
+            '닭다리', '닭날개', '닭목', '닭허벅지', '궁궐', '절', '교회', '박물관', '도서관', '대학교',
+            '학교', '병원', '역', '공항', '빌딩', '건물', '아파트', '주택', '상가', '사무실', '회사',
+            '기업', '공장', '창고', '농장', '공원', '놀이터', '운동장', '체육관', '수영장', '골프장',
+            '스키장', '해변', '산', '강', '호수', '바다', '섬', '다리', '터널', '도로', '길', '거리',
+            '동네', '마을', '시', '구', '동', '호', '번지', '출구', '호관', '동', '빌딩', '건물'
+        ]
         
         for word in words:
             word_lower = word.lower()

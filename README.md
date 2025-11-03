@@ -38,20 +38,50 @@ This project provides a fully automated pipeline that automatically scrapes imag
 ## Project Structure
 
 ```
-Vision2025Trainer/
-├── dataset/
-│   ├── x_train.csv      # Scraped image URLs and categories
-│   └── y_train.csv      # Automatically generated labels
-├── models/
-│   └── model.pt         # Trained PyTorch model
-├── results/
-│   └── metrics.png      # Training results visualization graph
-├── auto_scraping_pipeline.py    # Main automated scraping pipeline
-├── image_classification_pipeline.py  # Original manual pipeline
-├── test_auto_scraping.py        # Automated scraping test script
-├── test_pipeline.py             # Original pipeline test script
-├── requirements.txt              # Required packages list
-└── README.md                    # This file
+Vision2026Trainer/
+├── scrapers/            # Image scraping modules
+│   ├── cosmos_scraper.py
+│   ├── cosmos_real_scraper.py
+│   └── improved_scraper.py
+├── pipelines/           # Training and processing pipelines
+│   ├── auto_scraping_pipeline.py
+│   ├── word_based_pipeline.py
+│   ├── high_quality_pipeline.py
+│   └── image_classification_pipeline.py
+├── gui/                 # User interface applications
+│   ├── cosmos_gui_v4_gemini.py  # Current GUI with Gemini API
+│   ├── cosmos_gui_pyqt6.py
+│   ├── cosmos_gui_v2.py
+│   ├── cosmos_gui.py
+│   ├── simple_gui.py
+│   ├── ultra_simple_gui.py
+│   └── web_gui.py
+├── tests/               # Test scripts
+│   ├── test_auto_scraping.py
+│   ├── test_pipeline.py
+│   └── test_image_preview.py
+├── utils/               # Utility functions and helpers
+│   ├── cosmos_real_final.py
+│   └── enhance_categories.py
+├── config/              # Configuration files
+│   ├── config.yml
+│   └── env_example.txt
+├── docs/                # Documentation
+│   ├── CLAUDE_AI_AUTOMATION_GUIDE.md
+│   ├── CLAUDE_REAL_API_GUIDE.md
+│   └── CLOUDFLARE_ERROR_525_SOLUTION.md
+├── dataset/             # Training data and CSV files
+│   ├── x_train.csv
+│   ├── y_train.csv
+│   └── words*.csv
+├── models/              # Trained PyTorch models
+│   └── *.pt
+├── results/             # Training results and metrics
+│   └── *.png
+├── mcp_archive/         # MCP (Model Context Protocol) archive
+├── templates/           # Web templates and assets
+├── requirements.txt     # Required packages list
+└── README.md           # This file
 ```
 
 ## Installation and Execution
@@ -76,17 +106,33 @@ pip install -r requirements.txt
 
 ```bash
 # Run fully automated pipeline
-python3 auto_scraping_pipeline.py
+python3 pipelines/auto_scraping_pipeline.py
+
+# Or run word-based pipeline
+python3 pipelines/word_based_pipeline.py
 ```
 
 ### 3. Run Tests
 
 ```bash
 # Test automated scraping pipeline
-python3 test_auto_scraping.py
+python3 tests/test_auto_scraping.py
 
 # Test original manual pipeline
-python3 test_pipeline.py
+python3 tests/test_pipeline.py
+```
+
+### 4. Run GUI Applications
+
+```bash
+# Run main GUI with Gemini API
+python3 gui/cosmos_gui_v4_gemini.py
+
+# Run PyQt6 GUI
+python3 gui/cosmos_gui_pyqt6.py
+
+# Run simple GUI
+python3 gui/simple_gui.py
 ```
 
 ## Usage
@@ -243,6 +289,17 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+## MCP Archive
+
+The `mcp_archive/` folder contains previously used MCP (Model Context Protocol) related files. These have been archived as the project now uses direct Gemini API integration for better performance and reliability.
+
+### Current Status
+- **Active**: `cosmos_gui_v4_gemini.py` - Direct Gemini API integration
+- **Archived**: All MCP-related files in `mcp_archive/` folder
+
+### MCP Restoration
+If you need to restore MCP functionality, see `mcp_archive/README.md` for detailed instructions.
 
 ## Important Notes
 

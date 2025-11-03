@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmos.so 이미지 분류 관리자 v1.0</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 20px; background: #f5f5f7; }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .header { background: white; padding: 20px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .panel { background: white; padding: 20px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .status { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 14px; font-weight: 500; }
+        .status.connected { background: #d4edda; color: #155724; }
+        .status.disconnected { background: #f8d7da; color: #721c24; }
+        .btn { background: #007AFF; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-size: 14px; margin: 5px; }
+        .btn:hover { background: #0056CC; }
+        .btn.danger { background: #FF3B30; }
+        .btn.success { background: #34C759; }
+        .input-group { margin: 10px 0; }
+        .input-group input, .input-group textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; }
+        .image-list { max-height: 400px; overflow-y: auto; border: 1px solid #ddd; border-radius: 8px; }
+        .image-item { padding: 10px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+        .image-item:hover { background: #f8f9fa; }
+        .image-item.selected { background: #e3f2fd; }
+        .category-display { font-size: 12px; color: #666; margin-top: 5px; }
+        .loading { text-align: center; padding: 20px; color: #666; }
+        .error { color: #FF3B30; background: #ffe6e6; padding: 10px; border-radius: 8px; margin: 10px 0; }
+        .success { color: #34C759; background: #e6ffe6; padding: 10px; border-radius: 8px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌌 Cosmos.so 이미지 분류 관리자 v1.0</h1>
+            <p>Gemini API 직접 연동 - 웹 기반 GUI</p>
+            <div id="api-status" class="status disconnected">API 연결 확인 중...</div>
+        </div>
+
+        <div class="panel">
+            <h3>📸 이미지 관리</h3>
+            <div class="input-group">
+                <input type="url" id="image-url" placeholder="이미지 URL 입력">
+                <button class="btn" onclick="addImage()">이미지 추가</button>
+            </div>
+            <div class="input-group">
+                <textarea id="bulk-urls" placeholder="여러 URL을 줄바꿈으로 구분하여 입력"></textarea>
+                <button class="btn" onclick="addBulkImages()">일괄 추가</button>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h3>🤖 AI 분석</h3>
+            <button class="btn success" onclick="analyzeAll()">전체 분석 시작</button>
+            <div id="analysis-progress" style="display: none;" class="loading">분석 진행 중...</div>
+        </div>
+
+        <div class="panel">
+            <h3>📋 이미지 목록</h3>
+            <div id="image-list" class="image-list">
+                <div class="loading">이미지가 없습니다</div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h3>💾 데이터 관리</h3>
+            <button class="btn" onclick="saveCSV()">CSV 저장</button>
+            <button class="btn" onclick="loadCSV()">CSV 로드</button>
+        </div>
+    </div>
+
+    <script>
+        let selectedImages = new Set();
+        
+        // API 상태 확인
+        async function checkAPIStatus() {
+            try {
+                const response = await fetch('/api/status');
+                const data = await response.json();
+                const statusEl = document.getElementById('api-status');
+                
+                if (data.gemini_available && data.api_key_set) {
+                    statusEl.textContent = '✅ Gemini API 연결됨';
+                    statusEl.className = 'status connected';
+                } else {
+                    statusEl.textContent = '❌ Gemini API 연결 실패';
+                    statusEl.className = 'status disconnected';
+                }
+            } catch (error) {
+                document.getElementById('api-status').textContent = '❌ 연결 오류';
+                document.getElementById('api-status').className = 'status disconnected';
+            }
+        }
+        
+        // 이미지 추가
+        async function addImage() {
+            const url = document.getElementById('image-url').value.trim();
+            if (!url) return;
+            
+            try {
+                const response = await fetch('/api/images', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ url })
+                });
+                
+                const data = await response.json();
+                if (response.ok) {
+                    showMessage(data.message, 'success');
+                    document.getElementById('image-url').value = '';
+                    loadImages();
+                } else {
+                    showMessage(data.error, 'error');
+                }
+            } catch (error) {
+                showMessage('이미지 추가 실패: ' + error.message, 'error');
+            }
+        }
+        
+        // 일괄 추가
+        async function addBulkImages() {
+            const urls = document.getElementById('bulk-urls').value.trim().split('\n').filter(url => url.trim());
+            if (urls.length === 0) return;
+            
+            try {
+                const response = await fetch('/api/images/bulk', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ urls })
+                });
+                
+                const data = await response.json();
+                showMessage(data.message, 'success');
+                document.getElementById('bulk-urls').value = '';
+                loadImages();
+            } catch (error) {
+                showMessage('일괄 추가 실패: ' + error.message, 'error');
+            }
+        }
+        
+        // 이미지 목록 로드
+        async function loadImages() {
+            try {
+                const response = await fetch('/api/images');
+                const data = await response.json();
+                
+                const listEl = document.getElementById('image-list');
+                if (data.urls.length === 0) {
+                    listEl.innerHTML = '<div class="loading">이미지가 없습니다</div>';
+                    return;
+                }
+                
+                listEl.innerHTML = data.urls.map((url, index) => `
+                    <div class="image-item" data-index="${index}">
+                        <div>
+                            <div><strong>${index + 1}.</strong> ${url.substring(0, 60)}${url.length > 60 ? '...' : ''}</div>
+                            <div class="category-display">${data.categories[index] || '분석 대기'}</div>
+                        </div>
+                        <div>
+                            <button class="btn" onclick="analyzeImage(${index})">분석</button>
+                            <button class="btn danger" onclick="deleteImage(${index})">삭제</button>
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                showMessage('이미지 목록 로드 실패: ' + error.message, 'error');
+            }
+        }
+        
+        // 단일 이미지 분석
+        async function analyzeImage(index) {
+            try {
+                const response = await fetch(`/api/analyze/${index}`, { method: 'POST' });
+                const data = await response.json();
+                
+                if (response.ok) {
+                    showMessage(`이미지 ${index + 1} 분석 완료`, 'success');
+                    loadImages();
+                } else {
+                    showMessage(data.error, 'error');
+                }
+            } catch (error) {
+                showMessage('분석 실패: ' + error.message, 'error');
+            }
+        }
+        
+        // 전체 분석
+        async function analyzeAll() {
+            const progressEl = document.getElementById('analysis-progress');
+            progressEl.style.display = 'block';
+            
+            try {
+                const response = await fetch('/api/analyze/batch', { method: 'POST' });
+                const data = await response.json();
+                
+                if (response.ok) {
+                    showMessage('전체 분석 완료', 'success');
+                    loadImages();
+                } else {
+                    showMessage(data.error, 'error');
+                }
+            } catch (error) {
+                showMessage('전체 분석 실패: ' + error.message, 'error');
+            } finally {
+                progressEl.style.display = 'none';
+            }
+        }
+        
+        // 이미지 삭제
+        async function deleteImage(index) {
+            if (!confirm('이 이미지를 삭제하시겠습니까?')) return;
+            
+            try {
+                const response = await fetch(`/api/images/${index}`, { method: 'DELETE' });
+                const data = await response.json();
+                
+                if (response.ok) {
+                    showMessage(data.message, 'success');
+                    loadImages();
+                } else {
+                    showMessage(data.error, 'error');
+                }
+            } catch (error) {
+                showMessage('삭제 실패: ' + error.message, 'error');
+            }
+        }
+        
+        // CSV 저장
+        async function saveCSV() {
+            try {
+                const response = await fetch('/api/csv/save', { method: 'POST' });
+                const data = await response.json();
+                
+                if (response.ok) {
+                    showMessage(data.message, 'success');
+                } else {
+                    showMessage(data.error, 'error');
+                }
+            } catch (error) {
+                showMessage('CSV 저장 실패: ' + error.message, 'error');
+            }
+        }
+        
+        // CSV 로드
+        async function loadCSV() {
+            const filename = prompt('로드할 CSV 파일명을 입력하세요:', 'dataset/full_data.csv');
+            if (!filename) return;
+            
+            try {
+                const response = await fetch('/api/csv/load', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ filename })
+                });
+                
+                const data = await response.json();
+                if (response.ok) {
+                    showMessage(data.message, 'success');
+                    loadImages();
+                } else {
+                    showMessage(data.error, 'error');
+                }
+            } catch (error) {
+                showMessage('CSV 로드 실패: ' + error.message, 'error');
+            }
+        }
+        
+        // 메시지 표시
+        function showMessage(message, type) {
+            const messageEl = document.createElement('div');
+            messageEl.className = type;
+            messageEl.textContent = message;
+            messageEl.style.position = 'fixed';
+            messageEl.style.top = '20px';
+            messageEl.style.right = '20px';
+            messageEl.style.zIndex = '1000';
+            messageEl.style.maxWidth = '300px';
+            
+            document.body.appendChild(messageEl);
+            
+            setTimeout(() => {
+                document.body.removeChild(messageEl);
+            }, 3000);
+        }
+        
+        // 초기화
+        document.addEventListener('DOMContentLoaded', function() {
+            checkAPIStatus();
+            loadImages();
+            
+            // Enter 키로 이미지 추가
+            document.getElementById('image-url').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    addImage();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

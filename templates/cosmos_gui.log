@@ -1,0 +1,2369 @@
+2025-10-25 22:39:23,934 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-25 22:39:23,934 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-25 22:39:24,178 - INFO - 오래된 파일 삭제: dataset/scraped_images_20251024_215520.csv
+2025-10-25 22:39:24,203 - INFO - 메인 데이터 로드: 228개 이미지
+2025-10-25 22:39:32,606 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-25 22:40:06,781 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-25 22:40:09,237 - INFO - 자동 저장 완료: 228개 이미지
+2025-10-25 22:41:29,431 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-25 22:41:29,431 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-25 22:41:29,770 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251025_224009.csv
+2025-10-25 22:41:29,771 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251025_224009.csv
+2025-10-25 22:41:29,772 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_223900.csv
+2025-10-25 22:41:29,796 - INFO - 메인 데이터 로드: 228개 이미지
+2025-10-25 22:46:18,381 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-25 22:46:18,381 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-25 22:46:18,642 - INFO - 메인 데이터 로드: 228개 이미지
+2025-10-25 22:46:21,415 - INFO - 자동 저장 완료: 228개 이미지
+2025-10-25 22:47:51,330 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-25 22:47:51,331 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-25 22:47:51,622 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251025_224621.csv
+2025-10-25 22:47:51,623 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251025_224621.csv
+2025-10-25 22:47:51,623 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_224009.csv
+2025-10-25 22:47:51,637 - INFO - 메인 데이터 로드: 228개 이미지
+2025-10-25 22:47:55,147 - INFO - 자동 저장 완료: 228개 이미지
+2025-10-25 22:48:52,727 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-25 22:48:52,727 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-25 22:48:52,962 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251025_224755.csv
+2025-10-25 22:48:52,963 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251025_224755.csv
+2025-10-25 22:48:52,963 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_224621.csv
+2025-10-25 22:48:52,988 - INFO - 메인 데이터 로드: 228개 이미지
+2025-10-25 22:49:12,640 - INFO - 자동 저장 완료: 228개 이미지
+2025-10-25 22:49:48,865 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-25 22:49:48,866 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-25 22:49:49,091 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251025_224912.csv
+2025-10-25 22:49:49,091 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251025_224912.csv
+2025-10-25 22:49:49,092 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_224755.csv
+2025-10-25 22:49:49,112 - INFO - 메인 데이터 로드: 228개 이미지
+2025-10-25 22:49:52,352 - INFO - 자동 저장 완료: 228개 이미지
+2025-10-25 22:51:45,611 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-25 22:51:45,612 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-25 22:51:45,895 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251025_224952.csv
+2025-10-25 22:51:45,896 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251025_224952.csv
+2025-10-25 22:51:45,896 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_224912.csv
+2025-10-25 22:51:45,919 - INFO - 메인 데이터 로드: 228개 이미지
+2025-10-25 22:51:48,802 - INFO - 자동 저장 완료: 228개 이미지
+2025-10-25 22:57:59,731 - INFO - 자동 저장 완료: 227개 이미지
+2025-10-25 22:58:24,751 - INFO - 자동 저장 완료: 202개 이미지
+2025-10-25 22:59:42,110 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-25 22:59:42,110 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-25 22:59:42,388 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251025_225824.csv
+2025-10-25 22:59:42,388 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251025_225824.csv
+2025-10-25 22:59:42,388 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_225759.csv
+2025-10-25 22:59:42,389 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251025_225759.csv
+2025-10-25 22:59:42,391 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251025_225759.csv
+2025-10-25 22:59:42,392 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_225148.csv
+2025-10-25 22:59:42,392 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251025_225148.csv
+2025-10-25 22:59:42,392 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251025_225148.csv
+2025-10-25 22:59:42,392 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_224952.csv
+2025-10-25 22:59:42,411 - INFO - 메인 데이터 로드: 202개 이미지
+2025-10-25 23:01:34,863 - INFO - 자동 저장 완료: 202개 이미지
+2025-10-25 23:02:18,907 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-25 23:02:18,907 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-25 23:02:19,174 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251025_230134.csv
+2025-10-25 23:02:19,178 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251025_230134.csv
+2025-10-25 23:02:19,180 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_225824.csv
+2025-10-25 23:02:19,215 - INFO - 메인 데이터 로드: 202개 이미지
+2025-10-25 23:03:02,494 - INFO - 자동 저장 완료: 202개 이미지
+2025-10-26 00:23:30,856 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:13:41,082 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:13:42,287 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:13:44,362 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:13:46,332 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:13:49,317 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:13:52,471 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:13:56,595 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:14:02,180 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:14:06,329 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:14:10,691 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:14:16,782 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:14:24,367 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:14:30,567 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:14:36,874 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:14:46,955 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:14:54,560 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:15:02,770 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:15:11,063 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:15:23,135 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:15:32,785 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:15:42,991 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:15:53,153 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:16:07,201 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:16:18,895 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:16:31,137 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:16:43,483 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:16:59,412 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:17:13,044 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:17:27,331 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:17:41,620 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:18:00,455 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:18:15,293 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:18:31,523 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:18:47,842 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:19:10,740 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:19:28,212 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:19:43,702 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:20:02,061 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:20:28,487 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:20:46,511 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:21:03,897 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:21:24,347 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:21:52,677 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:22:12,758 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:22:32,088 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:22:54,588 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:23:24,943 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:23:49,088 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:24:08,350 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:24:32,816 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:25:05,116 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:25:31,305 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:25:53,678 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:26:18,984 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:26:53,314 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:27:21,533 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:27:45,887 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:28:13,185 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:28:49,550 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:29:19,792 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:29:46,389 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:30:15,635 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:30:53,748 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:31:27,238 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:31:54,578 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:32:25,890 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:33:05,988 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:33:43,495 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:34:10,818 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:34:46,164 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:35:26,149 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:36:05,724 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:36:35,039 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:37:12,352 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:37:54,381 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:38:35,971 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:39:09,450 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:39:46,580 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:40:30,593 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:41:14,182 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:41:49,664 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:42:28,735 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:43:14,763 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:44:00,462 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:44:37,834 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:45:18,949 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:46:07,001 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:46:54,646 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:47:34,059 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:48:17,155 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:49:07,166 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:49:56,897 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:50:38,280 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:51:23,327 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:52:15,349 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:53:09,142 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:53:50,429 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:54:37,572 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:55:31,544 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:56:27,401 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:57:10,648 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:58:00,051 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:58:55,784 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 08:59:53,655 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:00:40,083 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:01:30,406 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:02:29,419 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:03:28,087 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:04:16,493 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:05:08,891 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:06:12,870 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:07:10,353 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:08:00,780 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:08:55,179 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:10:01,568 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:11:02,852 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:11:53,057 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:12:49,405 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:13:58,239 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:15:01,652 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:15:54,719 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:16:51,603 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:18:02,711 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:19:08,292 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:20:23,178 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:46:04,522 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 09:46:04,522 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 09:46:04,743 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251025_230302.csv
+2025-10-26 09:46:04,744 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251025_230302.csv
+2025-10-26 09:46:04,744 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_230134.csv
+2025-10-26 09:46:04,770 - INFO - 메인 데이터 로드: 202개 이미지
+2025-10-26 09:46:41,387 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:46:42,965 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:46:45,045 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:46:47,035 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:46:49,651 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:46:53,172 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:46:57,275 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:47:01,222 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:47:05,845 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:47:11,388 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:47:17,463 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:47:23,457 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:47:30,146 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:47:37,688 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:47:45,652 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:47:54,660 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:48:02,361 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:48:11,879 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:48:21,838 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:48:32,906 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:48:42,530 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:48:54,027 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:49:06,014 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:49:19,133 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:49:23,280 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 09:49:23,280 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 09:49:23,497 - INFO - 로드할 데이터가 없습니다.
+2025-10-26 09:49:37,194 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:51:01,650 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:51:41,637 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 09:51:41,637 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 09:51:41,929 - INFO - 로드할 데이터가 없습니다.
+2025-10-26 09:51:52,851 - ERROR - Gemini API 오류: 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key expired. Please renew the API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key expired. Please renew the API key."
+      }
+    ]
+  }
+}
+
+2025-10-26 09:52:25,707 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 09:52:25,707 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 09:52:25,986 - INFO - 로드할 데이터가 없습니다.
+2025-10-26 09:53:00,919 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:53:57,393 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 09:53:57,394 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 09:53:57,616 - INFO - 로드할 데이터가 없습니다.
+2025-10-26 09:54:05,427 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:54:47,260 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 09:54:47,261 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 09:54:47,377 - INFO - 로드할 데이터가 없습니다.
+2025-10-26 09:56:05,411 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:56:22,773 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 09:56:22,773 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 09:56:22,993 - INFO - 로드할 데이터가 없습니다.
+2025-10-26 09:56:54,200 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 09:59:55,634 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 10:00:05,394 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 10:00:05,394 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 10:00:05,614 - INFO - 로드할 데이터가 없습니다.
+2025-10-26 10:02:49,861 - WARNING - 엔드포인트 https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyAaicIcOZoB8QdAy6veVsOzEVic7kp1CCg 실패: 404
+2025-10-26 10:02:49,980 - WARNING - 엔드포인트 https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyAaicIcOZoB8QdAy6veVsOzEVic7kp1CCg 실패: 404
+2025-10-26 10:02:50,089 - WARNING - 엔드포인트 https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=AIzaSyAaicIcOZoB8QdAy6veVsOzEVic7kp1CCg 실패: 404
+2025-10-26 10:02:50,089 - ERROR - 모든 엔드포인트에서 오류 발생
+2025-10-26 10:05:12,221 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 10:05:12,222 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 10:05:12,588 - INFO - 로드할 데이터가 없습니다.
+2025-10-26 10:05:52,355 - ERROR - Gemini API 오류: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-10-26 10:07:31,983 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 10:07:31,983 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 10:07:32,252 - INFO - 로드할 데이터가 없습니다.
+2025-10-26 10:13:24,521 - ERROR - 분석 오류: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 10:14:28,657 - ERROR - 분석 오류: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 10:14:28,764 - INFO - 자동 저장 완료: 1개 이미지
+2025-10-26 10:15:22,210 - ERROR - 분석 오류: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-10-26 10:15:22,307 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 10:57:55,228 - ERROR - 분석 오류: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 10:57:55,234 - ERROR - 분석 오류: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 10:57:55,375 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 10:58:55,090 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 10:58:55,090 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 10:58:55,439 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_105755.csv
+2025-10-26 10:58:55,440 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_105755.csv
+2025-10-26 10:58:55,441 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_101522.csv
+2025-10-26 10:58:55,442 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_101522.csv
+2025-10-26 10:58:55,442 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_101522.csv
+2025-10-26 10:58:55,442 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_101428.csv
+2025-10-26 10:58:55,442 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_101428.csv
+2025-10-26 10:58:55,442 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_101428.csv
+2025-10-26 10:58:55,444 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251025_230302.csv
+2025-10-26 10:58:55,485 - INFO - 메인 데이터 로드: 2개 이미지
+2025-10-26 11:00:03,677 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 11:00:03,678 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 11:00:04,006 - INFO - 메인 데이터 로드: 2개 이미지
+2025-10-26 11:00:16,314 - ERROR - 분석 오류: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 11:00:17,952 - ERROR - 분석 오류: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 11:00:18,064 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 11:00:24,191 - ERROR - 분석 오류: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 11:02:10,153 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 11:02:10,154 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 11:02:10,374 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_110017.csv
+2025-10-26 11:02:10,374 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_110017.csv
+2025-10-26 11:02:10,375 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_105755.csv
+2025-10-26 11:02:10,404 - INFO - 메인 데이터 로드: 2개 이미지
+2025-10-26 11:03:59,616 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 11:04:12,422 - ERROR - 분석 오류: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 11:04:22,661 - ERROR - 분석 오류: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 11:04:24,628 - ERROR - 분석 오류: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 11:04:24,653 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 11:04:39,483 - ERROR - 분석 오류: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-26 11:04:43,227 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-26 11:04:43,228 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-26 11:04:43,442 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_110424.csv
+2025-10-26 11:04:43,442 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_110424.csv
+2025-10-26 11:04:43,443 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_110359.csv
+2025-10-26 11:04:43,443 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_110359.csv
+2025-10-26 11:04:43,443 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_110359.csv
+2025-10-26 11:04:43,443 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_110017.csv
+2025-10-26 11:04:43,458 - INFO - 메인 데이터 로드: 2개 이미지
+2025-10-26 11:04:53,942 - INFO - Gemini 분석 결과: landscape, seascape, sunset | 풍경, 바다 풍경, 일몰
+2025-10-26 11:05:03,956 - INFO - Gemini 분석 결과: abstract, background, texture | 추상, 배경, 질감
+2025-10-26 11:05:04,809 - INFO - Gemini 분석 결과: abstract, background, digital art | 추상, 배경, 디지털 아트
+2025-10-26 11:05:04,901 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 11:05:06,455 - INFO - Gemini 분석 결과: Abstract, Texture, Digital Art | 추상, 질감, 디지털 아트
+2025-10-26 11:05:07,145 - INFO - Gemini 분석 결과: abstract, background, texture | 추상, 배경, 질감
+2025-10-26 11:05:08,215 - INFO - Gemini 분석 결과: abstract, background, texture | 추상, 배경, 질감
+2025-10-26 11:05:08,215 - INFO - Gemini 분석 결과: abstract, texture, glitch | 추상, 질감, 글리치
+2025-10-26 11:05:08,874 - INFO - Gemini 분석 결과: abstract, background, texture | 추상, 배경, 질감
+2025-10-26 11:05:08,883 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 11:05:08,980 - INFO - Gemini 분석 결과: abstract, texture, digital art | 추상, 질감, 디지털 아트
+2025-10-26 11:05:08,983 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 11:05:10,555 - INFO - Gemini 분석 결과: Abstract, Texture, Digital Noise | 추상, 질감, 디지털 노이즈
+2025-10-26 11:05:10,561 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 11:05:11,394 - INFO - Gemini 분석 결과: abstract, background, texture | 추상, 배경, 질감
+2025-10-26 11:05:11,397 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 11:05:35,042 - INFO - Gemini 분석 결과: graphic design, typography, branding | 그래픽 디자인, 타이포그래피, 브랜딩
+2025-10-26 11:05:37,854 - INFO - 자동 저장 완료: 2개 이미지
+2025-10-26 11:05:38,293 - INFO - Gemini 분석 결과: branding, graphic design, corporate identity | 브랜딩, 그래픽 디자인, 기업 아이덴티티
+2025-10-26 11:05:38,380 - INFO - Gemini 분석 결과: detail, portrait, texture | 디테일, 인물, 질감
+2025-10-26 11:05:38,728 - INFO - Gemini 분석 결과: marathon, running, advertisement | 마라톤, 러닝, 광고
+2025-10-26 11:05:51,216 - INFO - Gemini 분석 결과: Handwriting, Humor, Quote | 손글씨, 유머, 문구
+2025-10-26 11:05:56,012 - INFO - Gemini 분석 결과: UI/UX Design, Website Design, Travel App | UI/UX 디자인, 웹사이트 디자인, 여행 앱
+2025-10-26 11:05:56,692 - INFO - Gemini 분석 결과: graphic design, typography, affirmation | 그래픽 디자인, 타이포그래피, 동기 부여
+2025-10-26 11:06:01,689 - INFO - Gemini 분석 결과: typography, design, quote | 타이포그래피, 디자인, 문구
+2025-10-26 11:06:01,704 - INFO - 자동 저장 완료: 10개 이미지
+2025-10-26 11:06:20,566 - INFO - 자동 저장 완료: 9개 이미지
+2025-10-26 11:07:01,412 - INFO - Gemini 분석 결과: UI/UX, Web Design, E-Learning | UI/UX, 웹 디자인, 이러닝
+2025-10-26 11:07:01,933 - INFO - Gemini 분석 결과: Glitch Art, Typography, Aesthetic | 글리치 아트, 타이포그래피, 에스테틱
+2025-10-26 11:07:05,883 - INFO - Gemini 분석 결과: Graphic Design, Branding, Minimalist | 그래픽 디자인, 브랜딩, 미니멀리즘
+2025-10-26 11:07:07,632 - INFO - Gemini 분석 결과: Interior, Home Office, Modern Furniture | 인테리어, 홈 오피스, 모던 가구
+2025-10-26 11:07:16,162 - INFO - Gemini 분석 결과: website, software, business | 웹사이트, 소프트웨어, 비즈니스
+2025-10-26 11:07:19,925 - INFO - Gemini 분석 결과: UI/UX, Web Design, Digital Design | UI/UX 디자인, 웹 디자인, 디지털 디자인
+2025-10-26 11:07:24,950 - INFO - Gemini 분석 결과: advertisement, graphic design, running | 광고, 그래픽 디자인, 러닝
+2025-10-26 11:07:44,534 - INFO - Gemini 분석 결과: UI/UX, Web Design, Portfolio | UI/UX, 웹 디자인, 포트폴리오
+2025-10-26 11:07:44,569 - INFO - Gemini 분석 결과: creative coding, graphic design, poster art | 크리에이티브 코딩, 그래픽 디자인, 포스터 아트
+2025-10-26 11:07:45,240 - INFO - Gemini 분석 결과: design, quote, business | 디자인, 명언, 비즈니스
+2025-10-26 11:07:52,304 - INFO - Gemini 분석 결과: typography, glitch art, dark aesthetic | 타이포그래피, 글리치 아트, 다크 미학
+2025-10-26 11:08:14,529 - INFO - Gemini 분석 결과: health, ui/ux design, nutrition | 건강, UI/UX 디자인, 영양
+2025-10-26 11:08:17,204 - INFO - Gemini 분석 결과: UI Design, Web Design, Technology | UI/UX 디자인, 웹 디자인, 기술
+2025-10-26 11:08:18,620 - INFO - Gemini 분석 결과: Graphic Design, Book Cover, Typography | 그래픽 디자인, 책 표지, 타이포그래피
+2025-10-26 11:08:30,107 - INFO - Gemini 분석 결과: graphic design, branding, abstract | 그래픽 디자인, 브랜딩, 추상
+2025-10-26 11:08:51,275 - INFO - Gemini 분석 결과: UI/UX, minimalism, abstract | UI/UX, 미니멀리즘, 추상 디자인
+2025-10-26 11:08:58,071 - INFO - Gemini 분석 결과: Design, Graphic Design, Strategy | 디자인, 그래픽 디자인, 전략
+2025-10-26 11:09:00,969 - INFO - Gemini 분석 결과: Graphic Design, Typography, Poster | 그래픽 디자인, 타이포그래피, 포스터
+2025-10-26 11:09:14,795 - INFO - Gemini 분석 결과: bullet hole, broken glass, damage | 탄흔, 깨진 유리, 파손
+2025-10-26 11:09:37,329 - INFO - Gemini 분석 결과: typography, dream, quote | 타이포그래피, 꿈, 문구
+2025-10-26 11:09:44,610 - INFO - Gemini 분석 결과: Web Design, Branding, UI/UX | 웹 디자인, 브랜딩, UI/UX
+2025-10-26 11:09:51,235 - INFO - Gemini 분석 결과: web design, ui/ux, template | 웹디자인, UI/UX, 템플릿
+2025-10-26 11:10:09,709 - INFO - Gemini 분석 결과: web design, mockup, corporate | 웹 디자인, 목업, 기업
+2025-10-26 11:10:32,217 - INFO - Gemini 분석 결과: art, typography, cat | 미술, 타이포그래피, 고양이
+2025-10-26 11:10:40,700 - INFO - Gemini 분석 결과: Abstract, Minimalism, Geometry | 추상, 미니멀리즘, 기하학
+2025-10-26 11:10:49,310 - INFO - Gemini 분석 결과: Web design, Editorial, Fashion | 웹 디자인, 에디토리얼, 패션
+2025-10-26 11:11:46,245 - INFO - Gemini 분석 결과: Technology, Business, Staffing | 기술, 비즈니스, 인재 채용
+2025-10-26 11:12:04,240 - INFO - Gemini 분석 결과: home studio, interior, workspace | 홈 스튜디오, 인테리어, 작업 공간
+2025-10-26 11:12:14,298 - INFO - Gemini 분석 결과: Branding, Graphic Design, Logo | 브랜딩, 그래픽 디자인, 로고
+2025-10-26 11:23:55,776 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Read timed out. (read timeout=10)
+2025-10-26 11:24:25,456 - INFO - Gemini 분석 결과: animal, pet, abstract | 동물, 반려동물, 추상
+2025-10-26 11:29:52,377 - ERROR - 네트워크 오류: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-10-26 11:30:16,071 - INFO - Gemini 분석 결과: UI/UX Design, Login Screen, Dark Mode | UI/UX 디자인, 로그인 화면, 다크 모드
+2025-10-26 11:40:56,785 - ERROR - 분석 오류: 504 Deadline Exceeded
+2025-10-26 11:40:58,730 - ERROR - 네트워크 오류: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-10-26 11:41:32,531 - INFO - Gemini 분석 결과: UI Design, Web Design, Interface | UI 디자인, 웹 디자인, 인터페이스
+2025-10-26 11:41:58,091 - INFO - Gemini 분석 결과: advertisement, graphic design, nike | 광고, 그래픽 디자인, 나이키
+2025-10-26 11:42:18,501 - INFO - Gemini 분석 결과: Sport, Running, Athlete | 스포츠, 달리기, 운동선수
+2025-10-26 11:42:22,535 - INFO - Gemini 분석 결과: Technology, Laptop, Web Design | 기술, 노트북, 웹 디자인
+2025-10-26 11:57:44,292 - ERROR - 네트워크 오류: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-10-26 11:58:20,706 - INFO - Gemini 분석 결과: running, fitness, dog | 달리기, 피트니스, 강아지
+2025-10-26 11:58:39,759 - INFO - Gemini 분석 결과: logo, branding, corporate identity | 로고, 브랜딩, 기업 아이덴티티
+2025-10-26 11:58:48,179 - INFO - Gemini 분석 결과: quote, typography, inspiration | 문구, 타이포그래피, 영감
+2025-10-26 11:59:17,185 - INFO - Gemini 분석 결과: Abstract, Architecture, Minimalist | 추상, 건축, 미니멀리즘
+2025-10-26 11:59:56,104 - INFO - Gemini 분석 결과: graphic design, advertisement, minimalism | 그래픽 디자인, 광고, 미니멀리즘
+2025-10-26 12:00:19,257 - INFO - Gemini 분석 결과: UI/UX, app design, digital screen | UI/UX, 앱 디자인, 디지털 화면
+2025-10-26 12:00:27,143 - INFO - Gemini 분석 결과: illustration, eye, line art | 일러스트, 눈, 라인 아트
+2025-10-26 12:00:59,193 - INFO - Gemini 분석 결과: technology, nft, mobile | 기술, NFT, 모바일
+2025-10-26 12:01:40,256 - INFO - Gemini 분석 결과: UI/UX, Fitness, Mobile App | UI/UX, 피트니스, 모바일 앱
+2025-10-26 12:02:05,382 - INFO - Gemini 분석 결과: graphic design, abstract, typography | 그래픽 디자인, 추상, 타이포그래피
+2025-10-26 12:02:17,428 - INFO - Gemini 분석 결과: running, marathon, graphic design | 달리기, 마라톤, 그래픽 디자인
+2025-10-26 12:02:58,081 - INFO - Gemini 분석 결과: branding, graphic design, brand guidelines | 브랜딩, 그래픽 디자인, 브랜드 가이드라인
+2025-10-26 12:03:31,769 - INFO - Gemini 분석 결과: web design, branding, moodboard | 웹 디자인, 브랜딩, 무드보드
+2025-10-26 12:03:59,930 - INFO - Gemini 분석 결과: portrait, graphic design, branding | 인물, 그래픽 디자인, 브랜딩
+2025-10-26 12:04:12,935 - INFO - Gemini 분석 결과: logo, typography, branding | 로고, 타이포그래피, 브랜딩
+2025-10-26 12:04:55,431 - INFO - Gemini 분석 결과: Typography, Graphic Design, Branding | 타이포그래피, 그래픽 디자인, 브랜딩
+2025-10-26 12:05:31,272 - INFO - Gemini 분석 결과: Portrait, Distortion, Abstract Art | 인물, 왜곡, 추상 미술
+2025-10-26 12:06:03,733 - INFO - Gemini 분석 결과: ui/ux, website design, corporate design | UI/UX, 웹 디자인, 기업 디자인
+2025-10-26 12:06:16,534 - INFO - Gemini 분석 결과: typography, quote, minimalism | 타이포그래피, 인용구, 미니멀리즘
+2025-10-26 12:07:03,331 - INFO - Gemini 분석 결과: workspace, cozy aesthetic, desk setup | 작업 공간, 아늑한 분위기, 책상 인테리어
+2025-10-26 12:07:38,384 - INFO - Gemini 분석 결과: Technology, Artificial Intelligence, Software | 기술, 인공지능, 소프트웨어
+2025-10-26 12:08:14,500 - INFO - Gemini 분석 결과: Technology, Lighting, Optics | 기술, 조명, 광학
+2025-10-26 12:08:28,938 - INFO - Gemini 분석 결과: vinyl, music, design | 바이닐, 음악, 디자인
+2025-10-26 12:09:17,784 - INFO - Gemini 분석 결과: Interior, Workspace, Studio | 인테리어, 작업 공간, 스튜디오
+2025-10-26 12:09:54,443 - INFO - Gemini 분석 결과: Fintech, UI/UX, Web Design | 핀테크, UI/UX 디자인, 웹 디자인
+2025-10-26 12:10:33,355 - INFO - Gemini 분석 결과: Graphic Design, Motivation, Quote | 그래픽 디자인, 동기 부여, 텍스트
+2025-10-26 12:10:49,125 - INFO - Gemini 분석 결과: UI/UX Design, E-learning, Business Collaboration | UI/UX 디자인, 온라인 교육, 비즈니스 협업
+2025-10-26 12:11:39,814 - INFO - Gemini 분석 결과: typography, graphic design, advertising | 타이포그래피, 그래픽 디자인, 광고
+2025-10-26 12:12:18,420 - INFO - Gemini 분석 결과: flowers, abstract, still life | 꽃, 추상, 정물
+2025-10-26 12:12:56,897 - INFO - Gemini 분석 결과: design, minimalism, quote | 디자인, 미니멀리즘, 명언
+2025-10-26 12:13:17,758 - INFO - Gemini 분석 결과: fashion, design, web design | 패션, 디자인, 웹디자인
+2025-10-26 12:14:11,118 - INFO - Gemini 분석 결과: Graphic Design, Dark Art, Conceptual Art | 그래픽 디자인, 다크 아트, 컨셉 아트
+2025-10-26 12:14:51,077 - INFO - Gemini 분석 결과: music, screenshot, web page | 음악, 스크린샷, 웹 페이지
+2025-10-26 12:15:31,909 - INFO - Gemini 분석 결과: Abstract, Geometric, Minimalism | 추상, 기하학, 미니멀리즘
+2025-10-26 12:15:53,888 - INFO - Gemini 분석 결과: crying, portrait, emotion | 울음, 인물, 감정
+2025-10-26 12:16:49,387 - INFO - Gemini 분석 결과: quote, motivation, empowerment | 명언, 동기 부여, 자기 성장
+2025-10-26 12:17:29,952 - INFO - Gemini 분석 결과: eye, macro, black and white | 눈, 접사, 흑백
+2025-10-26 12:18:15,725 - INFO - Gemini 분석 결과: portrait, artistic, monochrome | 인물, 예술, 흑백
+2025-10-26 12:18:35,248 - INFO - Gemini 분석 결과: web design, user interface, graphic design | 웹디자인, 사용자 인터페이스, 그래픽 디자인
+2025-10-26 12:19:36,086 - INFO - Gemini 분석 결과: Eye, Close-up, Monochrome | 눈, 클로즈업, 흑백
+2025-10-26 12:20:18,399 - INFO - Gemini 분석 결과: Surrealism, Portrait, Collage | 초현실주의, 인물, 콜라주
+2025-10-26 12:21:03,597 - INFO - Gemini 분석 결과: graphic design, typography, poster | 그래픽 디자인, 타이포그래피, 포스터
+2025-10-26 12:21:27,725 - INFO - Gemini 분석 결과: UI/UX Design, E-commerce, Web Design | UI/UX 디자인, 이커머스, 웹 디자인
+2025-10-26 12:22:32,031 - INFO - Gemini 분석 결과: body parts, eye, conceptual | 신체 부위, 눈, 컨셉 사진
+2025-10-26 12:23:12,787 - INFO - Gemini 분석 결과: design, graphic design, layout | 디자인, 그래픽 디자인, 레이아웃
+2025-10-26 12:24:02,452 - INFO - Gemini 분석 결과: technology, software, web service | 기술, 소프트웨어, 웹 서비스
+2025-10-26 12:24:27,232 - INFO - Gemini 분석 결과: Cybersecurity, Technology, Education | 사이버 보안, 기술, 교육
+2025-10-26 12:25:33,484 - INFO - Gemini 분석 결과: UI design, interface, login screen | UI 디자인, 인터페이스, 로그인 화면
+2025-10-26 12:26:16,597 - INFO - Gemini 분석 결과: running, sports, motion blur | 달리기, 스포츠, 모션 블러
+2025-10-26 12:27:08,398 - INFO - Gemini 분석 결과: Portrait, Eye, Close-up | 인물, 눈, 클로즈업
+2025-10-26 12:27:36,773 - INFO - Gemini 분석 결과: graphic design, surrealism, abstract | 그래픽 디자인, 초현실주의, 추상
+2025-10-26 12:28:45,277 - INFO - Gemini 분석 결과: Typography, Graphic Design, Minimalism | 타이포그래피, 그래픽 디자인, 미니멀리즘
+2025-10-26 12:29:30,422 - INFO - Gemini 분석 결과: sports, footwear, branding | 스포츠, 운동화, 브랜딩
+2025-10-26 12:30:24,632 - INFO - Gemini 분석 결과: vinyl, music, record label | 바이닐, 음악, 레코드 레이블
+2025-10-26 12:30:52,639 - INFO - Gemini 분석 결과: interior design, home office, workspace | 인테리어, 홈 오피스, 작업 공간
+2025-10-26 12:32:03,936 - INFO - Gemini 분석 결과: technology, UI/UX, fintech | 기술, UI/UX, 핀테크
+2025-10-26 12:32:51,857 - INFO - Gemini 분석 결과: eye, conceptual art, surrealism | 눈, 컨셉 아트, 초현실주의
+2025-10-26 12:33:47,768 - INFO - Gemini 분석 결과: home office, workspace, interior | 홈 오피스, 작업 공간, 인테리어
+2025-10-26 12:34:16,748 - INFO - Gemini 분석 결과: Graphic Design, Conceptual Art, Typography | 그래픽 디자인, 개념 미술, 타이포그래피
+2025-10-26 12:35:28,940 - INFO - Gemini 분석 결과: UI/UX, Technology, Abstract | UI/UX 디자인, 기술, 추상
+2025-10-26 12:36:17,373 - INFO - Gemini 분석 결과: website, web design, technology | 웹사이트, 웹 디자인, 디지털
+2025-10-26 12:37:18,301 - INFO - Gemini 분석 결과: website, user interface, software | 웹사이트, 사용자 인터페이스, 소프트웨어
+2025-10-26 12:37:46,462 - INFO - Gemini 분석 결과: design, web design, mockup | 디자인, 웹 디자인, 목업
+2025-10-26 12:39:04,798 - INFO - Gemini 분석 결과: apparel, t-shirt, fashion | 의류, 티셔츠, 패션
+2025-10-26 12:39:52,207 - INFO - Gemini 분석 결과: still life, conceptual, furniture | 정물, 컨셉, 가구
+2025-10-26 12:40:56,309 - INFO - Gemini 분석 결과: software, web design, user interface | 소프트웨어, 웹 디자인, 사용자 인터페이스
+2025-10-26 12:41:25,291 - INFO - Gemini 분석 결과: graphic design, portfolio, minimalism | 그래픽 디자인, 포트폴리오, 미니멀리즘
+2025-10-26 12:42:49,462 - INFO - Gemini 분석 결과: branding, abstract, lifestyle | 브랜딩, 추상, 라이프스타일
+2025-10-26 12:43:37,638 - INFO - Gemini 분석 결과: Art, graffiti, typography | 미술, 그래피티, 타이포그래피
+2025-10-26 12:44:42,511 - INFO - Gemini 분석 결과: sports, running, urban | 스포츠, 달리기, 도시
+2025-10-26 12:45:12,719 - INFO - Gemini 분석 결과: abstract, conceptual, art | 추상, 개념적, 예술
+2025-10-26 12:46:40,646 - INFO - Gemini 분석 결과: web design, minimalism, architecture | 웹디자인, 미니멀리즘, 건축
+2025-10-26 12:47:30,721 - INFO - Gemini 분석 결과: User Interface, Technology, Mobile App | 사용자 인터페이스, 기술, 모바일 앱
+2025-10-26 12:48:36,053 - INFO - Gemini 분석 결과: UI/UX, web design, digital | UI/UX, 웹 디자인, 디지털
+2025-10-26 12:49:08,615 - INFO - Gemini 분석 결과: abstract, minimalism, geometry | 추상, 미니멀리즘, 기하학
+2025-10-26 12:50:42,005 - INFO - Gemini 분석 결과: Typography, Quote, Inspiration | 타이포그래피, 문구, 영감
+2025-10-26 12:51:29,931 - INFO - Gemini 분석 결과: Fashion, Website Template, Photography | 패션, 웹사이트 템플릿, 사진
+2025-10-26 12:52:39,357 - INFO - Gemini 분석 결과: Typography, Graphic Design, Quote | 타이포그래피, 그래픽 디자인, 명언
+2025-10-26 12:53:14,890 - INFO - Gemini 분석 결과: Interior Design, Texture, Fluted Glass | 인테리어 디자인, 질감, 플루티드 글라스
+2025-10-26 12:54:49,611 - INFO - Gemini 분석 결과: Graphic Design, Branding, Typography | 그래픽 디자인, 브랜딩, 타이포그래피
+2025-10-26 12:55:38,915 - INFO - Gemini 분석 결과: science, biomechanics, data visualization | 과학, 생체역학, 데이터 시각화
+2025-10-26 12:56:50,344 - INFO - Gemini 분석 결과: Web Design, Branding, Graphic Design | 웹디자인, 브랜딩, 그래픽 디자인
+2025-10-26 12:57:26,865 - INFO - Gemini 분석 결과: design, strategy, infographic | 디자인, 전략, 인포그래픽
+2025-10-26 13:24:50,798 - ERROR - 네트워크 오류: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-10-26 13:25:49,354 - INFO - Gemini 분석 결과: portrait, emotion, crying | 인물, 감정, 눈물
+2025-10-26 13:27:00,728 - INFO - Gemini 분석 결과: art, portrait, monochrome | 예술, 인물, 흑백
+2025-10-26 13:27:41,380 - INFO - Gemini 분석 결과: minimalism, abstract, glass | 미니멀리즘, 추상, 유리
+2025-10-26 13:29:10,368 - INFO - Gemini 분석 결과: Abstract, Background, Pattern | 추상, 배경, 패턴
+2025-10-26 13:30:14,286 - INFO - Gemini 분석 결과: Urban, Cafe, Storefront | 도시, 카페, 상점
+2025-10-26 13:31:29,430 - INFO - Gemini 분석 결과: Architecture, Garden, Luxury Design | 건축, 조경, 고급 디자인
+2025-10-26 13:32:09,265 - INFO - Gemini 분석 결과: Icon Set, Lifestyle, Illustration | 아이콘 세트, 라이프스타일, 일러스트
+2025-10-26 13:33:42,040 - INFO - Gemini 분석 결과: collage, conceptual art, lingerie | 콜라주, 개념 미술, 란제리
+2025-10-26 13:34:48,098 - INFO - Gemini 분석 결과: Fashion, Portrait, Editorial | 패션, 인물사진, 에디토리얼
+2025-10-26 13:36:04,379 - INFO - Gemini 분석 결과: Art, Sculpture, Modern Art | 예술, 조각, 현대미술
+2025-10-26 13:36:45,751 - INFO - Gemini 분석 결과: abstract, minimalist, gradient | 추상, 미니멀리즘, 그라데이션
+2025-10-26 13:38:20,060 - INFO - Gemini 분석 결과: Architecture, Interior, Light and Shadow | 건축, 실내, 빛과 그림자
+2025-10-26 13:39:30,820 - INFO - Gemini 분석 결과: fashion, editorial, magazine | 패션, 화보, 잡지
+2025-10-26 13:40:47,917 - INFO - Gemini 분석 결과: digital_art, abstract, 3d_rendering | 디지털 아트, 추상, 3D 렌더링
+2025-10-26 13:41:29,615 - INFO - Gemini 분석 결과: animal, wolf, wildlife | 동물, 늑대, 야생동물
+2025-10-26 13:43:07,756 - INFO - Gemini 분석 결과: vase, ceramics, home decor | 화병, 도자기, 인테리어
+2025-10-26 13:44:20,012 - INFO - Gemini 분석 결과: architecture, new york city, cityscape | 건축, 뉴욕, 도시,
+2025-10-26 13:45:36,999 - INFO - Gemini 분석 결과: art, publication, design | 미술, 출판물, 디자인
+2025-10-26 13:46:22,284 - INFO - Gemini 분석 결과: Love, Romance, Confession | 사랑, 로맨스, 고백
+2025-10-26 13:48:04,579 - INFO - Gemini 분석 결과: Abstract Art, Graphic Design, Retro | 추상, 그래픽 디자인, 레트로
+2025-10-26 13:49:17,400 - INFO - Gemini 분석 결과: magazine, journalism, portrait | 잡지, 저널리즘, 인물사진
+2025-10-26 13:50:37,262 - INFO - Gemini 분석 결과: transportation, subway, interior | 교통, 지하철, 내부
+2025-10-26 13:51:25,012 - INFO - Gemini 분석 결과: nature, palm tree, sunset | 자연, 야자수, 일몰
+2025-10-26 13:53:08,714 - INFO - Gemini 분석 결과: tradition, festival, graphic design | 전통, 축제, 그래픽 디자인
+2025-10-26 13:54:20,803 - INFO - Gemini 분석 결과: Surrealism, Identity, Monochrome | 초현실주의, 정체성, 흑백
+2025-10-26 13:55:43,701 - INFO - Gemini 분석 결과: fashion, advertisement, model | 패션, 광고, 모델
+2025-10-26 13:56:32,906 - INFO - Gemini 분석 결과: city, aerial view, skyline | 도시, 항공 촬영, 스카이라인
+2025-10-26 13:58:19,641 - INFO - Gemini 분석 결과: art, abstract, minimalism | 미술, 추상, 미니멀리즘
+2025-10-26 13:59:32,467 - INFO - Gemini 분석 결과: book, design, editorial | 책, 디자인, 편집
+2025-10-26 14:00:58,737 - INFO - Gemini 분석 결과: Portrait, Fashion, Celebrity | 인물, 패션, 화보
+2025-10-26 14:01:49,631 - INFO - Gemini 분석 결과: acoustics, scientific illustration, physics diagram | 음향학, 과학 삽화, 물리학 도표
+2025-10-26 14:03:38,998 - INFO - Gemini 분석 결과: nature, ocean, sunset | 자연, 바다, 일몰
+2025-10-26 14:04:55,117 - INFO - Gemini 분석 결과: digital art, abstract, cyberpunk | 디지털 아트, 추상, 사이버펑크
+2025-10-26 14:06:19,359 - INFO - Gemini 분석 결과: Abstract, Technology, Pattern | 추상, 기술, 패턴
+2025-10-26 14:07:11,480 - INFO - Gemini 분석 결과: graphic design, abstract, minimalism | 그래픽 디자인, 추상, 미니멀리즘
+2025-10-26 14:09:07,198 - INFO - Gemini 분석 결과: portrait, fashion, conceptual | 인물, 패션, 컨셉 사진
+2025-10-26 14:10:23,073 - INFO - Gemini 분석 결과: logo, graphic design, typography | 로고, 그래픽 디자인, 타이포그래피
+2025-10-26 14:11:50,626 - INFO - Gemini 분석 결과: architecture, courtyard, riad | 건축, 중정, 리아드
+2025-10-26 14:12:43,671 - INFO - Gemini 분석 결과: abstract, digital art, minimalism | 추상, 디지털 아트, 미니멀리즘
+2025-10-26 14:14:41,128 - INFO - Gemini 분석 결과: Fashion, Model, Editorial | 패션, 모델, 화보
+2025-10-26 14:15:58,335 - INFO - Gemini 분석 결과: Fashion, Editorial, Portrait | 패션, 화보, 스타일
+2025-10-26 14:17:26,359 - INFO - Gemini 분석 결과: science, fluid dynamics, high speed photography | 과학, 유체 역학, 고속 촬영
+2025-10-26 14:18:25,385 - INFO - Gemini 분석 결과: bridge, architecture, city life | 다리, 건축, 도시 풍경
+2025-10-26 14:20:22,840 - INFO - Gemini 분석 결과: fire, explosion, danger | 화염, 폭발, 위험
+2025-10-26 14:21:43,539 - INFO - Gemini 분석 결과: Anime, Digital Art, Abstract | 애니메이션, 디지털 아트, 추상
+2025-10-26 14:23:12,827 - INFO - Gemini 분석 결과: artwork, conceptual art, minimalism | 예술 작품, 개념 미술, 미니멀리즘
+2025-10-26 14:24:12,220 - INFO - Gemini 분석 결과: Abstract, Pattern, Texture | 추상, 패턴, 질감
+2025-10-26 14:26:14,591 - INFO - Gemini 분석 결과: Jujutsu Kaisen, Anime, Pop Culture | 주술회전, 애니메이션, 대중문화
+2025-10-26 14:27:36,614 - INFO - Gemini 분석 결과: abstract, minimalism, nature | 추상, 미니멀리즘, 자연
+2025-10-26 14:29:06,649 - INFO - Gemini 분석 결과: shopping bag, packaging, graphic design | 쇼핑백, 포장재, 그래픽 디자인
+2025-10-26 14:30:10,032 - INFO - Gemini 분석 결과: graphic design, typography, editorial design | 그래픽 디자인, 타이포그래피, 편집 디자인
+2025-10-26 14:32:15,068 - INFO - Gemini 분석 결과: nature, landscape, mountain | 자연, 풍경, 산
+2025-10-26 14:33:37,881 - INFO - Gemini 분석 결과: architecture, landscape, travel | 건축, 풍경, 여행
+2025-10-26 14:35:10,579 - INFO - Gemini 분석 결과: Architecture, Gas Station, Winter | 건축, 주유소, 겨울
+2025-10-26 14:36:14,579 - INFO - Gemini 분석 결과: animal, cat, pet | 동물, 고양이, 반려동물
+2025-10-26 14:38:25,752 - INFO - Gemini 분석 결과: fashion, portrait, magazine_cover | 패션, 인물사진, 잡지표지
+2025-10-26 14:39:47,586 - INFO - Gemini 분석 결과: Graphic Design, Poster, Exhibition | 그래픽 디자인, 포스터, 전시회
+2025-10-26 14:41:20,449 - INFO - Gemini 분석 결과: architecture, landscape, coast | 건축, 풍경, 해변
+2025-10-26 14:42:27,417 - INFO - Gemini 분석 결과: Winter, Architecture, Landscape | 겨울, 건축, 풍경
+2025-10-26 14:44:41,868 - INFO - Gemini 분석 결과: Recreation, Outdoor, Swing | 여가, 야외, 그네
+2025-10-26 14:46:04,300 - INFO - Gemini 분석 결과: Abstract, Pattern, Geometric | 추상, 패턴, 기하학적
+2025-10-26 14:47:32,662 - ERROR - 분석 오류: cannot identify image file <_io.BytesIO object at 0x140816750>
+2025-10-26 14:48:40,746 - ERROR - 분석 오류: cannot identify image file <_io.BytesIO object at 0x140816750>
+2025-10-26 14:51:07,688 - INFO - Gemini 분석 결과: collage, abstract, sensual | 콜라주, 추상, 관능적
+2025-10-26 14:52:35,548 - INFO - Gemini 분석 결과: art, sculpture, abstract | 미술, 조각, 추상
+2025-10-26 14:53:57,773 - INFO - Gemini 분석 결과: icon, ui, vector | 아이콘, 인터페이스, 벡터
+2025-10-26 14:55:08,027 - INFO - Gemini 분석 결과: Graphic Design, Logo, Minimalism | 그래픽 디자인, 로고, 미니멀리즘
+2025-10-26 14:57:38,547 - INFO - Gemini 분석 결과: interior, home decor, vanity | 인테리어, 홈데코, 화장대
+2025-10-26 14:59:08,446 - INFO - Gemini 분석 결과: Architecture, Luxury Home, Landscape | 건축, 럭셔리 주택, 풍경
+2025-10-26 15:00:31,870 - INFO - Gemini 분석 결과: abstract, minimalism, graphic design | 추상, 미니멀리즘, 그래픽 디자인
+2025-10-26 15:01:44,715 - INFO - Gemini 분석 결과: Abstract, 3D, Fluid | 추상, 3D, 유체
+2025-10-26 15:04:19,543 - INFO - Gemini 분석 결과: nature, landscape, winter | 자연, 풍경, 겨울
+2025-10-26 15:05:47,831 - INFO - Gemini 분석 결과: abstract, water, refraction | 추상, 물, 굴절
+2025-10-26 15:07:14,906 - INFO - Gemini 분석 결과: Architecture, Interior Design, Storefront | 건축, 인테리어, 상점
+2025-10-26 15:08:29,318 - INFO - Gemini 분석 결과: architecture, interior, minimalism | 건축, 인테리어, 미니멀리즘
+2025-10-26 15:11:06,295 - INFO - Gemini 분석 결과: seascape, ocean, sailboat | 바다 풍경, 바다, 요트
+2025-10-26 15:12:36,409 - INFO - Gemini 분석 결과: abstract, graphic, organic | 추상, 그래픽, 유기적인
+2025-10-26 15:14:06,213 - INFO - Gemini 분석 결과: Abstract, Geometric, Minimalism | 추상, 기하학, 미니멀리즘
+2025-10-26 15:15:24,754 - INFO - Gemini 분석 결과: spa, travel, relaxation | 스파, 여행, 휴식
+2025-10-26 15:18:01,119 - INFO - Gemini 분석 결과: portrait, fashion, street | 인물, 패션, 스트리트
+2025-10-26 15:19:33,760 - INFO - Gemini 분석 결과: Typography, lettering, design | 타이포그래피, 레터링, 디자인
+2025-10-26 15:21:07,282 - INFO - Gemini 분석 결과: nature, travel, coast | 자연, 여행, 해안
+2025-10-26 15:22:27,358 - INFO - Gemini 분석 결과: Cityscape, Skyline, Night | 도시 풍경, 스카이라인, 야경
+2025-10-26 15:25:05,732 - INFO - Gemini 분석 결과: interior design, swimming pool, luxury | 인테리어, 수영장, 럭셔리
+2025-10-26 15:26:37,751 - INFO - Gemini 분석 결과: Graphic Design, Poster, Modern Art | 그래픽 디자인, 포스터, 현대 미술
+2025-10-26 15:28:15,134 - INFO - Gemini 분석 결과: Architecture, Swimming Pool, Tropical | 건축, 수영장, 휴양
+2025-10-26 15:29:35,850 - INFO - Gemini 분석 결과: nature, beach, palm tree | 자연, 해변, 야자수
+2025-10-26 15:32:16,289 - INFO - Gemini 분석 결과: Conceptual Photography, Solitude, Minimalism | 개념 사진, 고독, 미니멀리즘
+2025-10-26 15:33:51,224 - INFO - Gemini 분석 결과: Abstract, Monochrome, Water | 추상, 흑백, 물
+2025-10-26 15:35:31,771 - INFO - Gemini 분석 결과: Interior Design, Lighting, Sculptural | 인테리어, 조명, 조형물
+2025-10-26 15:36:53,382 - INFO - Gemini 분석 결과: fashion, model, apparel | 패션, 모델, 의류
+2025-10-26 15:39:35,500 - INFO - Gemini 분석 결과: Technology, UI/UX, Smartphone | 테크놀로지, UI/UX 디자인, 스마트폰
+2025-10-26 15:41:10,124 - INFO - Gemini 분석 결과: Abstract, Space, Pattern | 추상, 우주, 패턴
+2025-10-26 15:42:53,959 - INFO - Gemini 분석 결과: Neon, Landscape, Music | 네온, 풍경, 음악
+2025-10-26 15:44:18,133 - INFO - Gemini 분석 결과: hand, seashell, self-care | 손, 조개, 자기관리
+2025-10-26 15:47:05,763 - INFO - Gemini 분석 결과: Performing Arts, Dance, Theatre | 공연 예술, 무용, 연극
+2025-10-26 15:48:42,327 - INFO - Gemini 분석 결과: architecture, courtyard, swimming pool | 건축, 중정, 수영장
+2025-10-26 15:50:28,210 - INFO - Gemini 분석 결과: portrait, fashion, conceptual | 인물, 패션, 컨셉
+2025-10-26 15:51:49,516 - INFO - Gemini 분석 결과: Abstract, Water, Macro | 추상, 물, 접사
+2025-10-26 15:54:42,165 - INFO - Gemini 분석 결과: abstract, painting, color field painting | 추상, 회화, 색면 추상
+2025-10-26 15:56:22,003 - INFO - Gemini 분석 결과: person, tomato, food | 인물, 토마토, 음식
+2025-10-26 15:58:08,704 - INFO - Gemini 분석 결과: nature, landscape, selective coloring | 자연, 풍경, 선택적 색상
+2025-10-26 15:59:27,798 - INFO - Gemini 분석 결과: architecture, interior design, minimalism | 건축, 인테리어 디자인, 미니멀리즘
+2025-10-26 16:02:26,824 - INFO - Gemini 분석 결과: bonsai, graphic design, japanese | 분재, 그래픽 디자인, 동양
+2025-10-26 16:04:09,457 - INFO - Gemini 분석 결과: mesh bag, filtration media bag, utility pouch | 메쉬백, 여과백, 다용도 주머니
+2025-10-26 16:05:54,116 - INFO - Gemini 분석 결과: portrait, abstract, monochrome | 인물사진, 추상, 흑백
+2025-10-26 16:07:17,163 - INFO - Gemini 분석 결과: interface, social media, web design | 인터페이스, 소셜 미디어, 웹 디자인
+2025-10-26 16:10:18,106 - INFO - Gemini 분석 결과: animal, goat, farm animal | 동물, 염소, 가축
+2025-10-26 16:12:02,862 - INFO - Gemini 분석 결과: Digital Art, 3D Render, Surrealism | 디지털 아트, 3D 그래픽, 초현실
+2025-10-26 16:13:51,100 - INFO - Gemini 분석 결과: botany, scientific illustration, plant anatomy | 식물학, 과학 삽화, 식물 해부
+2025-10-26 16:15:14,351 - INFO - Gemini 분석 결과: quote, motivation, self-improvement | 명언, 동기부여, 자기계발
+2025-10-26 16:18:16,310 - INFO - Gemini 분석 결과: abstract, geometry, motion | 추상, 기하학, 움직임
+2025-10-26 16:20:05,068 - INFO - Gemini 분석 결과: graphic design, branding, web design | 그래픽 디자인, 브랜딩, 웹디자인
+2025-10-26 16:21:54,945 - INFO - Gemini 분석 결과: film, movie poster, synthwave | 영화, 영화 포스터, 신스웨이브
+2025-10-26 16:23:21,269 - INFO - Gemini 분석 결과: Etiquette, Lifestyle, Personal_Growth | 에티켓, 라이프스타일, 자기계발
+2025-10-26 16:26:24,977 - INFO - Gemini 분석 결과: abstract, glitch, monochrome | 추상, 글리치, 흑백
+2025-10-26 16:28:13,521 - INFO - Gemini 분석 결과: Social Media, User Interface, Technology | 소셜 미디어, 사용자 인터페이스, 기술
+2025-10-26 16:30:07,290 - INFO - Gemini 분석 결과: document, fashion, theory | 문서, 패션, 이론
+2025-10-26 16:31:34,328 - INFO - Gemini 분석 결과: Tattoo, Body Art, Sketch | 타투, 보디 아트, 스케치
+2025-10-26 16:34:42,952 - INFO - Gemini 분석 결과: icon, ui, neon | 아이콘, UI, 네온
+2025-10-26 16:36:30,375 - INFO - Gemini 분석 결과: earth, space, ecology | 지구, 우주, 환경
+2025-10-26 16:38:26,390 - INFO - Gemini 분석 결과: Pottery, Still life, Vessel | 도예, 정물, 항아리
+2025-10-26 16:39:54,865 - INFO - Gemini 분석 결과: Graphic Design, Poster, Typography | 그래픽 디자인, 포스터, 타이포그래피
+2025-10-26 16:43:07,277 - INFO - Gemini 분석 결과: texture, puddle, monochrome | 질감, 물웅덩이, 흑백
+2025-10-26 16:44:54,702 - INFO - Gemini 분석 결과: Fashion, Handbag, Conceptual | 패션, 핸드백, 컨셉 사진
+2025-10-26 16:46:51,951 - INFO - Gemini 분석 결과: Interior Design, Lighting, Sculptural | 인테리어, 조명, 장식
+2025-10-26 16:48:25,459 - INFO - Gemini 분석 결과: nature, travel, sea | 자연, 여행, 바다
+2025-10-26 16:51:30,736 - ERROR - 분석 오류: cannot identify image file <_io.BytesIO object at 0x1407efce0>
+2025-10-26 16:53:21,340 - ERROR - 분석 오류: cannot identify image file <_io.BytesIO object at 0x1407ed850>
+2025-10-26 16:55:27,542 - INFO - Gemini 분석 결과: cityscape, dark, aesthetic | 도시 풍경, 야경, 감성
+2025-10-26 16:57:02,057 - INFO - Gemini 분석 결과: graphic design, poster, typography | 그래픽 디자인, 포스터, 타이포그래피
+2025-10-26 17:00:08,042 - INFO - Gemini 분석 결과: landscape, house, isolation | 풍경, 집, 고립
+2025-10-26 17:02:01,477 - INFO - Gemini 분석 결과: architecture, outdoor living, sunset | 건축, 야외 인테리어, 일몰
+2025-10-26 17:04:11,118 - INFO - Gemini 분석 결과: Graphic Design, Typography, Poster | 그래픽 디자인, 타이포그래피, 포스터
+2025-10-26 17:05:47,133 - INFO - Gemini 분석 결과: landscape, winter, ice | 풍경, 겨울, 얼음
+2025-10-26 17:08:54,052 - INFO - Gemini 분석 결과: abstract, background, texture | 추상, 배경, 질감
+2025-10-26 17:10:50,072 - INFO - Gemini 분석 결과: payphone, desert, vintage | 공중전화, 사막, 빈티지
+2025-10-26 17:13:02,681 - INFO - Gemini 분석 결과: Lighting, Interior, Lamp | 조명, 인테리어, 램프
+2025-10-26 17:14:41,395 - INFO - Gemini 분석 결과: Abstract, Painting, Contemporary | 추상, 회화, 현대미술
+2025-10-26 17:17:49,121 - INFO - Gemini 분석 결과: fashion, portrait, magazine cover | 패션, 인물사진, 잡지 표지
+2025-10-26 17:19:48,726 - INFO - Gemini 분석 결과: fashion, magazine cover, portrait | 패션, 잡지 표지, 인물
+2025-10-26 17:22:02,672 - INFO - Gemini 분석 결과: Architecture, Skyscraper, New York City | 건축, 마천루, 뉴욕
+2025-10-26 17:23:40,667 - INFO - Gemini 분석 결과: Graphic Design, Typography, Minimalist | 그래픽 디자인, 타이포그래피, 미니멀리즘
+2025-10-26 17:26:55,202 - INFO - Gemini 분석 결과: hand, plastic bag, water | 손, 비닐봉지, 물
+2025-10-26 17:28:53,503 - INFO - Gemini 분석 결과: design, typography, print | 디자인, 타이포그래피, 인쇄물
+2025-10-26 17:31:08,776 - INFO - Gemini 분석 결과: car, classic car, luxury car | 자동차, 클래식카, 럭셔리카
+2025-10-26 17:32:49,865 - INFO - Gemini 분석 결과: candle, still life, design | 양초, 정물, 디자인
+2025-10-26 17:36:06,064 - INFO - Gemini 분석 결과: abstract, texture, monochrome | 추상, 질감, 단색
+2025-10-26 17:38:06,387 - INFO - Gemini 분석 결과: interior, hallway, art installation | 인테리어, 복도, 설치미술
+2025-10-26 17:40:23,811 - INFO - Gemini 분석 결과: nature, sunset, ocean | 자연, 일몰, 바다
+2025-10-26 17:42:08,875 - INFO - Gemini 분석 결과: landscape, minimalism, graphic design | 풍경, 미니멀리즘, 그래픽 디자인
+2025-10-26 17:45:26,409 - INFO - Gemini 분석 결과: nature, tree, garden | 자연, 나무, 정원
+2025-10-26 17:47:26,118 - INFO - Gemini 분석 결과: Car, Classic Car, Monochrome | 자동차, 클래식카, 흑백
+2025-10-26 17:49:47,147 - INFO - Gemini 분석 결과: installation art, abstract, minimalism | 설치 미술, 추상, 미니멀리즘
+2025-10-26 17:51:32,710 - INFO - Gemini 분석 결과: literature, research, digital library | 문학, 연구, 디지털 도서관
+2025-10-26 17:54:52,394 - INFO - Gemini 분석 결과: architecture, minimalism, winter | 건축, 미니멀리즘, 겨울
+2025-10-26 17:56:55,071 - INFO - Gemini 분석 결과: Home Decor, Candle, Sconce | 홈 데코, 양초, 벽등
+2025-10-26 17:59:17,205 - INFO - Gemini 분석 결과: Sculpture, Abstract Art, Modern Art | 조각, 추상 미술, 현대 미술
+2025-10-26 18:01:05,444 - INFO - Gemini 분석 결과: landscape, minimalism, reflection | 풍경, 미니멀리즘, 반영
+2025-10-26 18:04:26,793 - INFO - Gemini 분석 결과: cityscape, New York City, architecture | 도시 풍경, 뉴욕, 건축물
+2025-10-26 18:06:30,571 - INFO - Gemini 분석 결과: icons, graphic design, UI/UX | 아이콘, 그래픽 디자인, UI/UX
+2025-10-26 18:08:56,597 - INFO - Gemini 분석 결과: texture, ice, abstract | 질감, 얼음, 추상
+2025-10-26 18:10:46,841 - INFO - Gemini 분석 결과: plastic bag, shopping, product | 비닐 봉투, 쇼핑, 상품
+2025-10-26 18:14:09,334 - INFO - Gemini 분석 결과: minimalism, solitude, black and white | 미니멀리즘, 고독, 흑백
+2025-10-26 18:16:14,672 - INFO - Gemini 분석 결과: nature, lifestyle, women | 자연, 라이프스타일, 여성
+2025-10-26 18:18:45,617 - INFO - Gemini 분석 결과: tokyo, typography, design | 도쿄, 타이포그래피, 디자인
+2025-10-26 18:20:38,720 - INFO - Gemini 분석 결과: Pottery, Still Life, Rustic | 도자기, 정물, 빈티지
+2025-10-26 18:24:01,166 - INFO - Gemini 분석 결과: candles, religion, atmosphere | 촛불, 종교, 분위기
+2025-10-26 18:26:30,974 - INFO - Gemini 분석 결과: fashion, portrait, beauty | 패션, 인물, 뷰티
+2025-10-26 18:29:06,440 - INFO - Gemini 분석 결과: city, car, street | 도시, 자동차, 거리
+2025-10-26 18:31:03,739 - INFO - Gemini 분석 결과: architecture, tropical, luxury retreat | 건축, 열대림, 럭셔리 숙소
+2025-10-26 18:34:27,282 - INFO - Gemini 분석 결과: poster, graphic design, typography | 포스터, 그래픽 디자인, 타이포그래피
+2025-10-26 18:36:34,497 - INFO - Gemini 분석 결과: Abstract, Digital Art, Pattern | 추상, 디지털 아트, 패턴
+2025-10-26 18:39:08,325 - INFO - Gemini 분석 결과: Animal, Horse, Black and White | 동물, 말, 흑백
+2025-10-26 18:41:09,540 - INFO - Gemini 분석 결과: Digital Art, Glitch Art, Typography | 디지털 아트, 글리치 아트, 타이포그래피
+2025-10-26 18:44:37,123 - INFO - Gemini 분석 결과: architecture, bookstore, typography | 건축, 서점, 타이포그래피
+2025-10-26 18:46:44,611 - INFO - Gemini 분석 결과: architecture, modern house, nature | 건축, 모던 주택, 자연
+2025-10-26 18:49:20,612 - INFO - Gemini 분석 결과: portrait, fashion, flowers | 인물, 패션, 꽃
+2025-10-26 18:51:22,427 - INFO - Gemini 분석 결과: Nature, Sea, Travel | 자연, 바다, 여행
+2025-10-26 18:54:52,883 - INFO - Gemini 분석 결과: vehicle, truck, monochrome | 차량, 트럭, 흑백
+2025-10-26 18:57:03,840 - INFO - Gemini 분석 결과: Architecture, Winter, Landscape | 건축, 겨울, 풍경
+2025-10-26 18:59:39,709 - INFO - Gemini 분석 결과: portrait, artistic, butterfly | 인물, 화보, 나비
+2025-10-26 19:01:43,672 - INFO - Gemini 분석 결과: architecture, design, structure | 건축, 디자인, 구조
+2025-10-26 19:20:38,211 - INFO - Gemini 분석 결과: Drama, Conceptual, Nature | 드라마, 컨셉사진, 자연
+2025-10-26 19:22:48,690 - INFO - Gemini 분석 결과: abstract, neon, dark | 추상, 네온, 다크
+2025-10-26 19:25:27,516 - INFO - Gemini 분석 결과: Astronomy, Solar System, Scientific Illustration | 천문학, 태양계, 과학 삽화
+2025-10-26 19:27:30,704 - INFO - Gemini 분석 결과: abstract, generative art, minimalism | 추상, 생성 예술, 미니멀리즘
+2025-10-26 19:31:09,332 - INFO - Gemini 분석 결과: interior, architecture, minimalism | 인테리어, 건축, 미니멀리즘
+2025-10-26 19:33:21,086 - INFO - Gemini 분석 결과: nature, iceberg, penguin | 자연, 빙산, 펭귄
+2025-10-26 19:36:02,777 - INFO - Gemini 분석 결과: Collage, Grunge, Typography | 콜라주, 그런지, 타이포그래피
+2025-10-26 19:38:07,604 - INFO - Gemini 분석 결과: Portrait, Fashion, Celebrity | 인물사진, 패션, 유명인
+2025-10-26 19:41:47,775 - INFO - Gemini 분석 결과: Architecture, Mountain, Modern Design | 건축, 산, 현대 디자인
+2025-10-26 19:44:03,037 - INFO - Gemini 분석 결과: pool, architecture, spa | 수영장, 건축, 스파
+2025-10-26 19:46:46,367 - INFO - Gemini 분석 결과: Abstract, Form, Black and White | 추상, 형태, 흑백
+2025-10-26 19:48:53,242 - INFO - Gemini 분석 결과: Abstract, Monochrome, Minimalism | 추상, 단색, 미니멀리즘
+2025-10-26 19:52:35,760 - INFO - Gemini 분석 결과: Science, Diagram, Physics | 과학, 도표, 물리학
+2025-10-26 19:54:52,363 - INFO - Gemini 분석 결과: Interior Design, Furniture, Modern Design | 인테리어, 가구, 모던 디자인
+2025-10-26 19:57:38,355 - INFO - Gemini 분석 결과: Art, Painting, Crowd | 미술, 회화, 군중
+2025-10-26 19:59:47,585 - INFO - Gemini 분석 결과: portrait, fashion, conceptual | 인물, 패션, 컨셉
+2025-10-26 20:03:30,615 - INFO - Gemini 분석 결과: Thermal bath, people, chess | 온천, 사람들, 체스
+2025-10-26 20:05:48,041 - INFO - Gemini 분석 결과: Conceptual, Fine Art, Monochrome | 컨셉츄얼, 순수 미술, 흑백
+2025-10-26 20:08:36,024 - INFO - Gemini 분석 결과: Design, Lighting, Sculpture | 디자인, 조명, 조각
+2025-10-26 20:10:49,352 - INFO - Gemini 분석 결과: graphic design, editorial design, conceptual art | 그래픽 디자인, 편집 디자인, 개념 미술
+2025-10-26 20:14:34,022 - INFO - Gemini 분석 결과: nature, seascape, aerial view | 자연, 해안, 항공 뷰
+2025-10-26 20:16:52,777 - INFO - Gemini 분석 결과: nature, palm tree, silhouette | 자연, 야자수, 실루엣
+2025-10-26 20:34:42,348 - INFO - Gemini 분석 결과: Abstract Art, Glitch Art, Technical Diagram | 추상 미술, 글리치 아트, 기술 다이어그램
+2025-10-26 21:02:07,293 - ERROR - 네트워크 오류: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-10-26 21:06:02,502 - INFO - Gemini 분석 결과: nature, ice, water | 자연, 얼음, 물
+2025-10-26 21:08:24,629 - INFO - Gemini 분석 결과: cityscape, skyline, bridge | 도시 풍경, 스카이라인, 다리
+2025-10-26 21:11:16,253 - INFO - Gemini 분석 결과: UI/UX, productivity, mobile app | UI/UX, 생산성, 모바일 앱
+2025-10-26 21:13:22,577 - INFO - Gemini 분석 결과: quote, motivation, typography | 명언, 동기 부여, 타이포그래피
+2025-10-26 21:17:20,209 - INFO - Gemini 분석 결과: flag, symbol, politics | 깃발, 상징, 정치
+2025-10-26 21:19:47,665 - INFO - Gemini 분석 결과: New York, Architecture, City | 뉴욕, 건축, 도시
+2025-10-26 21:22:40,236 - INFO - Gemini 분석 결과: fashion, portrait, editorial | 패션, 인물사진, 화보
+2025-10-26 21:24:47,005 - INFO - Gemini 분석 결과: car, vintage, transportation | 자동차, 빈티지, 교통수단
+2025-10-26 21:28:47,219 - INFO - Gemini 분석 결과: quote, motivation, typography | 명언, 동기 부여, 타이포그래피
+2025-10-26 21:31:17,037 - INFO - Gemini 분석 결과: Activism, Feminism, History | 사회 운동, 페미니즘, 역사
+2025-10-26 21:34:12,770 - INFO - Gemini 분석 결과: Absurd, Humor, Poster | 부조리, 유머, 포스터
+2025-10-26 21:36:19,935 - INFO - Gemini 분석 결과: Mountain, Winter, Mountaineering | 산, 겨울, 등반
+2025-10-26 21:40:22,318 - INFO - Gemini 분석 결과: Abstract, Background, Gradient | 추상, 배경, 그라데이션
+2025-10-26 21:42:54,383 - INFO - Gemini 분석 결과: travel, luxury, swimming pool | 여행, 럭셔리, 수영장
+2025-10-26 21:45:55,567 - INFO - Gemini 분석 결과: animal, cat, pet | 동물, 고양이, 반려동물
+2025-10-26 21:48:02,851 - INFO - Gemini 분석 결과: underwater, dark, abstract | 수중, 어둠, 추상
+2025-10-26 21:52:07,595 - INFO - Gemini 분석 결과: packaging, food, ration | 포장, 식품, 전투식량
+2025-10-26 21:54:42,933 - INFO - Gemini 분석 결과: landscape, mountain, architecture | 풍경, 산, 건축물
+2025-10-26 21:57:43,060 - INFO - Gemini 분석 결과: flower, abstract, digital art | 꽃, 추상, 디지털 아트
+2025-10-26 21:59:53,621 - INFO - Gemini 분석 결과: Still Life, Vase, Design | 정물, 꽃병, 디자인
+2025-10-26 22:03:58,362 - INFO - Gemini 분석 결과: Nature, Tree, Monochrome | 자연, 나무, 흑백
+2025-10-26 22:06:36,170 - INFO - Gemini 분석 결과: abstract, digital art, pattern | 추상, 디지털 아트, 패턴
+2025-10-26 22:09:38,386 - INFO - Gemini 분석 결과: installation art, light art, contemporary art | 설치 미술, 빛 예술, 현대 미술
+2025-10-26 22:11:48,902 - INFO - Gemini 분석 결과: floral, macro, red | 꽃, 접사, 붉은색
+2025-10-26 22:15:58,251 - INFO - Gemini 분석 결과: food, fruit, cherry | 음식, 과일, 체리
+2025-10-26 22:18:38,818 - INFO - Gemini 분석 결과: transportation, speed, monochrome | 교통, 속도, 흑백
+2025-10-26 22:21:41,809 - INFO - Gemini 분석 결과: Conceptual Art, Technical Drawing, Diagram | 개념미술, 기술도면, 다이어그램
+2025-10-26 22:23:54,420 - INFO - Gemini 분석 결과: Abstract, Body, Dark | 추상, 신체, 감성
+2025-10-26 22:28:07,763 - INFO - Gemini 분석 결과: city, urban, cityscape | 도시, 도심, 도시 풍경
+2025-10-26 22:30:48,132 - INFO - Gemini 분석 결과: abstract, digital art, figure | 추상, 디지털 아트, 인물
+2025-10-26 22:33:55,725 - INFO - Gemini 분석 결과: architecture, modernist, urban | 건축, 모더니즘, 도시
+2025-10-26 22:36:07,010 - INFO - Gemini 분석 결과: abstract, minimalism, monochromatic | 추상, 미니멀리즘, 단색
+2025-10-26 22:40:23,796 - INFO - Gemini 분석 결과: portrait, beauty, flower | 인물, 뷰티, 꽃
+2025-10-26 22:43:05,995 - INFO - Gemini 분석 결과: landmark, New York, architecture | 랜드마크, 뉴욕, 건축
+2025-10-26 22:46:16,974 - INFO - Gemini 분석 결과: diner, vintage, americana | 다이너, 빈티지, 아메리카나
+2025-10-26 22:48:31,453 - INFO - Gemini 분석 결과: abstract, minimalism, grayscale | 추상, 미니멀리즘, 흑백
+2025-10-26 22:52:47,022 - INFO - Gemini 분석 결과: poster, minimalism, graphic design | 포스터, 미니멀리즘, 그래픽 디자인
+2025-10-26 22:55:32,716 - INFO - Gemini 분석 결과: architecture, cityscape, building | 건축, 도시, 건물
+2025-10-26 22:58:43,792 - INFO - Gemini 분석 결과: nature, landscape, mountain | 자연, 풍경, 산
+2025-10-26 23:00:54,195 - ERROR - 분석 오류: cannot identify image file <_io.BytesIO object at 0x145610090>
+2025-10-26 23:05:19,492 - INFO - Gemini 분석 결과: editorial, portrait, high fashion | 화보, 인물사진, 패션
+2025-10-26 23:08:07,105 - INFO - Gemini 분석 결과: animal, cat, flower | 동물, 고양이, 꽃
+2025-10-26 23:11:18,138 - INFO - Gemini 분석 결과: design, typography, packaging | 디자인, 타이포그래피, 패키징
+2025-10-26 23:13:32,063 - INFO - Gemini 분석 결과: Poster, Motivational, Abstract | 포스터, 동기 부여, 추상
+2025-10-26 23:17:59,961 - INFO - Gemini 분석 결과: conceptual, flame, hand | 개념, 불꽃, 손
+2025-10-26 23:20:51,205 - INFO - Gemini 분석 결과: abstract, minimalism, illustration | 추상, 미니멀리즘, 일러스트레이션
+2025-10-26 23:46:28,803 - ERROR - 분석 오류: 504 Deadline Exceeded
+2025-10-27 00:02:49,988 - ERROR - 네트워크 오류: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-10-27 00:07:29,841 - INFO - Gemini 분석 결과: Abstract, Graphic design, Shapes | 추상, 그래픽 디자인, 형태
+2025-10-27 00:10:20,872 - INFO - Gemini 분석 결과: Minimalism, Architecture, Light and Shadow | 미니멀리즘, 건축, 빛과 그림자
+2025-10-27 00:14:20,162 - INFO - Gemini 분석 결과: landscape, road, nature | 풍경, 길, 자연
+2025-10-27 00:15:40,550 - INFO - Gemini 분석 결과: Glitch art, portrait, digital art | 글리치 아트, 인물, 디지털 아트
+2025-10-27 00:20:23,058 - INFO - Gemini 분석 결과: ocean, nature, minimalism | 바다, 자연, 미니멀리즘
+2025-10-27 00:23:18,370 - INFO - Gemini 분석 결과: abstract, digital art, fluid | 추상, 3D 그래픽, 유체
+2025-10-27 00:27:19,422 - INFO - Gemini 분석 결과: UI/UX Design, Software, Email | UI/UX 디자인, 소프트웨어, 이메일
+2025-10-27 00:28:41,138 - INFO - Gemini 분석 결과: animal, sheep, livestock | 동물, 양, 가축
+2025-10-27 00:33:27,762 - INFO - Gemini 분석 결과: UI/UX, mobile, graphic design | 사용자 인터페이스, 모바일, 그래픽 디자인
+2025-10-27 00:36:25,335 - INFO - Gemini 분석 결과: animal, cat, pet | 동물, 고양이, 반려동물
+2025-10-27 00:40:25,364 - INFO - Gemini 분석 결과: portrait, black and white, aesthetic | 인물, 흑백, 감성
+2025-10-27 00:41:48,718 - INFO - Gemini 분석 결과: fashion, editorial, graphic design | 패션, 에디토리얼, 그래픽 디자인
+2025-10-27 00:41:48,885 - INFO - 자동 저장 완료: 400개 이미지
+2025-10-27 08:28:18,799 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Max retries exceeded with url: /24e35d85-7a46-41ff-912a-3c91a7daa5da?format=webp&w=400 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1405ede50>: Failed to establish a new connection: [Errno 65] No route to host'))
+2025-10-27 08:28:18,801 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Max retries exceeded with url: /b2f376db-20fc-4df4-a5a1-5074d321ff6a?format=webp&w=300 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x145640690>: Failed to establish a new connection: [Errno 65] No route to host'))
+2025-10-27 08:28:18,801 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Max retries exceeded with url: /c4036275-6c05-41bb-b039-d6424f7a4e7d?format=webp&w=400 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1405ecf50>: Failed to establish a new connection: [Errno 65] No route to host'))
+2025-10-27 08:28:18,801 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Max retries exceeded with url: /6a0a29d7-9234-488b-85fd-5ffc2c18429f?format=webp&w=400 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1126bbd90>: Failed to establish a new connection: [Errno 65] No route to host'))
+2025-10-27 08:28:29,702 - INFO - 자동 저장 완료: 400개 이미지
+2025-10-27 08:28:43,471 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-27 08:28:43,471 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-27 08:28:43,726 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_082829.csv
+2025-10-27 08:28:43,727 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_082829.csv
+2025-10-27 08:28:43,727 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_004148.csv
+2025-10-27 08:28:43,727 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_004148.csv
+2025-10-27 08:28:43,728 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_004148.csv
+2025-10-27 08:28:43,728 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_110620.csv
+2025-10-27 08:28:43,728 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_110620.csv
+2025-10-27 08:28:43,728 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_110620.csv
+2025-10-27 08:28:43,729 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_110601.csv
+2025-10-27 08:28:43,729 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_110601.csv
+2025-10-27 08:28:43,729 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_110601.csv
+2025-10-27 08:28:43,730 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_110537.csv
+2025-10-27 08:28:43,730 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_110537.csv
+2025-10-27 08:28:43,730 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_110537.csv
+2025-10-27 08:28:43,730 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_110511.csv
+2025-10-27 08:28:43,731 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_110511.csv
+2025-10-27 08:28:43,731 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_110511.csv
+2025-10-27 08:28:43,731 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_110510.csv
+2025-10-27 08:28:43,731 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_110510.csv
+2025-10-27 08:28:43,731 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_110510.csv
+2025-10-27 08:28:43,731 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_110508.csv
+2025-10-27 08:28:43,731 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_110508.csv
+2025-10-27 08:28:43,731 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_110508.csv
+2025-10-27 08:28:43,732 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_110504.csv
+2025-10-27 08:28:43,732 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251026_110504.csv
+2025-10-27 08:28:43,732 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251026_110504.csv
+2025-10-27 08:28:43,732 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251026_110424.csv
+2025-10-27 08:28:43,746 - INFO - 메인 데이터 로드: 400개 이미지
+2025-10-27 08:33:02,336 - INFO - 자동 저장 완료: 400개 이미지
+2025-10-27 08:38:31,346 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-27 08:38:31,347 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-27 08:38:31,772 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_083302.csv
+2025-10-27 08:38:31,772 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_083302.csv
+2025-10-27 08:38:31,773 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_082829.csv
+2025-10-27 08:38:31,850 - INFO - 메인 데이터 로드: 400개 이미지
+2025-10-27 08:39:09,547 - INFO - Gemini 분석 결과: graphic design, typography, minimalist | 그래픽 디자인, 타이포그래피, 미니멀리즘
+2025-10-27 08:39:09,668 - INFO - 자동 저장 완료: 400개 이미지
+2025-10-27 08:39:26,747 - ERROR - 분석 오류: cannot identify image file <_io.BytesIO object at 0x13eee8ae0>
+2025-10-27 08:39:26,779 - INFO - 자동 저장 완료: 400개 이미지
+2025-10-27 08:39:34,035 - INFO - 자동 저장 완료: 398개 이미지
+2025-10-27 08:40:02,885 - INFO - Gemini 분석 결과: digital art, abstract, flowers | 디지털 아트, 추상화, 꽃
+2025-10-27 08:40:03,007 - INFO - 자동 저장 완료: 398개 이미지
+2025-10-27 08:40:35,370 - INFO - 자동 저장 완료: 396개 이미지
+2025-10-27 08:41:06,783 - INFO - Gemini 분석 결과: Architecture, Landscape, Winter | 건축, 풍경, 겨울
+2025-10-27 08:41:06,952 - INFO - Gemini 분석 결과: design, graphic design, documentation | 디자인, 그래픽 디자인, 기록
+2025-10-27 08:41:07,043 - INFO - 자동 저장 완료: 396개 이미지
+2025-10-27 08:41:16,625 - INFO - 자동 저장 완료: 395개 이미지
+2025-10-27 08:42:27,651 - INFO - Gemini 분석 결과: Quote, Inspiration, Creativity | 명언, 영감, 창의성
+2025-10-27 08:42:27,689 - INFO - 자동 저장 완료: 395개 이미지
+2025-10-27 08:42:58,747 - INFO - Gemini 분석 결과: sports, abstract, motion blur | 스포츠, 추상, 모션 블러
+2025-10-27 08:43:01,027 - INFO - Gemini 분석 결과: portrait, close-up, emotion | 인물, 클로즈업, 감정
+2025-10-27 08:43:03,012 - INFO - Gemini 분석 결과: architecture, glass, texture | 건축, 유리, 질감
+2025-10-27 08:43:04,323 - INFO - Gemini 분석 결과: website, music, e-commerce | 웹사이트, 음악, 전자 상거래
+2025-10-27 08:43:04,355 - INFO - 자동 저장 완료: 395개 이미지
+2025-10-27 09:01:38,486 - INFO - 자동 저장 완료: 395개 이미지
+2025-10-27 09:01:43,247 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-27 09:01:43,247 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-27 09:01:43,578 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_090138.csv
+2025-10-27 09:01:43,578 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_090138.csv
+2025-10-27 09:01:43,578 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_084304.csv
+2025-10-27 09:01:43,579 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_084304.csv
+2025-10-27 09:01:43,579 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_084304.csv
+2025-10-27 09:01:43,579 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_084227.csv
+2025-10-27 09:01:43,579 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_084227.csv
+2025-10-27 09:01:43,580 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_084227.csv
+2025-10-27 09:01:43,580 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_084116.csv
+2025-10-27 09:01:43,580 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_084116.csv
+2025-10-27 09:01:43,581 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_084116.csv
+2025-10-27 09:01:43,581 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_084106.csv
+2025-10-27 09:01:43,581 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_084106.csv
+2025-10-27 09:01:43,582 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_084106.csv
+2025-10-27 09:01:43,583 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_084035.csv
+2025-10-27 09:01:43,583 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_084035.csv
+2025-10-27 09:01:43,585 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_084035.csv
+2025-10-27 09:01:43,585 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_084002.csv
+2025-10-27 09:01:43,585 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_084002.csv
+2025-10-27 09:01:43,586 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_084002.csv
+2025-10-27 09:01:43,586 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_083934.csv
+2025-10-27 09:01:43,587 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_083934.csv
+2025-10-27 09:01:43,587 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_083934.csv
+2025-10-27 09:01:43,588 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_083926.csv
+2025-10-27 09:01:43,588 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_083926.csv
+2025-10-27 09:01:43,588 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_083926.csv
+2025-10-27 09:01:43,588 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_083909.csv
+2025-10-27 09:01:43,589 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_083909.csv
+2025-10-27 09:01:43,589 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_083909.csv
+2025-10-27 09:01:43,589 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_083302.csv
+2025-10-27 09:01:43,604 - INFO - 메인 데이터 로드: 395개 이미지
+2025-10-27 09:05:52,042 - INFO - 자동 저장 완료: 395개 이미지
+2025-10-27 10:14:55,617 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-27 10:14:55,617 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-27 10:14:55,963 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_090551.csv
+2025-10-27 10:14:55,963 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_090551.csv
+2025-10-27 10:14:55,963 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_090138.csv
+2025-10-27 10:14:56,002 - INFO - 메인 데이터 로드: 395개 이미지
+2025-10-27 10:37:02,089 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-27 10:37:02,091 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-27 10:37:02,429 - INFO - 메인 데이터 로드: 395개 이미지
+2025-10-27 10:37:38,957 - INFO - Gemini 분석 결과: Web Design, UI/UX, Branding | 웹디자인, UI/UX, 브랜딩
+2025-10-27 10:37:39,241 - INFO - Gemini 분석 결과: Abstract, Texture, Green | 추상, 질감, 녹색
+2025-10-27 10:37:40,925 - INFO - Gemini 분석 결과: logo, abstract, branding | 로고, 추상, 브랜딩
+2025-10-27 10:37:42,582 - INFO - Gemini 분석 결과: Abstract, Digital Art, Gradient | 추상, 디지털 아트, 그라데이션
+2025-10-27 10:37:54,626 - INFO - Gemini 분석 결과: Abstract, Digital Art, Motion Blur | 추상, 디지털 아트, 모션 블러
+2025-10-27 10:37:56,540 - INFO - Gemini 분석 결과: abstract, glow, organic | 추상, 광채, 유기적
+2025-10-27 10:38:00,703 - INFO - Gemini 분석 결과: texture, surface, stone | 질감, 표면, 돌
+2025-10-27 10:38:01,862 - INFO - Gemini 분석 결과: animal, horse, desert | 동물, 말, 사막
+2025-10-27 10:38:17,493 - INFO - Gemini 분석 결과: transportation, car, classic car | 운송 수단, 자동차, 클래식 자동차
+2025-10-27 10:38:21,498 - INFO - Gemini 분석 결과: eye, portrait, monochrome | 눈, 인물, 흑백
+2025-10-27 10:38:27,361 - INFO - Gemini 분석 결과: flower, botanical, still life | 꽃, 식물, 정물
+2025-10-27 10:38:29,751 - INFO - Gemini 분석 결과: Waveform, Abstract, Sound Art | 파형, 추상, 사운드 아트
+2025-10-27 10:38:49,837 - INFO - Gemini 분석 결과: car, sports car, racing | 자동차, 스포츠카, 레이싱
+2025-10-27 10:38:55,923 - INFO - Gemini 분석 결과: illustration, surrealism, line art | 일러스트, 초현실주의, 선화
+2025-10-27 10:39:01,879 - INFO - Gemini 분석 결과: Logo, Social Media, Icon | 로고, 소셜 미디어, 아이콘
+2025-10-27 10:39:10,309 - INFO - Gemini 분석 결과: interior, architecture, industrial | 실내, 건축, 인더스트리얼
+2025-10-27 10:39:29,095 - INFO - Gemini 분석 결과: Product, Still life, Cosmetics | 제품, 정물, 화장품
+2025-10-27 10:39:39,121 - INFO - Gemini 분석 결과: animal, cat, cute | 동물, 고양이, 귀여움
+2025-10-27 10:39:45,925 - INFO - Gemini 분석 결과: architecture, urban, city life | 건축, 도시, 도시 생활
+2025-10-27 10:39:57,817 - INFO - Gemini 분석 결과: portrait, dramatic, shadow | 인물, 분위기, 그림자
+2025-10-27 10:40:15,965 - INFO - Gemini 분석 결과: Interface, Minimalism, Technical | 인터페이스, 미니멀리즘, 기술
+2025-10-27 10:40:28,131 - INFO - Gemini 분석 결과: cityscape, architecture, night | 도시 풍경, 건축, 야경
+2025-10-27 10:40:38,572 - INFO - Gemini 분석 결과: nature, landscape, glacier | 자연, 풍경, 빙하
+2025-10-27 10:40:53,107 - INFO - Gemini 분석 결과: sculpture, abstract, minimalism | 조각, 추상, 미니멀리즘
+2025-10-27 10:41:11,988 - INFO - Gemini 분석 결과: fashion, portrait, magazine cover | 패션, 인물사진, 잡지 표지
+2025-10-27 10:41:24,838 - INFO - Gemini 분석 결과: Graphic Design, Abstract, Typography | 그래픽 디자인, 추상, 타이포그래피
+2025-10-27 10:41:36,757 - INFO - Gemini 분석 결과: Fashion, Portrait, Magazine Cover | 패션, 인물사진, 잡지 표지
+2025-10-27 10:41:54,816 - INFO - Gemini 분석 결과: graphic design, typography, abstract | 그래픽 디자인, 타이포그래피, 추상
+2025-10-27 10:42:17,453 - INFO - Gemini 분석 결과: abstract, contemporary art, grain | 추상, 현대 미술, 노이즈
+2025-10-27 10:42:29,981 - INFO - Gemini 분석 결과: Abstract, Glitch Art, Neon | 추상, 글리치 아트, 네온
+2025-10-27 10:42:45,117 - INFO - Gemini 분석 결과: architecture, luxury, resort | 건축, 럭셔리, 리조트
+2025-10-27 10:43:35,503 - INFO - Gemini 분석 결과: Abstract, Geometric, Pixel Art | 추상, 기하학, 픽셀 아트
+2025-10-27 10:43:41,082 - INFO - Gemini 분석 결과: cityscape, architecture, monochrome | 도시 풍경, 건축, 흑백
+2025-10-27 10:43:45,934 - INFO - Gemini 분석 결과: diner, restaurant, interior | 다이너, 식당, 인테리어
+2025-10-27 10:43:59,219 - INFO - Gemini 분석 결과: glitch art, abstract, experimental | 글리치 아트, 추상, 실험 예술
+2025-10-27 10:44:51,939 - INFO - Gemini 분석 결과: Abstract, Bokeh, Monochrome | 추상, 빛망울, 흑백
+2025-10-27 10:44:59,208 - INFO - Gemini 분석 결과: portrait, fashion, advertisement | 인물사진, 패션, 광고
+2025-10-27 10:45:06,923 - INFO - Gemini 분석 결과: Architecture, Swimming Pool, Landscape | 건축, 수영장, 풍경
+2025-10-27 10:45:22,311 - INFO - Gemini 분석 결과: Flower, Aesthetic, Silhouette | 꽃, 감성, 실루엣
+2025-10-27 10:46:15,826 - INFO - Gemini 분석 결과: Tea, Tea Shop, Storefront | 차, 찻집, 상점
+2025-10-27 10:46:25,506 - INFO - Gemini 분석 결과: Urban, Architecture, New York City | 도시, 건축, 뉴욕
+2025-10-27 10:46:36,874 - INFO - Gemini 분석 결과: people, nature, aesthetic | 인물, 자연, 감성
+2025-10-27 10:46:52,205 - INFO - Gemini 분석 결과: Pottery, Still Life, Craft | 도예, 정물, 공예
+2025-10-27 10:47:49,069 - INFO - Gemini 분석 결과: packaging, plastic, bottle | 포장, 플라스틱, 병
+2025-10-27 10:48:01,206 - INFO - Gemini 분석 결과: user interface, web design, social media | 사용자 인터페이스, 웹 디자인, 소셜 미디어
+2025-10-27 10:48:12,055 - INFO - Gemini 분석 결과: typography, quote, introvert | 타이포그래피, 인용구, 내향성
+2025-10-27 10:48:30,489 - INFO - Gemini 분석 결과: car, classic car, BMW | 자동차, 클래식카, BMW
+2025-10-27 10:49:32,185 - INFO - Gemini 분석 결과: Graphic Design, Typography, Packaging | 그래픽 디자인, 타이포그래피, 패키징
+2025-10-27 10:49:44,782 - INFO - Gemini 분석 결과: nature, wildlife, polar | 자연, 야생동물, 극지
+2025-10-27 10:49:55,740 - INFO - Gemini 분석 결과: eclipse, astronomy, space | 일식, 천문학, 우주
+2025-10-27 10:52:38,360 - INFO - Gemini 분석 결과: graphic design, abstract, typography | 그래픽 디자인, 추상, 타이포그래피
+2025-10-27 10:53:42,996 - INFO - Gemini 분석 결과: nature, landscape, coastal | 자연, 풍경, 해안
+2025-10-27 10:53:58,264 - INFO - Gemini 분석 결과: lottery, ephemera, vintage | 복권, 에페메라, 빈티지
+2025-10-27 10:54:12,076 - INFO - Gemini 분석 결과: figure, photography, fine art | 인물, 사진, 순수 미술
+2025-10-27 10:54:33,257 - INFO - Gemini 분석 결과: architecture, landscape, villa | 건축, 풍경, 별장
+2025-10-27 10:55:39,349 - INFO - Gemini 분석 결과: Architecture, Landscape, Minimalism | 건축, 풍경, 미니멀리즘
+2025-10-27 10:55:56,114 - INFO - Gemini 분석 결과: fine art, conceptual, monochrome | 파인아트, 컨셉추얼, 흑백
+2025-10-27 10:56:11,287 - INFO - Gemini 분석 결과: flower, rose, nature | 꽃, 장미, 자연
+2025-10-27 10:56:36,668 - INFO - Gemini 분석 결과: silhouette, cycling, sunset | 실루엣, 자전거, 일몰
+2025-10-27 10:57:43,827 - INFO - Gemini 분석 결과: typography, design, calligraphy | 타이포그래피, 디자인, 캘리그라피
+2025-10-27 10:58:02,269 - INFO - Gemini 분석 결과: paper, crumpled, waste | 종이, 구겨짐, 쓰레기
+2025-10-27 10:58:19,671 - INFO - Gemini 분석 결과: landscape, architecture, house | 풍경, 건축, 주택
+2025-10-27 10:58:46,591 - INFO - Gemini 분석 결과: abstract, minimalism, geometric | 추상, 미니멀리즘, 기하학
+2025-10-27 10:59:58,383 - INFO - Gemini 분석 결과: portrait, fine art, flower | 인물, 예술, 꽃
+2025-10-27 11:00:17,686 - INFO - Gemini 분석 결과: Tattoo Flash, Illustration, Mystical | 타투 도안, 일러스트레이션, 오컬트
+2025-10-27 11:00:36,830 - INFO - Gemini 분석 결과: Graphic design, Abstract art, Experimental | 그래픽 디자인, 추상 미술, 실험적 아트
+2025-10-27 11:01:04,896 - INFO - Gemini 분석 결과: Furniture, Chair, Design | 가구, 의자, 디자인
+2025-10-27 11:02:18,576 - INFO - Gemini 분석 결과: home decor, mirror, abstract art | 홈 데코, 거울, 추상 미술
+2025-10-27 11:02:40,927 - INFO - Gemini 분석 결과: mouth, black and white, close-up | 입, 흑백, 클로즈업
+2025-10-27 11:03:00,982 - INFO - Gemini 분석 결과: art, pottery, sculpture | 예술, 도자기, 조각
+2025-10-27 11:03:31,585 - INFO - Gemini 분석 결과: animal, ape, hands | 동물, 유인원, 손
+2025-10-27 11:04:52,280 - INFO - Gemini 분석 결과: science, physics, diagram | 과학, 물리학, 다이어그램
+2025-10-27 11:05:10,948 - INFO - Gemini 분석 결과: nature, palm tree, plant | 자연, 야자수, 식물
+2025-10-27 11:05:32,851 - INFO - Gemini 분석 결과: city, architecture, street | 도시, 건축, 거리
+2025-10-27 11:06:05,212 - INFO - Gemini 분석 결과: icons, UI/UX, graphic design | 아이콘, UI/UX, 그래픽 디자인
+2025-10-27 11:07:29,272 - INFO - Gemini 분석 결과: Graphic Design, Poster, Abstract | 그래픽 디자인, 포스터, 추상
+2025-10-27 11:07:47,898 - INFO - Gemini 분석 결과: typography, logo, monogram | 타이포그래피, 로고, 모노그램
+2025-10-27 11:08:12,826 - INFO - Gemini 분석 결과: abstract, geometric, minimalism | 추상, 기하학, 미니멀리즘
+2025-10-27 11:08:47,973 - INFO - Gemini 분석 결과: film, horror, slasher | 영화, 공포, 슬래셔
+2025-10-27 11:10:12,936 - INFO - Gemini 분석 결과: typography, motivational, minimalist | 타이포그래피, 동기부여, 문구
+2025-10-27 11:10:34,086 - INFO - Gemini 분석 결과: Fashion, Portrait, Magazine | 패션, 인물사진, 잡지
+2025-10-27 11:11:00,460 - INFO - Gemini 분석 결과: Abstract, Geometric, Op Art | 추상, 기하학, 옵 아트
+2025-10-27 11:11:38,905 - INFO - Gemini 분석 결과: typography, poetry, minimalism | 타이포그래피, 시, 미니멀리즘
+2025-10-27 11:13:05,318 - INFO - Gemini 분석 결과: streetphotography, people, urban | 거리 사진, 인물, 도시
+2025-10-27 11:13:28,282 - INFO - Gemini 분석 결과: nature, landscape, palm tree | 자연, 풍경, 야자수
+2025-10-27 11:13:56,486 - INFO - Gemini 분석 결과: nature, sea, landscape | 자연, 바다, 풍경
+2025-10-27 11:14:36,773 - INFO - Gemini 분석 결과: graffiti, street art, urban | 그래피티, 거리 미술, 도시
+2025-10-27 11:16:05,611 - INFO - Gemini 분석 결과: architecture, landscape, mountain | 건축, 풍경, 산
+2025-10-27 11:16:29,857 - INFO - Gemini 분석 결과: design, poster, typography | 디자인, 포스터, 타이포그래피
+2025-10-27 11:17:01,430 - INFO - Gemini 분석 결과: Movie, Poster, Entertainment | 영화, 포스터, 엔터테인먼트
+2025-10-27 11:17:43,322 - INFO - Gemini 분석 결과: Abstract, Gradient, Soft Focus | 추상, 그라데이션, 소프트 포커스
+2025-10-27 11:19:15,872 - INFO - Gemini 분석 결과: invitation, fashion, typography | 초대장, 패션, 타이포그래피
+2025-10-27 11:19:41,406 - INFO - Gemini 분석 결과: abstract, glitch art, texture | 추상, 글리치 아트, 질감
+2025-10-27 11:20:13,919 - INFO - Gemini 분석 결과: furniture, table, modern design | 가구, 테이블, 모던 디자인
+2025-10-27 11:22:11,407 - INFO - Gemini 분석 결과: background, gradient, abstract | 배경, 그라데이션, 추상
+2025-10-27 11:23:46,627 - INFO - Gemini 분석 결과: background, gradient, texture | 배경, 그라데이션, 질감
+2025-10-27 11:24:12,604 - INFO - Gemini 분석 결과: background, color, texture | 배경, 단색, 질감
+2025-10-27 11:24:47,215 - INFO - Gemini 분석 결과: Abstract, Background, Gradient | 추상, 배경, 그라데이션
+2025-10-27 11:25:33,367 - INFO - Gemini 분석 결과: gradient, background, abstract | 그라데이션, 배경, 추상
+2025-10-27 11:27:10,588 - INFO - Gemini 분석 결과: background, texture, abstract | 배경, 질감, 추상
+2025-10-27 11:27:37,626 - INFO - Gemini 분석 결과: background, texture, gradient | 배경, 질감, 그라데이션
+2025-10-27 11:28:15,784 - INFO - Gemini 분석 결과: abstract, background, gradient | 추상, 배경, 그라데이션
+2025-10-27 11:34:47,352 - INFO - Gemini 분석 결과: background, gradient, grain | 배경, 그라데이션, 질감
+2025-10-27 11:36:27,652 - INFO - Gemini 분석 결과: Abstract, Gradient, Texture | 추상, 그라데이션, 텍스처
+2025-10-27 11:36:54,906 - INFO - Gemini 분석 결과: background, abstract, gradient | 배경, 추상, 그라데이션
+2025-10-27 11:37:36,129 - INFO - Gemini 분석 결과: Background, Texture, Abstract | 배경, 질감, 추상
+2025-10-27 11:38:24,708 - INFO - Gemini 분석 결과: background, abstract, gradient | 배경, 추상, 그라데이션
+2025-10-27 11:40:07,406 - INFO - Gemini 분석 결과: Abstract, Background, Texture | 추상, 배경, 질감
+2025-10-27 11:40:36,425 - INFO - Gemini 분석 결과: Background, Abstract, Gradient | 배경, 추상, 그라데이션
+2025-10-27 11:41:18,855 - INFO - Gemini 분석 결과: abstract, gradient, background | 추상, 그라데이션, 배경
+2025-10-27 11:42:10,462 - INFO - Gemini 분석 결과: background, abstract, texture | 배경, 추상, 질감
+2025-10-27 11:43:56,396 - INFO - Gemini 분석 결과: Abstract, Minimal, Peach | 추상, 미니멀, 복숭아색
+2025-10-27 11:44:26,080 - INFO - Gemini 분석 결과: Portrait, Vintage, Monochrome | 인물, 빈티지, 흑백
+2025-10-27 11:45:10,769 - INFO - Gemini 분석 결과: Portrait, Vintage, Woman | 인물사진, 빈티지, 여성
+2025-10-27 11:46:07,202 - INFO - Gemini 분석 결과: Cityscape, Urban, Black and white | 도시 풍경, 도시, 흑백
+2025-10-27 11:47:54,303 - INFO - Gemini 분석 결과: science, genetics, abstract art | 과학, 유전학, 추상 미술
+2025-10-27 11:48:27,563 - INFO - Gemini 분석 결과: Subway, Transportation, Urban | 지하철, 교통, 도시
+2025-10-27 11:49:14,416 - INFO - Gemini 분석 결과: city, architecture, illustration | 도시, 건축, 일러스트레이션
+2025-10-27 11:50:11,272 - INFO - Gemini 분석 결과: Interior, Workspace, Clutter | 인테리어, 작업실, 난잡함
+2025-10-27 11:52:00,681 - INFO - Gemini 분석 결과: fashion, lifestyle, portrait | 패션, 라이프스타일, 인물
+2025-10-27 11:52:34,728 - INFO - Gemini 분석 결과: Cityscape, Urban, Architecture | 도시 풍경, 도심, 건축
+2025-10-27 11:53:25,542 - INFO - Gemini 분석 결과: Christmas, Car, Winter | 크리스마스, 자동차, 겨울
+2025-10-27 11:54:27,161 - INFO - Gemini 분석 결과: People, Lifestyle, Travel | 인물, 라이프스타일, 여행
+2025-10-27 11:54:27,478 - INFO - 자동 저장 완료: 123개 이미지
+2025-10-27 11:56:19,626 - INFO - Gemini 분석 결과: abstract, background, texture | 추상, 배경, 질감
+2025-10-27 11:56:22,029 - INFO - Gemini 분석 결과: Technology, Software, UI/UX | 기술, 소프트웨어, UI/UX
+2025-10-27 11:56:23,950 - INFO - Gemini 분석 결과: Software, Technology, User Interface | 소프트웨어, 기술, 사용자 인터페이스
+2025-10-27 11:56:25,246 - INFO - Gemini 분석 결과: Technology, Artificial Intelligence, UI/UX | 기술, 인공지능, UI/UX
+2025-10-27 11:56:33,060 - INFO - Gemini 분석 결과: UI/UX, Health, Mobile App | UI/UX 디자인, 건강 관리, 모바일 앱
+2025-10-27 11:56:37,427 - INFO - Gemini 분석 결과: technology, engineering, design | 기술, 공학, 디자인
+2025-10-27 11:56:41,722 - INFO - Gemini 분석 결과: ui/ux, interface, technology | UI/UX, 인터페이스, 기술
+2025-10-27 11:56:44,270 - INFO - Gemini 분석 결과: UI/UX, Real Estate, Mobile App | UI/UX, 부동산, 모바일 앱
+2025-10-27 11:56:56,003 - INFO - Gemini 분석 결과: website, business services, accounting software | 웹사이트, 기업 서비스, 회계 솔루션
+2025-10-27 11:57:01,280 - INFO - Gemini 분석 결과: User Interface, Graphic Design, Digital Art | 사용자 인터페이스, 그래픽 디자인, 디지털 아트
+2025-10-27 11:57:07,649 - INFO - Gemini 분석 결과: user interface, mobile app, settings | 사용자 인터페이스, 모바일 앱, 설정
+2025-10-27 11:57:12,546 - INFO - Gemini 분석 결과: technology, mobile app, app interface | 기술, 모바일 앱, 앱 인터페이스
+2025-10-27 11:57:25,235 - INFO - Gemini 분석 결과: Software, Recruiting, UI/UX | 소프트웨어, 채용, 웹디자인
+2025-10-27 11:57:35,269 - INFO - Gemini 분석 결과: advertising, social media, e-commerce | 광고, 소셜 미디어, 전자상거래
+2025-10-27 11:57:41,134 - INFO - Gemini 분석 결과: mobile interface, audio recording, app screenshot | 모바일 인터페이스, 음성 녹음, 앱 스크린샷
+2025-10-27 11:57:47,479 - INFO - Gemini 분석 결과: Technology, User Interface, Mobile App | 기술, 사용자 인터페이스, 모바일 앱
+2025-10-27 11:58:03,464 - INFO - Gemini 분석 결과: Mobile App, Wellness, Meditation | 모바일 앱, 웰니스, 명상
+2025-10-27 11:58:15,250 - INFO - Gemini 분석 결과: UI/UX, Web Design, Template | UI/UX, 웹 디자인, 템플릿
+2025-10-27 11:58:22,299 - INFO - Gemini 분석 결과: technology, user interface, mobile app | 기술, 사용자 인터페이스, 모바일 앱
+2025-10-27 11:58:30,127 - INFO - Gemini 분석 결과: UI/UX Design, Mobile App Design, E-commerce | UI/UX 디자인, 모바일 앱 디자인, 이커머스
+2025-10-27 11:58:48,172 - INFO - Gemini 분석 결과: UI/UX, Web Design, Business | UI/UX, 웹 디자인, 비즈니스
+2025-10-27 11:59:02,979 - INFO - Gemini 분석 결과: web design, user interface, software | 웹 디자인, UI/UX, 소프트웨어
+2025-10-27 11:59:11,301 - INFO - Gemini 분석 결과: technology, user interface, app development | 기술, 사용자 인터페이스, 앱 개발
+2025-10-27 11:59:22,573 - INFO - Gemini 분석 결과: UI/UX, technology, app design | UI/UX, 기술, 앱 디자인
+2025-10-27 11:59:41,837 - INFO - Gemini 분석 결과: UI/UX, web design, interface | UI/UX, 웹디자인, 인터페이스
+2025-10-27 11:59:58,819 - INFO - Gemini 분석 결과: UI Design, Web Design, Product Design | UI 디자인, 웹 디자인, 제품 디자인
+2025-10-27 12:00:09,392 - INFO - Gemini 분석 결과: UI/UX, Mobile App, Cosmetics | UI/UX, 모바일 앱, 화장품
+2025-10-27 12:00:24,017 - INFO - Gemini 분석 결과: Technology, Health, Product Presentation | 기술, 헬스케어, 제품 홍보
+2025-10-27 12:00:45,076 - INFO - Gemini 분석 결과: Graphic Design, Technology, Presentation | 그래픽 디자인, 기술, 프레젠테이션
+2025-10-27 12:01:04,870 - INFO - Gemini 분석 결과: Web Design, Portfolio, Branding | 웹디자인, 포트폴리오, 브랜딩
+2025-10-27 12:01:14,965 - INFO - Gemini 분석 결과: web design, UI/UX, inspiration | 웹 디자인, UI/UX, 영감
+2025-10-27 12:01:32,432 - INFO - Gemini 분석 결과: UI, Screenshot, Mobile App | 사용자 인터페이스, 스크린샷, 모바일 앱
+2025-10-27 12:01:55,170 - INFO - Gemini 분석 결과: Abstract, Geometric, Digital Art | 추상, 기하학적, 디지털 아트
+2025-10-27 12:02:17,832 - INFO - Gemini 분석 결과: UI/UX, Interface, Widget | UI/UX, 인터페이스, 위젯
+2025-10-27 12:02:31,112 - INFO - Gemini 분석 결과: UI/UX, App Design, Productivity | UI/UX, 앱 디자인, 생산성
+2025-10-27 12:02:48,472 - INFO - Gemini 분석 결과: branding, graphic design, UI/UX | 브랜딩, 그래픽 디자인, UI/UX
+2025-10-27 12:03:14,837 - INFO - Gemini 분석 결과: UI design, Web design, Dark mode | UI 디자인, 웹 디자인, 다크 모드
+2025-10-27 12:03:37,938 - INFO - Gemini 분석 결과: fitness, mobile app, UI/UX | 운동, 모바일 앱, UI/UX
+2025-10-27 12:03:52,650 - INFO - Gemini 분석 결과: Poster, Graphic Design, Minimalism | 포스터, 그래픽 디자인, 미니멀리즘
+2025-10-27 12:04:12,060 - INFO - Gemini 분석 결과: UI/UX design, Mobile app, Messaging | UI/UX 디자인, 모바일 앱, 메시징
+2025-10-27 12:04:41,769 - INFO - Gemini 분석 결과: Design, Portfolio, UI/UX | 디자인, 포트폴리오, UI/UX
+2025-10-27 12:05:05,466 - INFO - Gemini 분석 결과: UI/UX, Dashboard, Widget | UI/UX, 대시보드, 위젯
+2025-10-27 12:05:22,352 - INFO - Gemini 분석 결과: UX/UI, digital design, technology | UX/UI, 디지털 디자인, 기술
+2025-10-27 12:05:43,525 - INFO - Gemini 분석 결과: UI/UX Design, Mobile App, Mockup | UI/UX 디자인, 모바일 앱, 목업
+2025-10-27 12:06:16,497 - INFO - Gemini 분석 결과: fitness, mobile app, tracking | 피트니스, 모바일 앱, 경로 추적
+2025-10-27 12:06:41,678 - INFO - Gemini 분석 결과: Technology, Video Call, Smartphone | 기술, 화상 통화, 스마트폰
+2025-10-27 12:07:01,683 - INFO - Gemini 분석 결과: technology, web design, digital | 기술, 웹 디자인, 디지털
+2025-10-27 12:07:25,333 - INFO - Gemini 분석 결과: technology, mobile app, dark mode | 기술, 모바일 앱, 다크 모드
+2025-10-27 12:07:56,925 - INFO - Gemini 분석 결과: productivity, mobile app, task management | 생산성, 모바일 앱, 업무 관리
+2025-10-27 12:08:26,549 - INFO - Gemini 분석 결과: abstract, geometric, neon | 추상, 기하학, 네온
+2025-10-27 12:08:48,801 - INFO - Gemini 분석 결과: graphic design, new year, greeting | 그래픽 디자인, 새해, 인사
+2025-10-27 12:09:12,734 - INFO - Gemini 분석 결과: UI/UX, web design, login screen | UI/UX, 웹 디자인, 로그인 화면
+2025-10-27 12:09:46,640 - INFO - Gemini 분석 결과: Typography, Geometry, Diagram | 타이포그래피, 기하학, 도식
+2025-10-27 12:10:18,672 - INFO - Gemini 분석 결과: E-commerce, Metaverse, App Design | 이커머스, 메타버스, 앱 디자인
+2025-10-27 12:10:42,076 - INFO - Gemini 분석 결과: UI/UX, web design, landing page | 웹디자인, UI/UX, 랜딩페이지
+2025-10-27 12:11:08,977 - INFO - Gemini 분석 결과: presentation, business, mockup | 프레젠테이션, 비즈니스, 목업
+2025-10-27 12:11:45,011 - INFO - Gemini 분석 결과: UI/UX, Web Design, Watch | UI/UX, 웹디자인, 시계
+2025-10-27 12:12:18,405 - INFO - Gemini 분석 결과: UI/UX, web design, minimalism | UI/UX, 웹 디자인, 미니멀리즘
+2025-10-27 12:12:44,295 - INFO - Gemini 분석 결과: ui/ux, web design, product design | UI/UX, 웹 디자인, 제품 디자인
+2025-10-27 12:13:11,731 - INFO - Gemini 분석 결과: web design, branding, design studio | 웹디자인, 브랜딩, 디자인 스튜디오
+2025-10-27 12:13:52,586 - INFO - Gemini 분석 결과: design, ui/ux, interface | 디자인, UI/UX, 인터페이스
+2025-10-27 12:14:29,193 - INFO - Gemini 분석 결과: Technology, Blog, Engineering | 기술, 블로그, 공학
+2025-10-27 12:14:55,962 - INFO - Gemini 분석 결과: graphic design, branding, corporate | 그래픽 디자인, 브랜딩, 기업
+2025-10-27 12:15:23,423 - INFO - Gemini 분석 결과: Web Design, UI/UX, Typography | 웹 디자인, UI/UX, 타이포그래피
+2025-10-27 12:16:06,686 - INFO - Gemini 분석 결과: Web Design, Tea, UI/UX Design | 웹 디자인, 차, UI/UX 디자인
+2025-10-27 12:16:44,923 - INFO - Gemini 분석 결과: UI/UX Design, Food Delivery, Mobile App | UI/UX 디자인, 음식 배달, 모바일 앱
+2025-10-27 12:17:14,741 - INFO - Gemini 분석 결과: technology, web development, optimization | 기술, 웹 개발, 최적화
+2025-10-27 12:17:43,766 - INFO - Gemini 분석 결과: mobile app, skincare, ui/ux | 모바일 앱, 스킨케어, UI/UX
+2025-10-27 12:18:29,300 - INFO - Gemini 분석 결과: software development, documentation, technology | 소프트웨어 개발, 개발 문서, 기술
+2025-10-27 12:19:09,013 - INFO - Gemini 분석 결과: app screenshot, social media, user interface | 앱 스크린샷, 소셜 미디어, 사용자 인터페이스
+2025-10-27 12:19:42,477 - INFO - Gemini 분석 결과: UI/UX, software, technology | UI/UX, 소프트웨어, 기술
+2025-10-27 12:24:24,374 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Read timed out. (read timeout=10)
+2025-10-27 12:25:11,717 - INFO - Gemini 분석 결과: Technology, Mobile App, Digital Health | 기술, 모바일 앱, 디지털 헬스
+2025-10-27 12:25:50,581 - INFO - Gemini 분석 결과: Graphic Design, UI/UX, Icon Design | 그래픽 디자인, UI/UX, 아이콘 디자인
+2025-10-27 12:26:27,216 - INFO - Gemini 분석 결과: technology, mobile app, screenshot | 테크놀로지, 모바일 앱, 스크린샷
+2025-10-27 12:27:01,751 - INFO - Gemini 분석 결과: collage, figure, abstract art | 콜라주, 인물, 추상 미술
+2025-10-27 12:27:53,762 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Read timed out. (read timeout=10)
+2025-10-27 12:28:35,152 - INFO - Gemini 분석 결과: fashion, portrait, beauty | 패션, 인물사진, 뷰티
+2025-10-27 12:29:10,755 - INFO - Gemini 분석 결과: fashion, magazine, portrait | 패션, 잡지, 인물
+2025-10-27 12:29:48,033 - INFO - Gemini 분석 결과: Mockup, Commercial, Still Life | 목업, 상업, 정물
+2025-10-27 12:30:40,655 - INFO - Gemini 분석 결과: Lifestyle, Documentary, Travel | 라이프스타일, 다큐멘터리, 여행
+2025-10-27 12:31:28,087 - INFO - Gemini 분석 결과: Fashion, Editorial, Floral | 패션, 에디토리얼, 플로럴
+2025-10-27 12:32:04,578 - INFO - Gemini 분석 결과: Cookware, E-commerce, Kitchenware | 조리도구, 이커머스, 주방용품
+2025-10-27 12:32:43,672 - INFO - Gemini 분석 결과: nature, flower, macro | 자연, 꽃, 접사
+2025-10-27 12:33:39,841 - INFO - Gemini 분석 결과: UI/UX, mobile app, digital content | UI/UX, 모바일 앱, 디지털 콘텐츠
+2025-10-27 12:34:27,695 - INFO - Gemini 분석 결과: Flower, Botanical, Still Life | 꽃, 식물, 정물
+2025-10-27 12:35:04,211 - INFO - Gemini 분석 결과: Health, Sleep Tracking, User Interface | 건강, 수면 관리, 사용자 인터페이스
+2025-10-27 12:35:47,152 - INFO - Gemini 분석 결과: flower, flame, dark aesthetic | 꽃, 불꽃, 다크 컨셉
+2025-10-27 12:36:43,801 - INFO - Gemini 분석 결과: fashion, beauty, hairstyle | 패션, 뷰티, 헤어스타일
+2025-10-27 12:37:31,789 - INFO - Gemini 분석 결과: portrait, beauty, fashion | 인물, 뷰티, 패션
+2025-10-27 12:38:13,949 - INFO - Gemini 분석 결과: interior design, restaurant, hospitality | 인테리어 디자인, 레스토랑, 호스피탈리티
+2025-10-27 12:38:56,554 - INFO - Gemini 분석 결과: Fashion, Magazine, Lifestyle | 패션, 잡지, 라이프스타일
+2025-10-27 12:39:54,265 - INFO - Gemini 분석 결과: UserInterface, Design, Technology | 인터페이스, 디자인, 기술
+2025-10-27 12:40:47,143 - INFO - Gemini 분석 결과: Fashion, Model, Luxury | 패션, 모델, 명품
+2025-10-27 12:41:29,200 - INFO - Gemini 분석 결과: fashion, editorial, portrait | 패션, 화보, 인물
+2025-10-27 12:42:14,550 - INFO - Gemini 분석 결과: abstract, graphic design, op art | 추상, 그래픽 디자인, 옵 아트
+2025-10-27 12:43:14,739 - INFO - Gemini 분석 결과: UI design, App, Digital design | UI 디자인, 앱, 디지털 디자인
+2025-10-27 12:44:07,782 - INFO - Gemini 분석 결과: fashion, portrait, editorial | 패션, 인물사진, 화보
+2025-10-27 12:44:53,351 - INFO - Gemini 분석 결과: Portrait, Close-up, Monochrome | 인물, 클로즈업, 흑백
+2025-10-27 12:45:38,989 - INFO - Gemini 분석 결과: web design, interface, website | 웹 디자인, 인터페이스, 웹사이트
+2025-10-27 12:46:41,745 - INFO - Gemini 분석 결과: lifestyle, product photography, editorial | 라이프스타일, 제품 사진, 에디토리얼
+2025-10-27 12:47:43,700 - INFO - Gemini 분석 결과: flower, botanical, still life | 꽃, 식물, 정물
+2025-10-27 12:48:27,838 - INFO - Gemini 분석 결과: web design, corporate, UI/UX | 웹디자인, 기업, UI/UX
+2025-10-27 12:49:12,532 - INFO - Gemini 분석 결과: Editorial, Photography, Graphic Design | 편집, 사진, 그래픽 디자인
+2025-10-27 12:50:18,931 - INFO - Gemini 분석 결과: Artificial Intelligence, Fashion, Magazine Cover | 인공지능, 패션, 잡지 표지
+2025-10-27 12:51:22,717 - INFO - Gemini 분석 결과: fashion, vintage, art nouveau | 패션, 빈티지, 아르누보
+2025-10-27 12:52:07,704 - INFO - Gemini 분석 결과: portrait, fashion, style | 인물, 패션, 스타일
+2025-10-27 12:52:53,869 - INFO - Gemini 분석 결과: Fashion, Magazine Cover, Celebrity | 패션, 잡지 표지, 유명인
+2025-10-27 12:54:04,622 - INFO - Gemini 분석 결과: Fashion, Magazine Cover, Conceptual Art | 패션, 잡지 표지, 컨셉 아트
+2025-10-27 12:55:09,021 - INFO - Gemini 분석 결과: Portrait, Fashion, Beauty | 인물, 패션, 뷰티
+2025-10-27 12:55:54,375 - INFO - Gemini 분석 결과: UI, Web Design, Technology | 사용자 인터페이스, 웹 디자인, 기술
+2025-10-27 12:56:43,912 - INFO - Gemini 분석 결과: book, photography, product | 도서, 사진, 제품
+2025-10-27 12:57:56,482 - INFO - Gemini 분석 결과: flower, botanical, monochrome | 꽃, 식물, 흑백
+2025-10-27 12:59:03,658 - INFO - Gemini 분석 결과: fashion, magazine, editorial | 패션, 잡지, 화보
+2025-10-27 12:59:49,661 - INFO - Gemini 분석 결과: Concrete Poetry, Conceptual Art, Text Art | 구체시, 개념 미술, 텍스트 아트
+2025-10-27 13:00:43,165 - INFO - Gemini 분석 결과: Art, Sculpture, Abstract | 미술, 조각, 추상
+2025-10-27 13:01:58,790 - INFO - Gemini 분석 결과: portrait, fashion, style | 인물, 패션, 스타일
+2025-10-27 13:03:06,182 - INFO - Gemini 분석 결과: fashion, editorial, portrait | 패션, 화보, 인물사진
+2025-10-27 13:03:53,369 - INFO - Gemini 분석 결과: Lifestyle, Aesthetics, Interior Design | 라이프스타일, 미학, 인테리어 디자인
+2025-10-27 13:04:49,991 - INFO - Gemini 분석 결과: book, design, abstract | 책, 디자인, 추상화
+2025-10-27 13:06:08,658 - INFO - Gemini 분석 결과: Editorial, Portrait, Fashion | 화보, 인물, 패션
+2025-10-27 13:06:08,921 - INFO - 자동 저장 완료: 121개 이미지
+2025-10-27 13:11:14,006 - INFO - Gemini 분석 결과: user interface, application, design | 사용자 인터페이스, 애플리케이션, 디자인
+2025-10-27 13:11:16,476 - INFO - Gemini 분석 결과: technology, user interface, integration | 기술, 사용자 인터페이스, 통합
+2025-10-27 13:11:18,828 - INFO - Gemini 분석 결과: UI/UX, Health, Mobile App | UI/UX, 건강, 모바일 앱
+2025-10-27 13:11:18,829 - INFO - Gemini 분석 결과: artificial intelligence, software, AI clone | 인공지능, 소프트웨어, AI 클론
+2025-10-27 13:11:29,003 - INFO - Gemini 분석 결과: website, technology, design | 웹사이트, 기술, 디자인
+2025-10-27 13:11:33,215 - INFO - Gemini 분석 결과: technology, software, interface | 기술, 소프트웨어, 인터페이스
+2025-10-27 13:11:38,366 - INFO - Gemini 분석 결과: UI/UX design, real estate, mobile app | UI/UX 디자인, 부동산, 모바일 앱
+2025-10-27 13:11:39,156 - INFO - Gemini 분석 결과: Business Services, Accounting, Corporate Services | 비즈니스 서비스, 회계, 기업 서비스
+2025-10-27 13:11:51,472 - INFO - Gemini 분석 결과: Digital, User Interface, App Screen | 디지털, 사용자 인터페이스, 앱 화면
+2025-10-27 13:11:59,269 - INFO - Gemini 분석 결과: technology, user interface, mobile application | 기술, 사용자 인터페이스, 모바일 앱
+2025-10-27 13:12:06,033 - INFO - Gemini 분석 결과: technology, mobile app, UI/UX design | 기술, 모바일 앱, UI/UX 디자인
+2025-10-27 13:12:07,942 - INFO - Gemini 분석 결과: UI/UX, Software, Recruitment | UI/UX, 소프트웨어, 채용
+2025-10-27 13:12:23,011 - INFO - Gemini 분석 결과: advertising, e-commerce, mobile phone | 광고, 전자상거래, 스마트폰
+2025-10-27 13:12:32,922 - INFO - Gemini 분석 결과: Technology, Voice Recording, User Interface | 기술, 음성 녹음, 앱 화면
+2025-10-27 13:12:41,178 - INFO - Gemini 분석 결과: mobile app, user interface, screenshot | 모바일 앱, 사용자 인터페이스, 스크린샷
+2025-10-27 13:12:44,287 - INFO - Gemini 분석 결과: Mobile App, Wellness, Meditation | 모바일 앱, 웰니스, 명상
+2025-10-27 13:13:01,623 - INFO - Gemini 분석 결과: ui/ux, web design, template | ui/ux, 웹 디자인, 템플릿
+2025-10-27 13:13:15,285 - INFO - Gemini 분석 결과: technology, user interface, mobile app | 기술, 사용자 인터페이스, 모바일 앱
+2025-10-27 13:13:24,474 - INFO - Gemini 분석 결과: UI Design, UX Design, Mobile App | UI 디자인, UX 디자인, 모바일 앱
+2025-10-27 13:13:28,130 - INFO - Gemini 분석 결과: User Interface, Web Design, Digital Marketing | 사용자 인터페이스, 웹 디자인, 디지털 마케팅
+2025-10-27 13:13:48,331 - INFO - Gemini 분석 결과: web design, UI/UX, mockup | 웹 디자인, UI/UX, 목업
+2025-10-27 13:14:03,792 - INFO - Gemini 분석 결과: technology, user interface, account management | 기술, 사용자 인터페이스, 계정 관리
+2025-10-27 13:14:15,894 - INFO - Gemini 분석 결과: technology, user interface, app design | 기술, 사용자 인터페이스, 앱 디자인
+2025-10-27 13:14:22,122 - INFO - Gemini 분석 결과: Design, UI/UX, Software | 디자인, UI/UX, 소프트웨어
+2025-10-27 13:14:44,794 - INFO - Gemini 분석 결과: UI Design, Web Design, Design System | UI 디자인, 웹 디자인, 디자인 시스템
+2025-10-27 13:15:00,703 - INFO - Gemini 분석 결과: UI/UX Design, Mobile App, E-commerce | UI/UX 디자인, 모바일 앱, 이커머스
+2025-10-27 13:15:15,932 - INFO - Gemini 분석 결과: Technology, Health, Advertising | 기술, 건강, 광고
+2025-10-27 13:15:23,116 - INFO - Gemini 분석 결과: Graphic Design, UI/UX, Technology | 그래픽 디자인, UI/UX, 기술
+2025-10-27 13:15:51,553 - INFO - Gemini 분석 결과: Design, Branding, Web Design | 디자인, 브랜딩, 웹 디자인
+2025-10-27 13:17:26,351 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Read timed out. (read timeout=10)
+2025-10-27 13:26:00,774 - ERROR - 분석 오류: 504 Deadline Exceeded
+2025-10-27 13:26:03,042 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Read timed out. (read timeout=10)
+2025-10-27 13:26:36,951 - INFO - Gemini 분석 결과: user interface, mobile app, design | UI/UX, 모바일 앱, 디자인
+2025-10-27 13:28:45,629 - ERROR - 분석 오류: 504 Deadline Exceeded
+2025-10-27 13:29:05,206 - ERROR - 네트워크 오류: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-10-27 13:29:17,823 - INFO - Gemini 분석 결과: UI/UX, web design, dark mode | UI/UX, 웹 디자인, 다크 모드
+2025-10-27 13:29:52,030 - INFO - Gemini 분석 결과: mobile app, fitness, user interface | 모바일 앱, 피트니스, 사용자 인터페이스
+2025-10-27 13:30:05,066 - INFO - Gemini 분석 결과: Graphic design, poster, minimalism | 그래픽 디자인, 포스터, 미니멀리즘
+2025-10-27 13:30:29,444 - INFO - Gemini 분석 결과: UI/UX, Mobile App, Messaging | UI/UX 디자인, 모바일 앱, 메시징
+2025-10-27 13:30:44,392 - INFO - Gemini 분석 결과: design, portfolio, digital art | 디자인, 포트폴리오, 디지털 아트
+2025-10-27 13:31:19,628 - INFO - Gemini 분석 결과: UI/UX Design, Widgets, Digital Interface | UI/UX 디자인, 위젯, 디지털 인터페이스
+2025-10-27 13:31:34,372 - INFO - Gemini 분석 결과: UX/UI Design, Technology, Digital Product | UX/UI 디자인, 기술, 디지털 제품
+2025-10-27 13:32:01,328 - INFO - Gemini 분석 결과: UI/UX, mobile app, design | UI/UX, 모바일 앱, 디자인
+2025-10-27 13:32:18,829 - INFO - Gemini 분석 결과: fitness tracking, mobile app, health | 피트니스 트래킹, 모바일 앱, 건강
+2025-10-27 13:32:56,327 - INFO - Gemini 분석 결과: technology, video call, user interface | 기술, 화상 통화, 사용자 인터페이스
+2025-10-27 13:33:11,878 - INFO - Gemini 분석 결과: technology, website design, mockup | 기술, 웹 디자인, 목업
+2025-10-27 13:33:40,916 - INFO - Gemini 분석 결과: user interface, dark mode, mobile app | 사용자 인터페이스, 다크 모드, 모바일 앱
+2025-10-27 13:33:59,812 - INFO - Gemini 분석 결과: Productivity, Mobile App, Task Management | 생산성, 모바일 앱, 업무 관리
+2025-10-27 13:34:38,723 - INFO - Gemini 분석 결과: Abstract, Background, Geometric | 추상, 배경, 기하학
+2025-10-27 13:34:56,752 - INFO - Gemini 분석 결과: Graphic Design, New Year, Illustration | 그래픽 디자인, 새해, 일러스트레이션
+2025-10-27 13:35:27,690 - INFO - Gemini 분석 결과: user interface, login screen, ui/ux design | 사용자 인터페이스, 로그인 화면, UI/UX 디자인
+2025-10-27 13:35:49,022 - INFO - Gemini 분석 결과: Typography, Design, Geometry | 타이포그래피, 디자인, 기하학
+2025-10-27 13:36:29,686 - INFO - Gemini 분석 결과: UI/UX, E-commerce, Augmented Reality | UI/UX 디자인, 전자상거래, 증강 현실
+2025-10-27 13:36:49,661 - INFO - Gemini 분석 결과: web design, UI/UX, digital | 웹 디자인, UI/UX, 디지털
+2025-10-27 13:37:23,298 - INFO - Gemini 분석 결과: presentation, business, mockup | 프리젠테이션, 비즈니스, 목업
+2025-10-27 13:37:47,007 - INFO - Gemini 분석 결과: UI/UX, minimalism, product design | UI/UX, 미니멀리즘, 제품 디자인
+2025-10-27 13:38:29,605 - INFO - Gemini 분석 결과: web design, e-commerce, minimalism | 웹 디자인, 이커머스, 미니멀리즘
+2025-10-27 13:38:50,392 - INFO - Gemini 분석 결과: UI/UX Design, Web Design, Watch | UI/UX 디자인, 웹 디자인, 시계
+2025-10-27 13:39:24,285 - INFO - Gemini 분석 결과: web design, user interface, branding | 웹 디자인, UI/UX, 브랜딩
+2025-10-27 13:39:54,718 - INFO - Gemini 분석 결과: UI/UX, Web Design, Layout | UI/UX 디자인, 웹 디자인, 레이아웃
+2025-10-27 13:40:37,786 - INFO - Gemini 분석 결과: Web design, Blog, Technology | 웹 디자인, 블로그, 기술
+2025-10-27 13:41:02,579 - INFO - Gemini 분석 결과: graphic design, branding, corporate identity | 그래픽 디자인, 브랜딩, 기업 아이덴티티
+2025-10-27 13:41:36,282 - INFO - Gemini 분석 결과: web design, gradient, user interface | 웹 디자인, 그라데이션, 사용자 인터페이스
+2025-10-27 13:42:09,045 - INFO - Gemini 분석 결과: web design, ui/ux, minimalist design | 웹디자인, UI/UX 디자인, 미니멀리즘 디자인
+2025-10-27 13:42:51,580 - INFO - Gemini 분석 결과: UI/UX, App Design, Food Delivery | UI/UX, 앱 디자인, 음식 배달
+2025-10-27 13:43:19,915 - INFO - Gemini 분석 결과: technology, web development, optimization | 기술, 웹 개발, 최적화
+2025-10-27 13:43:56,738 - INFO - Gemini 분석 결과: UI/UX, Mobile App, Skincare | UI/UX, 모바일 앱, 스킨케어
+2025-10-27 13:44:29,126 - INFO - Gemini 분석 결과: technology, development, documentation | 기술, 개발, 문서
+2025-10-27 13:45:16,402 - INFO - Gemini 분석 결과: technology, mobile app, user interface | 기술, 모바일 앱, 사용자 인터페이스
+2025-10-27 13:45:46,093 - INFO - Gemini 분석 결과: technology, UI/UX design, software integration | 기술, UI/UX 디자인, 소프트웨어 통합
+2025-10-27 13:46:24,563 - INFO - Gemini 분석 결과: UI/UX Design, Web Design, Mobile App | UI/UX 디자인, 웹 디자인, 모바일 앱
+2025-10-27 13:46:58,836 - INFO - Gemini 분석 결과: health, mobile app, ui/ux | 건강, 모바일 앱, UI/UX
+2025-10-27 13:47:46,800 - INFO - Gemini 분석 결과: UI/UX, Graphic Design, Iconography | UI/UX, 그래픽 디자인, 아이콘 디자인
+2025-10-27 13:48:18,000 - INFO - Gemini 분석 결과: technology, user interface, screenshot | 기술, 사용자 인터페이스, 스크린샷
+2025-10-27 13:48:59,279 - INFO - Gemini 분석 결과: collage, contemporary art, figurative art | 콜라주, 현대 미술, 구상 미술
+2025-10-27 13:49:35,155 - INFO - Gemini 분석 결과: technology, UI/UX, collaboration | 기술, UI/UX, 협업
+2025-10-27 13:50:25,253 - INFO - Gemini 분석 결과: portrait, fashion, beauty | 인물, 패션, 뷰티
+2025-10-27 13:51:00,550 - INFO - Gemini 분석 결과: Magazine, Fashion, Celebrity | 잡지, 패션, 인물
+2025-10-27 13:51:42,290 - INFO - Gemini 분석 결과: mockup, web design, digital display | 목업, 웹 디자인, 디지털 화면
+2025-10-27 13:52:19,783 - INFO - Gemini 분석 결과: Photography, Portfolio, Lifestyle | 사진, 포트폴리오, 라이프스타일
+2025-10-27 13:53:13,528 - INFO - Gemini 분석 결과: portrait, fashion, floral | 인물, 패션, 꽃
+2025-10-27 13:53:50,598 - INFO - Gemini 분석 결과: Kitchenware, E-commerce, Cooking | 주방용품, 전자상거래, 요리
+2025-10-27 13:54:33,206 - INFO - Gemini 분석 결과: flower, macro, black and white | 꽃, 접사, 흑백
+2025-10-27 13:55:14,075 - INFO - Gemini 분석 결과: UI/UX, Information, Podcast | 사용자 인터페이스, 정보, 팟캐스트
+2025-10-27 13:56:07,012 - INFO - Gemini 분석 결과: flower, nature, still life | 꽃, 자연, 정물
+2025-10-27 13:56:46,663 - INFO - Gemini 분석 결과: health, sleep tracking, app interface | 건강, 수면 기록, 앱 화면
+2025-10-27 13:57:31,544 - INFO - Gemini 분석 결과: flower, burning, conceptual | 꽃, 불타는, 컨셉아트
+2025-10-27 14:01:55,561 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Read timed out. (read timeout=10)
+2025-10-27 14:02:48,108 - INFO - Gemini 분석 결과: beauty, fashion, portrait | 뷰티, 패션, 인물
+2025-10-27 14:03:28,341 - INFO - Gemini 분석 결과: Interior Design, Restaurant, Hospitality | 인테리어 디자인, 레스토랑, 호스피탈리티
+2025-10-27 14:04:14,990 - INFO - Gemini 분석 결과: fashion, magazine, aesthetic | 패션, 잡지, 미학
+2025-10-27 14:05:03,401 - INFO - Gemini 분석 결과: web design, technology, interface | 웹 디자인, 기술, 인터페이스
+2025-10-27 14:05:58,175 - INFO - Gemini 분석 결과: fashion, model, advertising | 패션, 모델, 광고
+2025-10-27 14:06:40,476 - INFO - Gemini 분석 결과: fashion, model, editorial | 패션, 모델, 화보
+2025-10-27 14:07:29,913 - INFO - Gemini 분석 결과: abstract, graphic design, geometry | 추상, 그래픽 디자인, 기하학
+2025-10-27 14:08:19,939 - INFO - Gemini 분석 결과: UI design, productivity, minimalist | UI 디자인, 업무 관리, 미니멀리즘
+2025-10-27 14:09:16,791 - INFO - Gemini 분석 결과: fashion, portrait, style | 패션, 인물사진, 스타일
+2025-10-27 14:10:01,873 - INFO - Gemini 분석 결과: Photography, Close-up, Monochrome | 사진, 클로즈업, 흑백
+2025-10-27 14:10:51,548 - INFO - Gemini 분석 결과: web design, technology, ui/ux | 웹디자인, 기술, UI/UX
+2025-10-27 14:11:44,581 - INFO - Gemini 분석 결과: lifestyle, beauty, minimalism | 라이프스타일, 뷰티, 미니멀리즘
+2025-10-27 14:16:52,119 - INFO - Gemini 분석 결과: flower, botanical, monochrome | 꽃, 식물, 흑백
+2025-10-27 14:17:39,365 - INFO - Gemini 분석 결과: business, website, corporate | 비즈니스, 웹사이트, 기업
+2025-10-27 14:18:30,438 - INFO - Gemini 분석 결과: Graphic Design, Photography, Editorial | 그래픽 디자인, 사진, 편집 디자인
+2025-10-27 14:19:25,960 - INFO - Gemini 분석 결과: Fashion, Portrait, Artificial Intelligence | 패션, 인물, 인공지능
+2025-10-27 14:20:26,663 - INFO - Gemini 분석 결과: fashion, art nouveau, vintage | 패션, 아르누보, 빈티지
+2025-10-27 14:26:03,094 - ERROR - 네트워크 오류: HTTPSConnectionPool(host='cdn.cosmos.so', port=443): Read timed out. (read timeout=10)
+2025-10-27 14:26:52,319 - INFO - Gemini 분석 결과: Fashion, Magazine Cover, Celebrity | 패션, 잡지 표지, 유명인
+2025-10-27 14:27:49,345 - INFO - Gemini 분석 결과: Fashion, Technology, Surrealism | 패션, 기술, 초현실주의
+2025-10-27 14:28:50,468 - INFO - Gemini 분석 결과: portrait, fashion, beauty | 인물, 패션, 뷰티
+2025-10-27 14:29:48,139 - INFO - Gemini 분석 결과: UI/UX, interface design, web design | UI/UX, 인터페이스 디자인, 웹 디자인
+2025-10-27 14:30:41,765 - INFO - Gemini 분석 결과: book, publication, product photography | 책, 출판물, 제품 사진
+2025-10-27 14:31:37,696 - INFO - Gemini 분석 결과: flower, botanical, monochrome | 꽃, 식물, 흑백
+2025-10-27 14:32:41,629 - INFO - Gemini 분석 결과: Fashion, Magazine, Graphic Design | 패션, 잡지, 그래픽 디자인
+2025-10-27 14:33:41,307 - INFO - Gemini 분석 결과: Art, Concrete Poetry, Visual Art | 미술, 구체시, 시각 예술
+2025-10-27 14:34:37,952 - INFO - Gemini 분석 결과: Art, Abstract, Sculpture | 예술, 추상, 조각
+2025-10-27 14:35:36,180 - INFO - Gemini 분석 결과: portrait, kpop, dark fashion | 인물, K-POP, 다크 패션
+2025-10-27 14:36:41,365 - INFO - Gemini 분석 결과: fashion, magazine_cover, portrait | 패션, 잡지_표지, 인물사진
+2025-10-27 14:37:43,146 - INFO - Gemini 분석 결과: Lifestyle, Aesthetics, Wellness | 라이프스타일, 미학, 웰니스
+2025-10-27 14:38:41,146 - INFO - Gemini 분석 결과: book, stationery, design | 도서, 문구, 디자인
+2025-10-27 14:39:42,890 - INFO - Gemini 분석 결과: fashion, editorial, beauty | 패션, 에디토리얼, 뷰티
+2025-10-27 14:39:43,026 - INFO - 자동 저장 완료: 120개 이미지
+2025-10-27 15:35:27,619 - INFO - 자동 저장 완료: 120개 이미지
+2025-10-27 19:25:58,031 - WARNING - CPU 우선순위 설정 권한 없음
+2025-10-27 19:25:58,031 - INFO - 🔧 하드웨어 가속 활성화: 4개 워커
+2025-10-27 19:25:58,261 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_153527.csv
+2025-10-27 19:25:58,262 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_153527.csv
+2025-10-27 19:25:58,262 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_143942.csv
+2025-10-27 19:25:58,262 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_143942.csv
+2025-10-27 19:25:58,262 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_143942.csv
+2025-10-27 19:25:58,262 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_130608.csv
+2025-10-27 19:25:58,262 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_130608.csv
+2025-10-27 19:25:58,263 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_130608.csv
+2025-10-27 19:25:58,263 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_115427.csv
+2025-10-27 19:25:58,263 - INFO - 오래된 파일 삭제: dataset/x_train_auto_20251027_115427.csv
+2025-10-27 19:25:58,263 - INFO - 오래된 파일 삭제: dataset/full_data_auto_20251027_115427.csv
+2025-10-27 19:25:58,264 - INFO - 오래된 파일 삭제: dataset/y_train_auto_20251027_090551.csv
+2025-10-27 19:25:58,292 - INFO - 메인 데이터 로드: 120개 이미지
+2025-10-27 19:30:35,079 - INFO - 자동 저장 완료: 120개 이미지

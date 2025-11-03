@@ -1,1 +1,4 @@
 models/model.pt
+.env
+.env.local
+.env.*.local

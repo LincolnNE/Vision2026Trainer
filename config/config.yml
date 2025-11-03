@@ -1,0 +1,13 @@
+tunnel: d664e32a-8174-49a8-a9b2-a42707cbc902
+credentials-file: /Users/robinhood/.cloudflared/d664e32a-8174-49a8-a9b2-a42707cbc902.json
+
+ingress:
+  - hostname: mcp.cdnscraper.dev
+    service: https://localhost:3000
+    originRequest:
+      noTLSVerify: true
+  - hostname: scraper.cdnscraper.dev
+    service: http://localhost:5001
+    originRequest:
+      noTLSVerify: true
+  - service: http_status:404

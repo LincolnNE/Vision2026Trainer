@@ -1,0 +1,9 @@
+# Claude API 설정 예시
+# 실제 Claude API를 사용하려면 이 파일을 .env로 복사하고 API 키를 설정하세요
+
+# Claude API 키 (https://console.anthropic.com/에서 발급)
+CLAUDE_API_KEY=your_claude_api_key_here
+
+# 기타 설정
+PYTHONPATH=/Users/robinhood/Vision2025Trainer
+LOG_LEVEL=INFO

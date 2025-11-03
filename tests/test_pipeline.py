@@ -10,10 +10,10 @@ import os
 from pathlib import Path
 
 # Add project root directory to Python path
-project_root = Path(__file__).parent
+project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from image_classification_pipeline import ImageClassificationPipeline, CosmosImageDataset, SimpleCNN
+from pipelines.image_classification_pipeline import ImageClassificationPipeline, CosmosImageDataset, SimpleCNN
 import torch
 import pandas as pd
 
